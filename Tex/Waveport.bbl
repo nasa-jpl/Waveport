@@ -1,0 +1,404 @@
+\begin{thebibliography}{10}
+
+\bibitem{tai1994dyadic}
+C.-T. Tai, {\em {Dyadic Green Functions in Electromagnetic Theory}}.
+\newblock Institute of Electrical \& Electronics Engineers (IEEE), 1994.
+
+\bibitem{chew1995waves}
+W.~C. Chew, {\em Waves and Fields in Inhomogeneous Media}, vol.~522.
+\newblock New York: IEEE Press, 1995.
+
+\bibitem{tsang1985theory}
+L.~Tsang, J.~A. Kong, and R.~T. Shin, {\em Theory of Microwave Remote Sensing}.
+\newblock New York: Wiley Interscience, 1985.
+
+\bibitem{devaney1984geophysical}
+A.~Devaney, ``Geophysical diffraction tomography,'' {\em IEEE Transactions on
+  Geoscience and Remote Sensing}, no.~1, pp.~3--13, 1984.
+
+\bibitem{gao2005analytical}
+G.~Gao, C.~Torres-Verdin, and T.~M. Habashy, ``{Analytical techniques to
+  evaluate the integrals of 3D and 2D spatial dyadic Green's functions},'' {\em
+  Progress In Electromagnetics Research}, vol.~52, pp.~47--80, 2005.
+
+\bibitem{van1997contrast}
+P.~M. Van Den~Berg and R.~E. Kleinman, ``A contrast source inversion method,''
+  {\em Inverse problems}, vol.~13, no.~6, p.~1607, 1997.
+
+\bibitem{peterson1998computational}
+A.~F. Peterson, S.~L. Ray, R.~Mittra, I.~of~Electrical, and E.~Engineers, {\em
+  Computational Methods for Electromagnetics}, vol.~2.
+\newblock IEEE press New York, 1998.
+
+\bibitem{haynes2012vector}
+M.~Haynes and M.~Moghaddam, ``Vector {G}reen's function for {S}-parameter
+  measurements of the electromagnetic volume integral equation,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~60, no.~3, pp.~1400--1413,
+  2012.
+
+\bibitem{cui2004study}
+T.~J. Cui, W.~C. Chew, X.~X. Yin, and W.~Hong, ``Study of resolution and super
+  resolution in electromagnetic imaging for half-space problems,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~52, no.~6, pp.~1398--1411,
+  2004.
+
+\bibitem{tsang2000scattering}
+L.~Tsang, J.~Kong, and K.~Ding, {\em Scattering of Electromagnetic Waves, Vol.
+  1: Theory and Applications}.
+\newblock New York: Wiley Interscience, 2000.
+
+\bibitem{angularmomop}
+R.~Fitzpatrick, ``Angular momentum operators.''
+  \url{http://farside.ph.utexas.edu/teaching/jk1/lectures/node123.html}.
+\newblock Last accessed: 2020-06-29.
+
+\bibitem{jackson1999classical}
+J.~D. Jackson, {\em Classical Electrodynamics}.
+\newblock American Association of Physics Teachers, 1999.
+
+\bibitem{yaghjian1996sampling}
+A.~D. Yaghjian, ``Sampling criteria for resonant antennas and scatterers,''
+  {\em Journal of applied physics}, vol.~79, no.~10, pp.~7474--7482, 1996.
+
+\bibitem{edmonds1996angular}
+A.~R. Edmonds, {\em Angular Momentum in Quantum Mechanics}.
+\newblock Princeton University Press, 1996.
+
+\bibitem{hansen1988spherical}
+J.~E. Hansen, {\em Spherical Near-Field Antenna Measurements}, vol.~26.
+\newblock Iet, 1988.
+
+\bibitem{stein1961addition}
+S.~Stein, ``Addition theorems for spherical wave functions,'' {\em Quart. Appl.
+  Math.}, vol.~19, 1961.
+
+\bibitem{dufva2008unified}
+T.~J. Dufva, J.~Sarvas, and J.~C.-E. Sten, ``Unified derivation of the
+  translational addition theorems for the spherical scalar and vector wave
+  functions,'' {\em Progress In Electromagnetics Research B}, vol.~4,
+  pp.~79--99, 2008.
+
+\bibitem{wigner2012group}
+E.~Wigner, {\em Group Theory: and its Application to the Quantum Mechanics of
+  Atomic Spectra}, vol.~5.
+\newblock Elsevier, 2012.
+
+\bibitem{littledconversion}
+``Wigner d-matrix.'' \url{https://en.wikipedia.org/wiki/Wigner_D-matrix}.
+\newblock Last accessed: 2021-01-16.
+
+\bibitem{choi1999rapid}
+C.~H. Choi, J.~Ivanic, M.~S. Gordon, and K.~Ruedenberg, ``Rapid and stable
+  determination of rotation matrices between spherical harmonics by direct
+  recursion,'' {\em The Journal of Chemical Physics}, vol.~111, no.~19,
+  p.~8825, 1999.
+
+\bibitem{gimbutas2009fast}
+Z.~Gimbutas and L.~Greengard, ``A fast and stable method for rotating spherical
+  harmonic expansions,'' {\em Journal of Computational Physics}, vol.~228,
+  no.~16, pp.~5621--5627, 2009.
+
+\bibitem{mackowski1991analysis}
+D.~W. Mackowski, ``Analysis of radiative scattering for multiple sphere
+  configurations,'' {\em Proceedings of the Royal Society of London. Series A:
+  Mathematical and Physical Sciences}, vol.~433, no.~1889, pp.~599--614, 1991.
+
+\bibitem{chew1992recurrence}
+W.~C. Chew, ``Recurrence relations for three-dimensional scalar addition
+  theorem,'' {\em Journal of Electromagnetic Waves and Applications}, vol.~6,
+  no.~1-4, pp.~133--142, 1992.
+
+\bibitem{chew1993efficient}
+W.~C. Chew and Y.~Wang, ``Efficient ways to compute the vector addition
+  theorem,'' {\em Journal of electromagnetic waves and applications}, vol.~7,
+  no.~5, pp.~651--665, 1993.
+
+\bibitem{duan2015experimental}
+X.~Duan, M.~Haynes, and M.~Moghaddam, ``Experimental verification of the
+  recursive {T}-matrix method solutions at microwave frequencies,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~63, no.~12, pp.~5727--5740,
+  2015.
+
+\bibitem{zhang2019generalized}
+L.~Zhang, ``Generalized optical theorem for an arbitrary incident field,'' {\em
+  The Journal of the Acoustical Society of America}, vol.~145, no.~3,
+  pp.~EL185--EL189, 2019.
+
+\bibitem{yurkin2007discrete}
+M.~A. Yurkin and A.~G. Hoekstra, ``The discrete dipole approximation: an
+  overview and recent developments,'' {\em Journal of Quantitative Spectroscopy
+  and Radiative Transfer}, vol.~106, no.~1-3, pp.~558--589, 2007.
+
+\bibitem{van2011synthetic}
+J.~J. van Zyl, {\em Synthetic Aperture Radar Polarimetry}, vol.~2.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem{sarabandi1990low}
+K.~Sarabandi and T.~Senior, ``Low-frequency scattering from cylindrical
+  structures at oblique incidence,'' {\em IEEE transactions on geoscience and
+  remote sensing}, vol.~28, no.~5, pp.~879--885, 1990.
+
+\bibitem{stiles1996scattering}
+J.~M. Stiles and K.~Sarabandi, ``A scattering model for thin dielectric
+  cylinders of arbitrary cross section and electrical length,'' {\em IEEE
+  Transactions on Antennas and Propagation}, vol.~44, no.~2, pp.~260--266,
+  1996.
+
+\bibitem{schiffer1979light}
+R.~Schiffer and K.~Thielheim, ``Light scattering by dielectric needles and
+  disks,'' {\em Journal of Applied Physics}, vol.~50, no.~4, pp.~2476--2483,
+  1979.
+
+\bibitem{waterman1965matrix}
+P.~Waterman, ``Matrix formulation of electromagnetic scattering,'' {\em
+  Proceedings of the IEEE}, vol.~53, no.~8, pp.~805--812, 1965.
+
+\bibitem{tai1997general}
+C.-T. Tai, {\em General Vector and Dyadic Analysis: Applied Mathematics in
+  Field Theory}, vol.~9.
+\newblock Wiley-IEEE Press, 1997.
+
+\bibitem{greengard1997fast}
+L.~Greengard and V.~Rokhlin, ``A fast algorithm for particle simulations,''
+  {\em Journal of computational physics}, vol.~135, no.~2, pp.~280--292, 1997.
+
+\bibitem{song1995multilevel}
+J.~M. Song and W.~C. Chew, ``Multilevel fast-multipole algorithm for solving
+  combined field integral equations of electromagnetic scattering,'' {\em
+  Microwave and Optical Technology Letters}, vol.~10, no.~1, pp.~14--19, 1995.
+
+\bibitem{yucel2008helmholtz}
+A.~C. Yucel, ``Helmholtz and high-frequency maxwell multilevel fast multipole
+  algorithms with self-tuning library,'' Master's thesis, 2008.
+
+\bibitem{hansen2014exact}
+T.~B. Hansen, ``Exact plane-wave expansion with directional spectrum:
+  Application to transmitting and receiving antennas,'' {\em IEEE transactions
+  on antennas and propagation}, vol.~62, no.~8, pp.~4187--4198, 2014.
+
+\bibitem{song1997multilevel}
+J.~Song, C.-C. Lu, and W.~C. Chew, ``Multilevel fast multipole algorithm for
+  electromagnetic scattering by large complex objects,'' {\em IEEE Transactions
+  on Antennas and Propagation}, vol.~45, no.~10, pp.~1488--1493, 1997.
+
+\bibitem{song2001error}
+J.~Song and W.~C. Chew, ``Error analysis for the truncation of multipole
+  expansion of vector green's functions,'' {\em IEEE microwave and wireless
+  components letters}, vol.~11, no.~7, pp.~311--313, 2001.
+
+\bibitem{darve2000fast}
+E.~Darve, ``The fast multipole method: numerical implementation,'' {\em Journal
+  of Computational Physics}, vol.~160, no.~1, pp.~195--240, 2000.
+
+\bibitem{beentjes2015quadrature}
+C.~H. Beentjes, ``Quadrature on a spherical surface,'' {\em Working note
+  available on the website http://people. maths.ox.ac.uk/beentjes/Essays},
+  2015.
+
+\bibitem{atkinson2012spherical}
+K.~Atkinson and W.~Han, {\em Spherical Harmonics and Approximations on the Unit
+  Sphere: An Introduction}, vol.~2044.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{bucci1991optimal}
+O.~M. Bucci, C.~Gennarelli, and C.~Savarese, ``Optimal interpolation of
+  radiated fields over a sphere,'' {\em IEEE Transactions on Antennas and
+  Propagation}, vol.~39, no.~11, pp.~1633--1643, 1991.
+
+\bibitem{jakob1997fast}
+R.~Jakob-Chien and B.~K. Alpert, ``A fast spherical filter with uniform
+  resolution,'' {\em Journal of Computational Physics}, vol.~136, no.~2,
+  pp.~580--584, 1997.
+
+\bibitem{shanker2003fast}
+B.~Shanker, A.~A. Ergin, M.~Lu, and E.~Michielssen, ``Fast analysis of
+  transient electromagnetic scattering phenomena using the multilevel plane
+  wave time domain algorithm,'' {\em IEEE Transactions on Antennas and
+  Propagation}, vol.~51, no.~3, pp.~628--641, 2003.
+
+\bibitem{dutt1996fast}
+A.~Dutt, M.~Gu, and V.~Rokhlin, ``Fast algorithms for polynomial interpolation,
+  integration, and differentiation,'' {\em SIAM Journal on Numerical Analysis},
+  vol.~33, no.~5, pp.~1689--1711, 1996.
+
+\bibitem{kong1986electromagnetic}
+J.~A. Kong, {\em Electromagnetic Wave Theory}.
+\newblock Wiley, 1986.
+
+\bibitem{ulaby1999fundamentals}
+F.~T. Ulaby, {\em Fundamentals of Applied Electromagnetics}.
+\newblock Upper Saddle River, NJ: Prentice-Hall, 1999.
+
+\bibitem{trott1988disk}
+K.~Trott, ``The disk: A comparison of electromagnetic scattering solutions and
+  its use as a calibration standard for bistatic {RCS} (radar cross section)
+  measurements (report for sep. 1986- sep. 1987),'' 1988.
+
+\bibitem{triangleint}
+``Double integral over an arbitrary triangle.'' \url{
+  https://math.stackexchange.com/questions/954409/double-integral-over-an-arbitrary-triangle}.
+\newblock Last accessed: 2020-07-22.
+
+\bibitem{mack2011analytic}
+C.~A. Mack, ``Analytic form for the power spectral density in one, two, and
+  three dimensions,'' {\em Journal of Micro/Nanolithography, MEMS, and MOEMS},
+  vol.~10, no.~4, p.~040501, 2011.
+
+\bibitem{mack2013generating}
+C.~A. Mack, ``Generating random rough edges, surfaces, and volumes,'' {\em
+  Applied Optics}, vol.~52, no.~7, pp.~1472--1480, 2013.
+
+\bibitem{tsang2000scattering2}
+L.~Tsang, J.~Kong, K.~Ding, and C.~Ao, {\em Scattering of Electromagnetic
+  Waves, Vol. 2: Numerical Simulations}.
+\newblock New York: Wiley Interscience, 2001.
+
+\bibitem{shepard1995self}
+M.~K. Shepard, R.~A. Brackett, and R.~E. Arvidson, ``Self-affine (fractal)
+  topography: Surface parameterization and radar scattering,'' {\em Journal of
+  Geophysical Research: Planets}, vol.~100, no.~E6, pp.~11709--11718, 1995.
+
+\bibitem{shepard1999radar}
+M.~K. Shepard and B.~A. Campbell, ``Radar scattering from a self-affine fractal
+  surface: Near-nadir regime,'' {\em Icarus}, vol.~141, no.~1, pp.~156--171,
+  1999.
+
+\bibitem{kroese2015spatial}
+D.~P. Kroese and Z.~I. Botev, ``Spatial process simulation,'' in {\em
+  Stochastic geometry, spatial statistics and random fields}, pp.~369--404,
+  Springer, 2015.
+
+\bibitem{ding2010electromagnetic}
+K.-H. Ding, X.~Xu, and L.~Tsang, ``Electromagnetic scattering by bicontinuous
+  random microstructures with discrete permittivities,'' {\em IEEE transactions
+  on geoscience and remote sensing}, vol.~48, no.~8, pp.~3139--3151, 2010.
+
+\bibitem{xu2012electromagnetic}
+X.~Xu, L.~Tsang, and S.~Yueh, ``Electromagnetic models of co/cross polarization
+  of bicontinuous/{DMRT} in radar remote sensing of terrestrial snow at {X}-and
+  {K}u-band for {CoReH2O and SCLP applications},'' {\em IEEE Journal of
+  Selected Topics in Applied Earth Observations and Remote Sensing}, vol.~5,
+  no.~3, pp.~1024--1032, 2012.
+
+\bibitem{chang2016microwave}
+W.~Chang, K.-H. Ding, L.~Tsang, and X.~Xu, ``Microwave scattering and medium
+  characterization for terrestrial snow with {QCA-Mie} and bicontinuous models:
+  comparison studies,'' {\em IEEE Transactions on Geoscience and Remote
+  Sensing}, vol.~54, no.~6, pp.~3637--3648, 2016.
+
+\bibitem{tan2016uniaxial}
+S.~Tan, C.~Xiong, X.~Xu, and L.~Tsang, ``Uniaxial effective permittivity of
+  anisotropic bicontinuous random media using {NMM3D},'' {\em IEEE Geoscience
+  and Remote Sensing Letters}, vol.~13, no.~8, pp.~1168--1172, 2016.
+
+\bibitem{alves2003revisiting}
+J.~H.~G. Alves, M.~L. Banner, and I.~R. Young, ``Revisiting the
+  {P}ierson-{M}oskowitz asymptotic limits for fully developed wind waves,''
+  {\em Journal of physical oceanography}, vol.~33, no.~7, pp.~1301--1323, 2003.
+
+\bibitem{tolman2009user}
+H.~L. Tolman, ``{User manual and system documentation of WAVEWATCH III TM
+  version 3.14},'' {\em Technical note, MMAB Contribution}, no.~276, 2009.
+
+\bibitem{plant2009ocean}
+W.~J. Plant, ``The ocean wave height variance spectrum: wavenumber peak versus
+  frequency peak,'' {\em Journal of Physical Oceanography}, vol.~39, no.~9,
+  pp.~2382--2383, 2009.
+
+\bibitem{soriano2006doppler}
+G.~Soriano, M.~Joelson, and M.~Saillard, ``Doppler spectra from a
+  two-dimensional ocean surface at {L}-band,'' {\em Geoscience and Remote
+  Sensing, IEEE Transactions on}, vol.~44, no.~9, pp.~2430--2437, 2006.
+
+\bibitem{hasselmann1980directional}
+D.~Hasselmann, M.~Dunckel, and J.~Ewing, ``Directional wave spectra observed
+  during {JONSWAP} 1973,'' {\em Journal of Physical Oceanography}, vol.~10,
+  no.~8, pp.~1264--1280, 1980.
+
+\bibitem{niedzwecki1991comparative}
+J.~Niedzwecki and C.~Whatley, ``A comparative study of some directional sea
+  models,'' {\em Ocean Engineering}, vol.~18, no.~1, pp.~111--128, 1991.
+
+\bibitem{osborne2010nonlinear}
+A.~Osborne, {\em Nonlinear Ocean Waves \& the Inverse Scattering Transform},
+  vol.~97.
+\newblock Access Online via Elsevier, 2010.
+
+\bibitem{muinonen1996light}
+K.~Muinonen, T.~Nousiainen, P.~Fast, K.~Lumme, and J.~Peltoniemi, ``Light
+  scattering by gaussian random particles: ray optics approximation,'' {\em
+  Journal of Quantitative Spectroscopy and Radiative Transfer}, vol.~55, no.~5,
+  pp.~577--601, 1996.
+
+\bibitem{neves2006analytical}
+A.~A.~R. Neves, L.~A. Padilha, A.~Fontes, E.~Rodriguez, C.~d.~B. Cruz, L.~C.
+  Barbosa, and C.~L. Cesar, ``Analytical results for a {B}essel function times
+  {L}egendre polynomials class integrals,'' {\em Journal of Physics A:
+  Mathematical and General}, vol.~39, no.~18, p.~L293, 2006.
+
+\bibitem{gouesbet1994rigorous}
+G.~Gouesbet and J.~A. Lock, ``Rigorous justification of the localized
+  approximation to the beam-shape coefficients in generalized {Lorenz--Mie
+  theory. II. Off-axis beams},'' {\em JOSA A}, vol.~11, no.~9, pp.~2516--2525,
+  1994.
+
+\bibitem{NIST:DLMF}
+``{\it NIST Digital Library of Mathematical Functions}.''
+  http://dlmf.nist.gov/, Release 1.0.26 of 2020-03-15.
+\newblock F.~W.~J. Olver, A.~B. {Olde Daalhuis}, D.~W. Lozier, B.~I. Schneider,
+  R.~F. Boisvert, C.~W. Clark, B.~R. Miller, B.~V. Saunders, H.~S. Cohl, and
+  M.~A. McClain, eds.
+
+\bibitem{liu2003ionospheric}
+J.~Liu, Y.~Kuga, A.~Ishimaru, X.~Pi, and A.~Freeman, ``Ionospheric effects on
+  {SAR} imaging: a numerical study,'' {\em IEEE Transactions on Geoscience and
+  Remote Sensing}, vol.~41, no.~5, pp.~939--947, 2003.
+
+\bibitem{ishimaru1999ionospheric}
+A.~Ishimaru, Y.~Kuga, J.~Liu, Y.~Kim, and T.~Freeman, ``Ionospheric effects on
+  synthetic aperture radar at {100 MHz to 2 GHz},'' {\em Radio Science},
+  vol.~34, no.~1, pp.~257--268, 1999.
+
+\bibitem{rogers2013impacts}
+N.~C. Rogers, S.~Quegan, J.~S. Kim, and K.~P. Papathanassiou, ``Impacts of
+  ionospheric scintillation on the {BIOMASS P-band satellite SAR},'' {\em IEEE
+  Transactions on Geoscience and Remote Sensing}, vol.~52, no.~3,
+  pp.~1856--1868, 2013.
+
+\bibitem{ishimaru1978wave}
+A.~Ishimaru, {\em Wave Propagation and Scattering in Random Media}, vol.~2.
+\newblock Academic press New York, 1978.
+
+\bibitem{reflection_sphere}
+D.~Eberly, ``Computing a point of reflection on a sphere.''
+  \url{https://www.geometrictools.com/}.
+\newblock March 2, 2008.
+
+\bibitem{linesphereintersect}
+``Line-sphere intersection.''
+  \url{https://en.wikipedia.org/wiki/Line–sphere_intersection}.
+\newblock Last accessed: 2021-06-11.
+
+\bibitem{heliere2007radio}
+F.~H{\'e}li{\`e}re, C.-C. Lin, H.~Corr, and D.~Vaughan, ``{Radio echo sounding
+  of Pine Island Glacier, West Antarctica: aperture synthesis processing and
+  analysis of feasibility from space},'' {\em IEEE Transactions on Geoscience
+  and Remote Sensing}, vol.~45, no.~8, pp.~2573--2582, 2007.
+
+\bibitem{lei20202}
+Y.~Lei, M.~S. Haynes, D.~Arumugam, and C.~Elachi, ``A {2D} pseudospectral
+  time-domain ({PSTD}) simulator for large-scale electromagnetic scattering and
+  radar sounding applications,'' {\em IEEE Transactions on Geoscience and
+  Remote Sensing}, 2020.
+
+\bibitem{weisstein_quartic}
+E.~W. Weisstein, ``{Quartic Equation}.'' From MathWorld---A Wolfram Web
+  Resource, \url{https://mathworld.wolfram.com/QuarticEquation.html}.
+\newblock Last visited on May 6, 2020.
+
+\bibitem{randsphere}
+E.~W. Weisstein, ``{Sphere Point Picking}.'' From MathWorld---A Wolfram Web
+  Resource, \url{https://mathworld.wolfram.com/SpherePointPicking.html}.
+\newblock Last accessed: 2021-4-7.
+
+\end{thebibliography}

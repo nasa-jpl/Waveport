@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Waveport.aux
+The style file: ieeetr.bst
+Database file #1: /Users/mshaynes/Desktop/Memos/bibtex.bib
+Repeated entry---line 1531 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : %@article{hansen1988spherical
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3420 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @article{heliere2007radio
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3473 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @article{alves2003revisiting
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3483 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @article{soriano2006doppler
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3493 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @article{niedzwecki1991comparative
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3503 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @article{hasselmann1980directional
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3512 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @book{osborne2010nonlinear
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3519 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : @article{tolman2009user
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3526 of file /Users/mshaynes/Desktop/Memos/bibtex.bib
+ : %@book{tsang2000scattering
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--empty school in yucel2008helmholtz
+Warning--empty journal in trott1988disk
+You've used 81 entries,
+            1876 wiz_defined-function locations,
+            935 strings with 16999 characters,
+and the built_in function-call counts, 21997 in all, are:
+= -- 2373
+> -- 639
+< -- 0
++ -- 252
+- -- 171
+* -- 1455
+:= -- 2941
+add.period$ -- 106
+call.type$ -- 81
+change.case$ -- 64
+chr.to.int$ -- 0
+cite$ -- 83
+duplicate$ -- 1126
+empty$ -- 2124
+format.name$ -- 171
+if$ -- 5489
+int.to.chr$ -- 0
+int.to.str$ -- 81
+missing$ -- 89
+newline$ -- 271
+num.names$ -- 77
+pop$ -- 237
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 839
+stack$ -- 0
+substring$ -- 1679
+swap$ -- 517
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 219
+width$ -- 83
+write$ -- 827
+(There were 9 error messages)

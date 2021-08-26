@@ -1,0 +1,119 @@
+
+The Waveport Scattering Library is a collection of equations, derivations, and Matlab codes on selected topics in electromagnetic scattering. This library started as a personal collection of notes and codes that became a project to create a consistent code library to which new routines could be added and checked more quickly. It is also a consequence of coding up papers and textbooks over the course of studying and analyzing radar and scattering. We hope this can be used by others to learn the methods, cross-check work, develop better routines, or port to other languages. 
+
+Many of the topics follow closely the textbooks of Chew, Tsang, Kong, and Ulaby:
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+\item Green's functions
+\item Spherical wave functions
+\item Spherical wave function rotation and translation
+\item S-matrix and T-matrix
+\item Kirchhoff approximation and facet scattering
+\item Fast Multipole Method operators
+\item Generation of rough surfaces and random objects
+\item Geometric reflection and refraction
+\item Coordinate transforms and special functions
+\end{itemize}
+
+Most of the routines are building blocks for analysis rather than heavy-hitting numerical codes. Each routine was either needed at some point, written for curiosity, or thought generally useful. While routines covering many of these topics can be found elsewhere, and done better, some of the most useful algorithms are tricky to code and harder to check. While Matlab is not the programming language of computational electromagnetics, it is quite good for plotting and debugging. Example scripts for running each routine are included in the repository in each topic directory. Input checking is light and not all corner cases have been tested. 
+
+The documentation (this document) is written in the style of Numerical Recipes. Equations, derivations, code explanation, and code are combined inline in the text. The idea was to create something that was part quick reference, part code explanation, and part teaching guide. The most complicated algorithms are taken from the literature. Whole derivations are sometimes included, but many are just sketches, and some sections exist for reference without code. Finally, there are many topics that we hope will be included in future releases of the library.  \\
+\\
+\\
+Mark S. Haynes \\
+Jet Propulsion Laboratory, California Institute of Technology \\
+September, 2021 \\
+
+\clearpage
+\newpage
+
+\section{Link, License, and Citation}
+\vspace{-2mm}
+The repository for the code and document is:
+\newline
+\newline
+\begin{centering}
+\framebox{\url{https://github.com/nasa-jpl/Waveport} }
+\end{centering}
+\newline
+\newline
+The code is released under the Apache 2.0 Open Source license. It is free to run and modify for non-commercial use. 
+\vspace{-2mm}
+\newline
+\newline
+This work can be cited as:
+\vspace{-2mm}
+\newline
+\newline
+\noindent
+\framebox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{Haynes, M. (2021). \textit{Waveport Scattering Library}. Jet Propulsion Laboratory - California Institute of Technology. https://doi.org/10.48588/JPL.HE9D-BA55}}
+\newline
+\newline
+\vspace{-2mm}
+\newline
+\vspace{-2mm}
+Specific sections and subsections can be cited as, for example:
+\newline
+\newline
+\noindent
+\framebox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{Haynes, M. (2021). ``Spherical Harmonics.''  \textit{Waveport Scattering Library}. Jet Propulsion Laboratory - California Institute of Technology. https://doi.org/10.48588/JPL.HE9D-BA55}}
+
+\vspace{-2mm}
+\section{Acknowledgements}
+\vspace{-2mm}
+This release would not have been possible without the help of several people. Specifically, Jessie Duan, Ines Fenni, and Richard Chen helped edit and proofread the final draft over several months. The polish is a testament to their skill and expertise in these areas, and their extraordinary attention to detail. Thanks also to Dragana Perkovic-Martin who helped us secure funding. In addition, thanks to the JPL Library staff for help setting up the DOI, and thanks to Diane Fiander and Rebecca Silva for help on the cover art. Finally, thanks to many people who have encouraged me to publish this. 
+
+Part of this research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration (80NM0018D0004).
+\vspace{-3mm}
+\section{Copyright and Export}
+\vspace{-2mm}
+Copyright (c) 2020-21, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. JPL document clearance CL\#21-3866. 
+
+This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons. 
+\vspace{-3mm}
+\section{Future Topics}
+\vspace{-2mm}
+Ideas for future topics include:
+\begin{itemize}[topsep=0pt]
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+\item Compendium of examples
+\item 1D scattering solutions (e.g., recursive multilayer, piece-wise linear)
+\item 2D scattering solutions (e.g., recursive cylinder solutions, 2D addition theorems)
+\item Generating time-domain signals from frequency-domain scattering solutions
+\item Half-space Green's functions in 1D, 2D, and 3D
+\item Characteristic Basis Function Method 
+\item T-matrix topics: multilayer dielectric sphere, cylinders, cube
+\item Gaussian tapered incident fields
+\item Scattering from rough surfaces and rough facets under the Kirchhoff approximation
+\item Imaging and inverse scattering 
+\item Scattering statistics and sample moments
+\item Microwave measurement: VNA calibration (1-port and 2-port), RCS of corner reflectors, antenna transmit/receive coefficients.
+\end{itemize}
+
+
+
+%
+%\vspace{-1mm}
+%\section{Future Topics}
+%Ideas for future topics include:
+%\begin{itemize}[topsep=0pt]
+%  \setlength{\itemsep}{1pt}
+%  \setlength{\parskip}{0pt}
+%  \setlength{\parsep}{0pt}
+%\item Compendium of examples
+%\item 1D scattering solutions (e.g., recursive multilayer, piece-wise linear)
+%\item 2D scattering solutions (e.g., recursive cylinder solutions, 2D addition theorems)
+%\item Generating time-domain signals from frequency-domain scattering solutions
+%\item Half-space Green's functions in 1D, 2D, and 3D
+%\item Characteristic Basis Function Method 
+%\item T-matrix topics: multilayer dielectric sphere, cylinders, cube
+%\item Gaussian tapered incident fields
+%\item Scattering from rough surfaces and rough facets under the Kirchhoff approximation
+%\item Imaging and inverse scattering 
+%\item Scattering statistics and sample moments
+%\item Microwave measurement: VNA calibration (1-port and 2-port), RCS of corner reflectors, antenna transmit/receive coefficients.
+%\end{itemize}

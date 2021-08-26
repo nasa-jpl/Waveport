@@ -1,0 +1,14 @@
+
+
+The fast multipole method (FMM) was developed to accelerate the matrix-vector multiplication of the impedance matrix in an iterative Method of Moments scattering solution. The FMM is built on two ideas: 1) the band-limited nature of far-field patterns, 2) the plane wave expansion of the Green's function. Together, these allow the scattered fields of any number of individual scatterers to be collected into a single scattering pattern and translated to a different reference frame at constant computational cost. It was originally developed by Greengard and Rokhlin \cite{greengard1997fast}. Following this, the multi-level fast multipole method (MLFMM), developed by Song and Chew \cite{song1995multilevel}, uses a hierarchical structure to aggregate, translate, and disaggregate fields up and down a tree structure between small and large length scales to accomplish the computation in $O(N\log N)$ time. The FMM is basically the FFT of scattering.   
+
+The title of this chapter is a little misleading, because we will not actually implement the MLFMM and MoM. We will however give routines for many of the core operations that are incredibly useful for manipulating scalar and vector spherical harmonics and aggregating/disaggregating scattered field patterns. In fact, the original motivation for coding these routines was to aggregate/disaggregate far-field scattering patterns in multi-layer radar facet models. 
+
+The routines in this chapter are based largely on the derivations in \cite{yucel2008helmholtz}, which is one of the best and clearest references for the FMM and its constituent parts. We add modifications, alternative explanations, and corrections where needed, and skip much of the formality in order to get to the details of the computations. Accurately computing the FMM in full is quite complicated, and explanations are better left to the FMM literature. 
+
+An overview of the FMM formulation is first given. We explain quadrature integration over the sphere, on which most of the computations are based. We then discuss concepts of field aggregation and disaggregation. We give codes for the translation operator and interpolation. A number of routines are provided for interpolating and filtering scalar and vector spherical field patterns. We then give routines for S-matrix and T-matrix transforms based on the FMM spherical harmonic filters. Finally, a routine for computing a version of the 1D FMM is given, which can be used to accelerate the spherical filters.
+
+
+\input{FastMultipoleMethod/FMM}
+
+\input{FastMultipoleMethod/FMM1d}

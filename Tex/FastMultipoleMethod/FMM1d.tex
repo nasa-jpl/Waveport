@@ -1,0 +1,190 @@
+
+
+\clearpage
+\newpage
+
+\section{1D FMM, $1/(x-x')$}
+\label{sec:1dfmm}
+
+Here we give the pseudo-code and algorithm of \cite{dutt1996fast} that can be used to accelerate the computation of the 1-dimensional kernel $1/(x-x')$ that appears in the fast scalar spherical transform in Section \ref{sec:fastscasphfilt}. Specifically, this deals with the computation of
+\begin{equation}
+f(x_j) = \sum_k^N \dfrac{a_k}{x_j - x_k} \label{eqdir}
+\end{equation}
+
+This kernel is similar to the kernel for electrostatic potentials (e.g., $1/\vert x - x'\vert$), except with the important difference that the denominator retains its sign.  
+
+Let $M$ be the number of observation points $x_j$, $N$ be the number of source points, $x_k$, that have amplitudes $a_k$ which can be real or complex. In matrix form, this requires $O(NM)$ operations to perform the matrix vector multiplication.  The algorithm in \cite{dutt1996fast} reduces this to $O(Np + Mp)$ where $p$ is the number of expansion terms needed to achieve a specific accuracy.  
+
+This algorithm is based on the observation that the far-field expansions of local groups of sources under this kernel can be aggregated up a binary tree-structure, expanded about another center at fixed cost, then dissaggregated. It exploits the properties of Chebyshev polynomials on the domain $x = [-1,1]$ in order to accomplish this procedure with pre-defined precision.  Two versions of the algorithm are given in \cite{dutt1996fast}; we repeat the first algorithm here; the second uses SVD to accelerate the computation. 
+
+For $x_j$ and $x_k$ in the range $x = [a, b]$, the inputs can be rescaled with the affine transformation
+\begin{eqnarray}
+x' &=& \dfrac{2}{b-a}(x + a) -1 \label{af1} \\
+x &=& \dfrac{b-a}{2}(x' + 1) - a \label{af2}
+\end{eqnarray}
+
+Using \eqref{af2} in \eqref{eqdir} yields $x_j'$ and $x_k'$ on $x = [-1, 1]$.  
+\begin{equation}
+f(x_j') = \dfrac{2}{b-a}\sum_k^N \dfrac{a_k}{x_j' - x_k'}
+\end{equation}
+
+Therefore only the source and observation points need to be transformed using \eqref{af1}, and the scale factor $2/(b-a)$ applied to the amplitudes, the algorithm is otherwise equivalent.  
+
+%\subsection{Basic Algorithm}
+
+\paragraph{Setup}
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+\item  $p$ is an integer that is the size of the Chebyshev expansions.  $p$ is the same for all expansions on $x = [-1,1]$ and given by $p = \lceil -\log_5(\epsilon) \rceil$ where $0 < \epsilon < 1$ is the desired precision.  
+
+\item $t_1, ..., t_p$ are the Chebyshev nodes of order $p$ on $x = [-1,1]$, given by
+\begin{equation}
+t_i = \cos\left(\dfrac{2i-1}{p}\dfrac{\pi}{2}\right) \label{fmm1prepeqfirst}
+\end{equation}
+
+\item The expansion functions are given by the polynomials 
+\begin{equation}
+u_j(t) = \prod_{\substack{k=1 \\ k \neq j}}^p \dfrac{t-t_k}{t_j-t_k} 
+\end{equation}
+
+\item The far-field due to sources in $x = [x_o-r,x_o+r]$ is given by
+\begin{eqnarray}
+f_{\textrm{far}}(x) &=& \sum_j^p \Phi_{j}  u_j\left(\dfrac{3r}{x - x_o}\right) \\
+\Phi_{j} &=& \sum_k^p a_k \dfrac{t_j}{3r - t_j(x_k - x_o)} \label{phi1}
+\end{eqnarray}
+
+\noindent where $\Phi_{k}$ are the far-field expansion coefficients.
+
+\item The local field in $x = [y_o-r,y_o+r]$ is given by
+\begin{eqnarray}
+f_{\textrm{loc}}(x) &=& \sum_j^p \Psi_{j}  u_j\left(\dfrac{x - y_o}{r}\right) \label{psi1}\\
+\Psi_{j} &=& \sum_k^p  \dfrac{a_k}{rt_j - (x_k - y_o)} 
+\end{eqnarray}
+
+\noindent where $\Psi_{k}$ are the local field expansion coefficients.
+
+\item $s$ is an integer and is the number of points in each subinterval at the finest level. It is recommended to set $s \approx 2p$.  
+
+\item $nlevs = \lceil \log_2(N/s) \rceil$ is the level of finest subinterval and the total number of levels.  
+
+\item $\Phi_{l,i}$ are the $p$-term far-field coefficients at level $l$, subinterval $i$.
+
+\item $\Psi_{l,i}$ are the $p$-term local-field coefficients at level $l$, subinterval $i$.
+
+\item $M_L$ and $M_R$ are $p \times p$ matrices that aggregate the far-field expansions of left and right subinterval (children) to a far-field expansion at the next higher level (parent).  These are given by (\cite[Eq. 78]{dutt1996fast}  has a typo)
+\begin{eqnarray}
+M_L(i,j) &=& u_j\left(\dfrac{3 t_i}{6  + t_i}\right) \\
+M_R(i,j) &=& u_j\left(\dfrac{3 t_i}{6  - t_i}\right) 
+\end{eqnarray}
+
+\item $S_L$ and $S_R$ are $p \times p$ matrices that disaggregate the local expansion of a parent to its left and right children
+\begin{eqnarray}
+S_L(i,j) &=& u_j\left(\dfrac{t_i -1 }{2}\right) \\
+S_R(i,j) &=& u_j\left(\dfrac{t_i + 1}{2}\right) 
+\end{eqnarray}
+
+\item $T_1$, $T_2$, $T_3$, $T_4$ are $p \times p$ matrices that translate the far-field expansions of the well-separated subdivisions to the local expansion of a subinterval at the same level.  The far-field subdivisions are separated from the local subinterval by $-3$, $-2$, $2$ and $3$ positions, respectively.  
+
+\begin{eqnarray}
+T_1(i,j) &=& u_j\left(\dfrac{3 }{t_i - 6}\right) \\
+T_2(i,j) &=& u_j\left(\dfrac{3 }{t_i - 4}\right) \\
+T_3(i,j) &=& u_j\left(\dfrac{3 }{t_i + 4}\right) \\
+T_4(i,j) &=& u_j\left(\dfrac{3 }{t_i + 6}\right)  \label{fmm1prepeqlast}
+\end{eqnarray}
+
+\end{itemize}
+
+\paragraph{Algorithm psuedo-code}
+\begin{enumerate}
+\item Set the expansion size $p$, choose $s$, and compute $nlevs$.  Precompute Chebyshev coefficients and translation matrices.  
+
+\item Determine the far-field expansions at the finest level. 
+
+\textbf{do} $i = 1, ..., 2^{nlevs}$
+\begin{addmargin}[1em]{2em}
+Compute $p$-term far-field expansions $\Phi_{nlevs,i}$ using \eqref{phi1} due to sources at $x_k$ which lie in subinterval $i$ at level $nlevs$. 
+\end{addmargin}
+\textbf{end}
+
+\item Determine the $p$-term far-field expansion at each subinterval at every level by shifting and adding the far-field expansions of the subintervals children
+
+\textbf{do} $l = nlevs-1, ..., 1$
+\begin{addmargin}[1em]{2em}
+\textbf{do} $i = 1, ..., 2^{l}$
+\begin{addmargin}[1em]{2em}
+$\Phi_{l,i} = M_L \cdot \Phi_{l+1,2i-1}  + M_R \cdot \Phi_{l+1,2i} $
+\end{addmargin}
+\textbf{end}
+\end{addmargin}
+\textbf{end}
+
+\item Determine $p$-term local expansion at each subinterval at each level by 1) disaggregating the parent's local expansion, 2) adding the far-field translation to local translation of well-separated subintervals at the same level, but that have not been accounted for at the parent's level. (The equations for this step given in \cite{dutt1996fast} do not work as they appear, but the following does)
+
+\textbf{do} $l = 1,...,nlevs-1$
+\begin{addmargin}[1em]{1em}
+\textbf{do} $i = 1, ..., 2^{l}$
+\begin{addmargin}[1em]{1em}
+$\Psi_{l+1,2i-1} = S_L \cdot  \Psi_{l,i} + T_2 \cdot  \Phi_{l+1,2i-3} + T_3  \cdot \Phi_{l+1,2i+1} + T_4 \cdot  \Phi_{l+1,2i+2}$
+$\Psi_{l+1,2i} \quad = S_R  \cdot \Psi_{l,i} + T_1 \cdot  \Phi_{l+1,2i-3} + T_2  \cdot \Phi_{l+1,2i-2} + T_3  \cdot \Phi_{l+1,2i+2}$
+\end{addmargin}
+\textbf{end}
+\end{addmargin}
+\textbf{end}
+
+\item Evaluate the local expansion at the finest level
+
+\textbf{do} $i = 1, ..., 2^{nlevs}$
+\begin{addmargin}[1em]{2em}
+Evaluate $p$-term local expansions $\Psi_{nlevs,i}$ using \eqref{psi1} at points $x_j$ which lie in subinterval $i$ at level $nlevs$. 
+\end{addmargin}
+\textbf{end}
+
+\item Add the near-neighbor contributions directly
+
+\textbf{do} $i = 1, ..., 2^{nlevs}$
+\begin{addmargin}[1em]{2em}
+For each point $x_j$ in subinterval $i$ at level $nlevs$, compute the contribution of all $x_k$ in subintervals $i-1$, $i$, $i+1$ using \eqref{eqdir}, and add the result to the local expansion already evaluated before. 
+\end{addmargin}
+\textbf{end}
+
+
+\end{enumerate}
+
+\paragraph{Routines} 
+\mbox{}\\
+\mbox{}\\
+The 1D FMM is implemented with two routines \texttt{fmm1prep} and  \texttt{fmm1}.  \texttt{fmm1prep} is a preparatory function that precomputes the setup parameters of the algorithm and translation matrices using \eqref{fmm1prepeqfirst} through \eqref{fmm1prepeqlast}.  It takes as inputs observation points $x_j$ and source points $x_k$ on $x = [-1, 1]$, source amplitudes $a_k$ (real or complex), and precision $\epsilon$.  $s$ is optional, the default is $s = 2p$. The outputs are $M_L$, $M_R$, $S_L$, $S_R$, $T_1$, $T_2$, $T_3$, $T_4$, etc.  \texttt{fmm1} takes the outputs from \texttt{fmm1prep} and executes the algorithm given by the pseudo-code. The pair of routines is set up so that \texttt{fmm1} can be called with new source amplitudes for the same source and observation points and the same outputs of \texttt{fmm1prep}.  
+
+Both routines rely on linear indexing to bookkeep the values of variables. The total number of expansions needed, and thus total number of subdivisions on the binary tree, is
+
+\begin{equation}
+B = \sum_{i=1}^{nlevs} 2^i = 2^{nlevs + 1} - 2
+\end{equation}
+
+The expansion coefficients vectors $\Phi_{l,i}$ and $\Psi_{l,i}$ are stored on $p \times B$ arrays and accessed with column index
+
+\begin{equation}
+I(l,i) = 2^l - 2 + i
+\end{equation}
+
+\noindent for $ l \ge 1, i = 1,...,2^l $.  This is provided by the helper function \texttt{box2ind}, which has been replaced by inline computation in the code.  The basis functions, $u_j(t)$, are provided in the routine $\texttt{fmm1u}$.  Note, the expansions at the top-most level, $l=1$, are never used except to initialize one of the loops with zeros.  
+
+Because Matlab's matrix vector multiplication is highly optimized, it is actually faster for small problems to precompute the elements of the matrix and let Matlab do the computation directly.  This works to a point.  These routines require comparably no storage and are the only path forward for very large problems.
+
+{\footnotesize
+\VerbatimInput{\code/FastMultipoleMethod/fmm1/fmm1.m}
+}
+
+{\footnotesize
+\VerbatimInput{\code/FastMultipoleMethod/fmm1/fmm1prep.m}
+}
+
+{\footnotesize
+\VerbatimInput{\code/FastMultipoleMethod/fmm1/fmm1u.m}
+}
+
+{\footnotesize
+\VerbatimInput{\code/FastMultipoleMethod/fmm1/box2ind.m}
+}

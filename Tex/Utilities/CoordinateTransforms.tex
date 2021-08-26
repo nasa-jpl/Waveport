@@ -1,0 +1,94 @@
+
+\section{Coordinate Transformations}
+
+Table \ref{tablecoord} contains coordinates transformations between Cartesian, cylindrical, and spherical coordinates and vector fields, \cite{ulaby1999fundamentals}. The routines in Table \ref{tablecoord} overload the built-in Matlab functions of the same names in order to use $\theta$, $\phi$ orderings and definitions consistent with most scattering textbooks (physics convention, rather than mathematics convention which is what Matlab uses).  The same routines transform between either coordinate points or vector fields. For example, transforming Cartesians points $(x,y,z)$ to spherical coordinates $(r,\theta,\phi)$ is done as
+\begin{verbatim}
+[r, th, phi] = cart2sph(x,y,z)
+\end{verbatim}
+
+The vector transforms always needs the coordinates of the input vector field. For example, transforming a Cartesian vector field $(A_x,A_y,A_z)$ located at points $(x,y,z)$ to spherical vector components $(A_r,A_{\theta},A_{\phi})$ is done as
+\begin{verbatim}
+[Ar, Ath, Aphi] = cart2sph(x,y,z,Ax,Ay,Az)
+\end{verbatim}
+
+Input arrays can be any equal size and $\tan^{-1}$ is always computed with \texttt{atan2}. Unit vectors can be created by setting one of the input vector components equal to 1 and the others to 0.  For example, the Cartesian unit vectors at a point $(x,y,z)$ expressed in spherical coordinates are computed as
+\begin{verbatim}
+[x_r, x_th, x_phi] = cart2sph(x,y,z,1,0,0) 
+[y_r, y_th, y_phi] = cart2sph(x,y,z,0,1,0)  
+[z_r, z_th, z_phi] = cart2sph(x,y,z,0,0,1) 
+\end{verbatim}
+
+\clearpage
+\newpage
+
+
+\bgroup
+\def\arraystretch{1.25}
+\begin{table}[h]
+\caption{Coordinate Transforms}
+\begin{center}
+\begin{tabular}{|c| l | l |}
+\hline
+\multicolumn{1}{|c|}{Routine} & \multicolumn{1}{|c|}{Point Transforms} & \multicolumn{1}{|c|}{Vector Field Transforms} \\
+\hline
+\texttt{cart2cyl} & 
+\threearray{\rho}{\sqrt{x^2 + y^2}}{\phi}{\tan^{-1}(y/x)}{z}{z}  & 
+\threearray{A_{\rho}}{A_x \cos\phi + A_y\sin\phi}{A_{\phi}}{-A_x\sin\phi + A_y\cos\phi}{A_z}{A_z}  \\
+\hline
+\texttt{cyl2cart} & 
+\threearray{x}{\rho\cos\phi}{y}{\rho\sin\phi}{z}{z} & 
+\threearray{A_x}{A_{\rho}\cos\phi - A_{\phi}\sin\phi}{A_y}{A_{\rho}\sin\phi + A_{\phi}\cos\phi}{A_z}{A_z} \\
+\hline
+\texttt{cart2sph} & 
+\threearray{r}{\sqrt{x^2 + y^2 + z^2}}{\theta}{\tan^{-1}(\sqrt{x^2+y^2}/z)}{\phi}{\tan^{-1}(y/x)} & 
+\threearray{A_r}{A_x \st\cos\phi + A_y \sin\theta\sin\phi + A_z \cos\theta}{A_{\theta}}{A_x \ct\cos\phi + A_y \cos\theta\sin\phi - A_z \sin\theta}{A_{\phi}}{-A_x\sin\phi + A_y\cos\phi}\\
+\hline
+\texttt{sph2cart} & 
+\threearray{x}{r\st\cos\phi}{y}{r\st\sin\phi}{z}{r\ct} &
+\threearray{A_x}{A_r \st\cos\phi + A_{\theta} \ct\cos\phi - A_{\phi} \sin\phi}{A_y}{A_r \st\sin\phi + A_{\theta} \cos\theta\sin\phi + A_{\phi} \cos\phi}{A_z}{A_r\ct - A_{\theta}\st} \\
+\hline
+\texttt{cyl2sph} & 
+\threearray{r}{\sqrt{\rho^2 + z^2}}{\theta}{\tan^{-1}(\rho/z)}{\phi}{\phi} &
+\threearray{A_r}{A_{\rho} \st + A_z\ct}{A_{\theta}}{A_{\rho} \ct - A_z\st}{A_{\phi}}{A_{\phi}} \\
+\hline
+\texttt{sph2cyl} &
+\threearray{\rho}{r\st}{\phi}{\phi}{z}{r\ct} & 
+\threearray{A_{\rho}}{A_r\st + A_{\theta}\ct}{A_{\phi}}{A_{\phi}}{A_z}{A_r\ct - A_{\theta}\st} \\
+\hline
+\end{tabular}
+\end{center}
+\label{tablecoord}
+\end{table}
+\egroup
+
+
+\paragraph{Routine \texttt{cart2cyl} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/cart2cyl.m}
+}
+\clearpage
+\newpage
+\paragraph{Routine \texttt{cyl2cart} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/cyl2cart.m}
+}
+\paragraph{Routine \texttt{cart2sph} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/cart2sph.m}
+}
+\paragraph{Routine \texttt{sph2cart} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/sph2cart.m}
+}
+\paragraph{Routine \texttt{cyl2sph} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/cyl2sph.m}
+}
+\paragraph{Routine \texttt{sph2cyl} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/sph2cyl.m}
+}
+\paragraph{Helper Routine \texttt{checkargs} }
+{\footnotesize
+\VerbatimInput{\code/CoordinateTransforms/checkargs.m}
+}

@@ -1,0 +1,133 @@
+\documentclass[10pt,letterpaper]{book}
+%\documentclass[10pt,a4paper]{book}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyvrb}
+\usepackage{graphicx}	
+\usepackage{subfigure}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{scrextend}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{subfigure}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{subfloat}
+\usepackage{hhline}
+\usepackage{adjustbox}
+\usepackage{pdfpages}
+\usepackage[
+  bookmarks=true,
+  bookmarksnumbered=true,
+  colorlinks=true,
+  filecolor=blue,
+  linkcolor=blue,
+  urlcolor=blue,
+  hyperfootnotes=true,
+  citecolor=blue,
+  allcolors=blue
+]{hyperref}
+
+\input{newcommands/newcommands.tex}
+\newcommand{\code}{../Code}
+
+
+\begin{document}
+
+%% Front cover
+\setboolean{@twoside}{false}
+\includepdf[pages=1-2]{Cover/frontcover}
+\setboolean{@twoside}{true}
+
+%% Title
+\date{September, 2021}
+\title{Waveport Scattering Library  \\ \ \\  Version 1.0}
+\author{Mark S. Haynes}
+\maketitle
+
+
+
+\setboolean{@twoside}{false}
+\includepdf[pages=2]{Cover/frontcover}
+\setboolean{@twoside}{true}
+
+%% Contents
+\tableofcontents
+
+% Introduction 
+ \chapter{Introduction}
+ \input{Introduction/Introduction}
+
+
+\chapter{Green's Functions}
+\input{GreensFunctions/GreensFunctions}
+
+\chapter{Spherical Wave Functions}
+\label{chap:wavefunctions}
+\input{WaveFunctions/WaveFunctions}
+
+\chapter{Rotation}
+\label{chap:rotation}
+\input{Rotation/Rotation}
+
+\chapter{Translation}
+\label{chap:translation}
+\input{Translation/Translation}
+
+\chapter{S-Matrix}
+\label{chap:smatrix}
+\input{Smatrix/Smatrix}
+
+\chapter{T-Matrix}
+\label{chap:tmatrix}
+\input{Tmatrix/Tmatrix}
+
+\chapter{Fast Multipole Method}
+\label{chap:fmm}
+\input{FastMultipoleMethod/FastMultipoleMethod}
+
+\chapter{Kirchhoff Approximation}
+\input{Kirchhoff/Kirchhoff}
+
+\chapter{Random Object Generation}
+\input{RandomObjects/RandomObjects}
+
+\chapter{Reflection and Refraction}
+\input{ReflectionRefraction/ReflectionRefraction}
+
+% Chapters
+\chapter{Utilities}
+\label{chap:util}  
+\input{Utilities/Utilities}
+
+% Bib       
+\bibliography{/Users/mshaynes/Desktop/Memos/bibtex}
+\bibliographystyle{ieeetr}
+
+
+%% back cover
+\setboolean{@twoside}{false}
+\includepdf[pages=1]{Cover/backcover}
+\includepdf[pages=1-2]{Cover/backcover}
+
+
+
+\end{document}
+
+
+% \begin{figure}[h] 
+%   \centering
+%   \includegraphics[width=4in]{Chap5/rough1} 
+%   \caption{}
+%   \label{}
+%\end{figure}
+        
+        

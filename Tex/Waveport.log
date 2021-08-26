@@ -1,0 +1,3601 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  25 AUG 2021 20:28
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Waveport.tex
+(./Waveport.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen111
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks19
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks20
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/01/15
+
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count104
+\FV@InFile=\read1
+\FV@TabBox=\box29
+\c@FancyVerbLine=\count105
+\FV@StepNumber=\count106
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen122
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen123
+\subfiglabelskip=\skip49
+\c@subfigure=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@lotdepth=\count110
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count113
+\calc@Cskip=\skip54
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count114
+\l_MT_multwidth_dim=\dimen126
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen127
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_sep=\dimen129
+\l_MT_below_intertext_sep=\dimen130
+\l_MT_above_shortintertext_sep=\dimen131
+\l_MT_below_shortintertext_sep=\dimen132
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks23
+\float@box=\box30
+\@float@everytoks=\toks24
+\@floatcapt=\box31
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2019/02/01 v3.26b KOMA-Script package (extend other classes 
+with features of KOMA-Script classes)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-05-07 L3 programming layer (loader) 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-05-07 L3 programming layer (code)
+\c_max_int=\count116
+\l_tmpa_int=\count117
+\l_tmpb_int=\count118
+\g_tmpa_int=\count119
+\g_tmpb_int=\count120
+\g__kernel_prg_map_int=\count121
+\c__ior_term_ior=\count122
+\c_log_iow=\count123
+\l_iow_line_count_int=\count124
+\l__iow_line_target_int=\count125
+\l__iow_one_indent_int=\count126
+\l__iow_indent_int=\count127
+\c_zero_dim=\dimen133
+\c_max_dim=\dimen134
+\l_tmpa_dim=\dimen135
+\l_tmpb_dim=\dimen136
+\g_tmpa_dim=\dimen137
+\g_tmpb_dim=\dimen138
+\c_zero_skip=\skip56
+\c_max_skip=\skip57
+\l_tmpa_skip=\skip58
+\l_tmpb_skip=\skip59
+\g_tmpa_skip=\skip60
+\g_tmpb_skip=\skip61
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count128
+\l__intarray_loop_int=\count129
+\c__intarray_sp_dim=\dimen139
+\g__intarray_font_int=\count130
+\c__fp_leading_shift_int=\count131
+\c__fp_middle_shift_int=\count132
+\c__fp_trailing_shift_int=\count133
+\c__fp_big_leading_shift_int=\count134
+\c__fp_big_middle_shift_int=\count135
+\c__fp_big_trailing_shift_int=\count136
+\c__fp_Bigg_leading_shift_int=\count137
+\c__fp_Bigg_middle_shift_int=\count138
+\c__fp_Bigg_trailing_shift_int=\count139
+\c__kernel_randint_max_int=\count140
+\g__fp_array_int=\count141
+\l__fp_array_loop_int=\count142
+\l__sort_length_int=\count143
+\l__sort_min_int=\count144
+\l__sort_top_int=\count145
+\l__sort_max_int=\count146
+\l__sort_true_max_int=\count147
+\l__sort_block_int=\count148
+\l__sort_begin_int=\count149
+\l__sort_end_int=\count150
+\l__sort_A_int=\count151
+\l__sort_B_int=\count152
+\l__sort_C_int=\count153
+\l__tl_analysis_normal_int=\count154
+\l__tl_analysis_index_int=\count155
+\l__tl_analysis_nesting_int=\count156
+\l__tl_analysis_type_int=\count157
+\l__regex_internal_a_int=\count158
+\l__regex_internal_b_int=\count159
+\l__regex_internal_c_int=\count160
+\l__regex_balance_int=\count161
+\l__regex_group_level_int=\count162
+\l__regex_mode_int=\count163
+\c__regex_cs_in_class_mode_int=\count164
+\c__regex_cs_mode_int=\count165
+\l__regex_catcodes_int=\count166
+\l__regex_default_catcodes_int=\count167
+\c__regex_catcode_D_int=\count168
+\c__regex_catcode_S_int=\count169
+\c__regex_catcode_L_int=\count170
+\c__regex_catcode_O_int=\count171
+\c__regex_catcode_A_int=\count172
+\c__regex_all_catcodes_int=\count173
+\l__regex_show_lines_int=\count174
+\l__regex_min_state_int=\count175
+\l__regex_max_state_int=\count176
+\l__regex_left_state_int=\count177
+\l__regex_right_state_int=\count178
+\l__regex_capturing_group_int=\count179
+\l__regex_min_pos_int=\count180
+\l__regex_max_pos_int=\count181
+\l__regex_curr_pos_int=\count182
+\l__regex_start_pos_int=\count183
+\l__regex_success_pos_int=\count184
+\l__regex_curr_char_int=\count185
+\l__regex_curr_catcode_int=\count186
+\l__regex_last_char_int=\count187
+\l__regex_case_changed_char_int=\count188
+\l__regex_curr_state_int=\count189
+\l__regex_step_int=\count190
+\l__regex_min_active_int=\count191
+\l__regex_max_active_int=\count192
+\l__regex_replacement_csnames_int=\count193
+\l__regex_match_count_int=\count194
+\l__regex_min_submatch_int=\count195
+\l__regex_submatch_int=\count196
+\l__regex_zeroth_submatch_int=\count197
+\g__regex_trace_regex_int=\count198
+\c_empty_box=\box32
+\l_tmpa_box=\box33
+\l_tmpb_box=\box34
+\g_tmpa_box=\box35
+\g_tmpb_box=\box36
+\l__box_top_dim=\dimen140
+\l__box_bottom_dim=\dimen141
+\l__box_left_dim=\dimen142
+\l__box_right_dim=\dimen143
+\l__box_top_new_dim=\dimen144
+\l__box_bottom_new_dim=\dimen145
+\l__box_left_new_dim=\dimen146
+\l__box_right_new_dim=\dimen147
+\l__box_internal_box=\box37
+\l__coffin_internal_box=\box38
+\l__coffin_internal_dim=\dimen148
+\l__coffin_offset_x_dim=\dimen149
+\l__coffin_offset_y_dim=\dimen150
+\l__coffin_x_dim=\dimen151
+\l__coffin_y_dim=\dimen152
+\l__coffin_x_prime_dim=\dimen153
+\l__coffin_y_prime_dim=\dimen154
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\g_tmpa_coffin=\box44
+\g_tmpb_coffin=\box45
+\l__coffin_bounding_shift_dim=\dimen155
+\l__coffin_left_corner_dim=\dimen156
+\l__coffin_right_corner_dim=\dimen157
+\l__coffin_bottom_corner_dim=\dimen158
+\l__coffin_top_corner_dim=\dimen159
+\l__coffin_scaled_total_height_dim=\dimen160
+\l__coffin_scaled_width_dim=\dimen161
+\c__coffin_empty_coffin=\box46
+\l__coffin_display_coffin=\box47
+\l__coffin_display_coord_coffin=\box48
+\l__coffin_display_pole_coffin=\box49
+\l__coffin_display_offset_dim=\dimen162
+\l__coffin_display_x_dim=\dimen163
+\l__coffin_display_y_dim=\dimen164
+\g__file_internal_ior=\read2
+\l__seq_internal_a_int=\count199
+\l__seq_internal_b_int=\count266
+\c__deprecation_minus_one=\count267
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count268
+\l__driver_pdf_tmp_box=\box50
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count269
+\g__xparse_grabber_int=\count270
+\l__xparse_m_args_int=\count271
+\l__xparse_v_nesting_int=\count272
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip62
+\enit@outerparindent=\dimen165
+\enit@toks=\toks25
+\enit@inbox=\box51
+\enit@count@id=\count273
+\enitdp@description=\count274
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count275
+\multirow@dima=\skip64
+\bigstrutjot=\dimen166
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count276
+\c@ALG@rem=\count277
+\c@ALG@nested=\count278
+\ALG@tlm=\skip65
+\ALG@thistlm=\skip66
+\c@ALG@Lnr=\count279
+\c@ALG@blocknr=\count280
+\c@ALG@storecount=\count281
+\c@ALG@tmpcounter=\count282
+\ALG@tmplength=\skip67
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfloat/subfloat.sty
+Package: subfloat 2003/08/21 version 2.14
+
+Package `subfloat', Version 2.14 of 2003/08/21.
+
+Package subfloat Warning: Numbers of floats not counted:
+(subfloat)                If you use one of the counters subfloatfiguremax or
+(subfloat)                subfloattablemax you will get strange error messages
+(subfloat)                containing \c@subfloatfiguremax or
+(subfloat)                \c@subfloattablemax:
+(subfloat)                Please switch on countmax or remove the code using
+(subfloat)                the counter then..
+
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count283
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box52
+)
+\tc@llx=\dimen167
+\tc@lly=\dimen168
+\tc@urx=\dimen169
+\tc@ury=\dimen170
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen171
+\adjbox@Height=\dimen172
+\adjbox@Depth=\dimen173
+\adjbox@Totalheight=\dimen174
+\adjbox@pwidth=\dimen175
+\adjbox@pheight=\dimen176
+\adjbox@pdepth=\dimen177
+\adjbox@ptotalheight=\dimen178
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count284
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box53
+\sift@deathcycles=\count285
+\@vwid@loff=\dimen179
+\@vwid@roff=\dimen180
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen181
+\AM@pageheight=\dimen182
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box54
+\AM@global@opts=\toks28
+\AM@toc@title=\toks29
+\c@AM@survey=\count286
+\AM@templatesizebox=\box55
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count289
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4393
+.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Option `hyperfootnotes' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count290
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen184
+\Fld@menulength=\count291
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip77
+)
+(./newcommands/newcommands.tex) (./Waveport.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `eq:NLL' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `fig4' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `Waveport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count297
+\scratchdimen=\dimen187
+\scratchbox=\box56
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen188
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box57
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring ON on input line 43.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count303
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(./Waveport.out) (./Waveport.out)
+\@outlinefile=\write4
+\openout4 = `Waveport.out'.
+
+<Cover/frontcover.pdf, id=739, 614.295pt x 794.97pt>
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf>
+Package pdftex.def Info: Cover/frontcover.pdf  used on input line 47.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf>
+Package pdftex.def Info: Cover/frontcover.pdf  used on input line 47.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<Cover/frontcover.pdf, id=742, page=1, 614.295pt x 794.97pt>
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 1>
+Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 1>
+Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 1>
+Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 1>
+Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 1>
+Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [1
+
+ <./Cover/frontcover.pdf>]
+<Cover/frontcover.pdf, id=774, page=2, 614.295pt x 794.97pt>
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 47.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [2 <./Cover/frontcover.pdf>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 
+      [1
+
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf>
+Package pdftex.def Info: Cover/frontcover.pdf  used on input line 59.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf>
+Package pdftex.def Info: Cover/frontcover.pdf  used on input line 59.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/frontcover.pdf Graphic file (type pdf)
+<use Cover/frontcover.pdf, page 2>
+Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \includepdf[pages=2]{Cover/frontcover}
+                                            [2] (./Waveport.toc [3
+
+
+] [4]
+[5])
+\tf@toc=\write5
+\openout5 = `Waveport.toc'.
+
+ [6]
+Chapter 1.
+(./Introduction/Introduction.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+
+ []
+
+[7
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 34--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--62
+
+ []
+
+) [8
+
+]
+Chapter 2.
+(./GreensFunctions/GreensFunctions.tex [9
+
+
+] [10] [11] [12
+
+] [13
+
+] [14pdfTeX warning (ext4): destination with the same identifier (name{equation
+.2.4.45}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.235 
+      ] [15] [16] [17
+
+]
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green2d.eps>
+(epstopdf)                    date: 2021-05-26 17:34:05
+(epstopdf)                    size: 84543 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green2d-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-05-26 17:34:07
+(epstopdf)                    size: 161914 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een2d-eps-converted-to.pdf GreensFunctions/Figures/green2d.eps>
+(epstopdf)             \includegraphics on input line 333.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green2d-eps-converted-to.pdf, id=1118, 437.635pt x 357
+.335pt>
+File: GreensFunctions/Figures/green2d-eps-converted-to.pdf Graphic file (type p
+df)
+<use GreensFunctions/Figures/green2d-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green2d-eps-converted-to.pdf  
+used on input line 333.
+(pdftex.def)             Requested size: 180.67499pt x 147.52245pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green2d_v2.eps>
+(epstopdf)                    date: 2021-05-26 17:34:05
+(epstopdf)                    size: 29710 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green2d_v2-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2021-05-26 17:34:08
+(epstopdf)                    size: 23451 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een2d_v2-eps-converted-to.pdf GreensFunctions/Figures/green2d_v2.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green2d_v2-eps-converted-to.pdf, id=1119, 428.60126pt 
+x 357.335pt>
+File: GreensFunctions/Figures/green2d_v2-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use GreensFunctions/Figures/green2d_v2-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green2d_v2-eps-converted-to.pd
+f  used on input line 334.
+(pdftex.def)             Requested size: 180.67499pt x 150.63037pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3d.eps>
+(epstopdf)                    date: 2021-05-26 17:33:59
+(epstopdf)                    size: 174558 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3d-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-05-26 17:34:08
+(epstopdf)                    size: 244934 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3d-eps-converted-to.pdf GreensFunctions/Figures/green3d.eps>
+(epstopdf)             \includegraphics on input line 344.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3d-eps-converted-to.pdf, id=1120, 431.6125pt x 35
+7.335pt>
+File: GreensFunctions/Figures/green3d-eps-converted-to.pdf Graphic file (type p
+df)
+<use GreensFunctions/Figures/green3d-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3d-eps-converted-to.pdf  
+used on input line 344.
+(pdftex.def)             Requested size: 180.67499pt x 149.57803pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3d_v2.eps>
+(epstopdf)                    date: 2021-05-26 17:33:59
+(epstopdf)                    size: 46876 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3d_v2-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2021-05-26 17:34:09
+(epstopdf)                    size: 42336 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3d_v2-eps-converted-to.pdf GreensFunctions/Figures/green3d_v2.eps>
+(epstopdf)             \includegraphics on input line 345.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3d_v2-eps-converted-to.pdf, id=1121, 425.59pt x 3
+57.335pt>
+File: GreensFunctions/Figures/green3d_v2-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use GreensFunctions/Figures/green3d_v2-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3d_v2-eps-converted-to.pd
+f  used on input line 345.
+(pdftex.def)             Requested size: 180.67499pt x 151.69905pt.
+ [18 <./GreensFunctions/Figures/green2d-eps-converted-to.pdf> <./GreensFunction
+s/Figures/green2d_v2-eps-converted-to.pdf>] [19 <./GreensFunctions/Figures/gree
+n3d-eps-converted-to.pdf> <./GreensFunctions/Figures/green3d_v2-eps-converted-t
+o.pdf>] [20
+
+]
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3dyadic1.eps>
+
+(epstopdf)                    date: 2021-05-27 09:17:47
+(epstopdf)                    size: 275797 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3dyadic1-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-05-27 09:17:55
+(epstopdf)                    size: 364147 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3dyadic1-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic1.eps>
+(epstopdf)             \includegraphics on input line 414.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf, id=1198, 500.87125
+pt x 425.59pt>
+File: GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf Graphic file (
+type pdf)
+<use GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3dyadic1-eps-converted-to
+.pdf  used on input line 414.
+(pdftex.def)             Requested size: 137.31255pt x 116.67068pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3dyadic2.eps>
+
+(epstopdf)                    date: 2021-05-27 09:17:48
+(epstopdf)                    size: 294294 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3dyadic2-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-05-27 09:17:55
+(epstopdf)                    size: 558289 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3dyadic2-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic2.eps>
+(epstopdf)             \includegraphics on input line 415.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3dyadic2-eps-converted-to.pdf, id=1199, 500.87125
+pt x 425.59pt>
+File: GreensFunctions/Figures/green3dyadic2-eps-converted-to.pdf Graphic file (
+type pdf)
+<use GreensFunctions/Figures/green3dyadic2-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3dyadic2-eps-converted-to
+.pdf  used on input line 415.
+(pdftex.def)             Requested size: 137.31255pt x 116.67068pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3dyadic3.eps>
+
+(epstopdf)                    date: 2021-05-27 09:17:48
+(epstopdf)                    size: 259583 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3dyadic3-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-05-27 09:17:56
+(epstopdf)                    size: 321973 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3dyadic3-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic3.eps>
+(epstopdf)             \includegraphics on input line 416.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3dyadic3-eps-converted-to.pdf, id=1200, 500.87125
+pt x 425.59pt>
+File: GreensFunctions/Figures/green3dyadic3-eps-converted-to.pdf Graphic file (
+type pdf)
+<use GreensFunctions/Figures/green3dyadic3-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3dyadic3-eps-converted-to
+.pdf  used on input line 416.
+(pdftex.def)             Requested size: 137.31255pt x 116.67068pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3dyadic4.eps>
+
+(epstopdf)                    date: 2021-05-27 09:17:49
+(epstopdf)                    size: 334241 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3dyadic4-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-05-27 09:17:56
+(epstopdf)                    size: 569290 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3dyadic4-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic4.eps>
+(epstopdf)             \includegraphics on input line 417.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3dyadic4-eps-converted-to.pdf, id=1201, 501.875pt
+ x 425.59pt>
+File: GreensFunctions/Figures/green3dyadic4-eps-converted-to.pdf Graphic file (
+type pdf)
+<use GreensFunctions/Figures/green3dyadic4-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3dyadic4-eps-converted-to
+.pdf  used on input line 417.
+(pdftex.def)             Requested size: 137.31255pt x 116.4434pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3dyadic5.eps>
+
+(epstopdf)                    date: 2021-05-27 09:17:50
+(epstopdf)                    size: 293735 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3dyadic5-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-05-27 09:17:56
+(epstopdf)                    size: 533813 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3dyadic5-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic5.eps>
+(epstopdf)             \includegraphics on input line 418.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3dyadic5-eps-converted-to.pdf, id=1202, 501.875pt
+ x 425.59pt>
+File: GreensFunctions/Figures/green3dyadic5-eps-converted-to.pdf Graphic file (
+type pdf)
+<use GreensFunctions/Figures/green3dyadic5-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3dyadic5-eps-converted-to
+.pdf  used on input line 418.
+(pdftex.def)             Requested size: 137.31255pt x 116.4434pt.
+Package epstopdf Info: Source file: <GreensFunctions/Figures/green3dyadic6.eps>
+
+(epstopdf)                    date: 2021-05-27 09:17:50
+(epstopdf)                    size: 318511 bytes
+(epstopdf)             Output file: <GreensFunctions/Figures/green3dyadic6-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-05-27 09:17:57
+(epstopdf)                    size: 541637 bytes
+(epstopdf)             Command: <repstopdf --outfile=GreensFunctions/Figures/gr
+een3dyadic6-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic6.eps>
+(epstopdf)             \includegraphics on input line 419.
+Package epstopdf Info: Output file is already uptodate.
+<GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf, id=1203, 501.875pt
+ x 425.59pt>
+File: GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf Graphic file (
+type pdf)
+<use GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/green3dyadic6-eps-converted-to
+.pdf  used on input line 419.
+(pdftex.def)             Requested size: 137.31255pt x 116.4434pt.
+ [21 <./GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf> <./GreensFu
+nctions/Figures/green3dyadic2-eps-converted-to.pdf> <./GreensFunctions/Figures/
+green3dyadic3-eps-converted-to.pdf> <./GreensFunctions/Figures/green3dyadic4-ep
+s-converted-to.pdf> <./GreensFunctions/Figures/green3dyadic5-eps-converted-to.p
+df> <./GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf>] [22] [23
+
+] [24]
+<GreensFunctions/Figures/SparamVIE.pdf, id=1326, 505.89pt x 272.01625pt>
+File: GreensFunctions/Figures/SparamVIE.pdf Graphic file (type pdf)
+<use GreensFunctions/Figures/SparamVIE.pdf>
+Package pdftex.def Info: GreensFunctions/Figures/SparamVIE.pdf  used on input l
+ine 505.
+(pdftex.def)             Requested size: 216.81pt x 116.57869pt.
+) [25 <./GreensFunctions/Figures/SparamVIE.pdf>] [26
+
+
+]
+Chapter 3.
+(./WaveFunctions/WaveFunctions.tex
+Underfull \vbox (badness 2564) has occurred while \output is active []
+
+ [27]
+[28] [29]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 173.
+
+[30
+
+] [31] [32] [33] [34
+
+]
+Overfull \hbox (2.3542pt too wide) in paragraph at lines 352--354
+[]\OT1/cmr/m/n/10 The sec-ond spe-cial case $(\OML/cmm/m/it/10 ^^R; ^^^\OT1/cmr
+/m/n/10 ) = (\OML/cmm/m/it/10 ^^Y; \OT1/cmr/m/n/10 0)$ has again only $\OML/cmm
+/m/it/10 m \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^F\OT1/cmr/m/n/10 1$ har-mon-ics
+. Us-ing $\OML/cmm/m/it/10 Y[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^Y; \OT1/cmr/m
+/n/10 0) = (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[]\OML/cmm/m/it/10 Y[]\OT1/cm
+r/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$
+ []
+
+[35] [36] [37
+
+] [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+[40] [41]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 571.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 571.
+
+[42]
+Package epstopdf Info: Source file: <WaveFunctions/Figures/sphharmcont.eps>
+(epstopdf)                    date: 2021-01-06 08:45:39
+(epstopdf)                    size: 45987 bytes
+(epstopdf)             Output file: <WaveFunctions/Figures/sphharmcont-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2021-01-06 08:46:08
+(epstopdf)                    size: 28061 bytes
+(epstopdf)             Command: <repstopdf --outfile=WaveFunctions/Figures/sphh
+armcont-eps-converted-to.pdf WaveFunctions/Figures/sphharmcont.eps>
+(epstopdf)             \includegraphics on input line 644.
+Package epstopdf Info: Output file is already uptodate.
+<WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf, id=1513, 492.84125pt x
+ 412.54124pt>
+File: WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf>
+Package pdftex.def Info: WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf
+  used on input line 644.
+(pdftex.def)             Requested size: 216.81pt x 181.48723pt.
+Package epstopdf Info: Source file: <WaveFunctions/Figures/sphharmcontex.eps>
+(epstopdf)                    date: 2021-01-06 08:46:03
+(epstopdf)                    size: 37808 bytes
+(epstopdf)             Output file: <WaveFunctions/Figures/sphharmcontex-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2021-01-06 08:46:09
+(epstopdf)                    size: 15974 bytes
+(epstopdf)             Command: <repstopdf --outfile=WaveFunctions/Figures/sphh
+armcontex-eps-converted-to.pdf WaveFunctions/Figures/sphharmcontex.eps>
+(epstopdf)             \includegraphics on input line 645.
+Package epstopdf Info: Output file is already uptodate.
+<WaveFunctions/Figures/sphharmcontex-eps-converted-to.pdf, id=1514, 499.8675pt 
+x 413.545pt>
+File: WaveFunctions/Figures/sphharmcontex-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use WaveFunctions/Figures/sphharmcontex-eps-converted-to.pdf>
+Package pdftex.def Info: WaveFunctions/Figures/sphharmcontex-eps-converted-to.p
+df  used on input line 645.
+(pdftex.def)             Requested size: 216.81pt x 179.36687pt.
+ [43]) [44 <./WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf> <./WaveFu
+nctions/Figures/sphharmcontex-eps-converted-to.pdf>]
+Chapter 4.
+(./Rotation/Rotation.tex
+Package epstopdf Info: Source file: <Rotation/Figures/ZXZ.eps>
+(epstopdf)                    date: 2021-01-29 14:46:27
+(epstopdf)                    size: 112077 bytes
+(epstopdf)             Output file: <Rotation/Figures/ZXZ-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-01-29 14:46:30
+(epstopdf)                    size: 280237 bytes
+(epstopdf)             Command: <repstopdf --outfile=Rotation/Figures/ZXZ-eps-c
+onverted-to.pdf Rotation/Figures/ZXZ.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+<Rotation/Figures/ZXZ-eps-converted-to.pdf, id=1555, 1060.96375pt x 323.2075pt>
+
+File: Rotation/Figures/ZXZ-eps-converted-to.pdf Graphic file (type pdf)
+<use Rotation/Figures/ZXZ-eps-converted-to.pdf>
+Package pdftex.def Info: Rotation/Figures/ZXZ-eps-converted-to.pdf  used on inp
+ut line 17.
+(pdftex.def)             Requested size: 469.75499pt x 143.10439pt.
+ [45
+
+
+ <./Rotation/Figures/ZXZ-eps-converted-to.pdf>]
+[46]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 83.
+
+[47
+
+] [48]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 199.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 199.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 199.
+
+[49
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 257.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 257.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 257.
+
+Package epstopdf Info: Source file: <Rotation/Figures/Dlmp.eps>
+(epstopdf)                    date: 2021-01-16 11:14:50
+(epstopdf)                    size: 62606 bytes
+(epstopdf)             Output file: <Rotation/Figures/Dlmp-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-01-16 11:14:59
+(epstopdf)                    size: 39499 bytes
+(epstopdf)             Command: <repstopdf --outfile=Rotation/Figures/Dlmp-eps-
+converted-to.pdf Rotation/Figures/Dlmp.eps>
+(epstopdf)             \includegraphics on input line 263.
+Package epstopdf Info: Output file is already uptodate.
+<Rotation/Figures/Dlmp-eps-converted-to.pdf, id=1637, 673.51625pt x 699.61375pt
+>
+File: Rotation/Figures/Dlmp-eps-converted-to.pdf Graphic file (type pdf)
+<use Rotation/Figures/Dlmp-eps-converted-to.pdf>
+Package pdftex.def Info: Rotation/Figures/Dlmp-eps-converted-to.pdf  used on in
+put line 263.
+(pdftex.def)             Requested size: 289.07999pt x 300.28362pt.
+[50 <./Rotation/Figures/Dlmp-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+[52]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 275.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 275.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 275.
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+[56]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 320.
+
+[57] [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+[60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61])
+[62]
+Chapter 5.
+(./Translation/Translation.tex
+<Translation/Figures/transdiagram.pdf, id=1734, 247.92625pt x 179.67125pt>
+File: Translation/Figures/transdiagram.pdf Graphic file (type pdf)
+<use Translation/Figures/transdiagram.pdf>
+Package pdftex.def Info: Translation/Figures/transdiagram.pdf  used on input li
+ne 28.
+(pdftex.def)             Requested size: 252.94499pt x 183.30884pt.
+ [63
+
+
+] [64 <./Translation/Figures/transdiagram.pdf>]
+<Translation/Figures/alphaz.pdf, id=1789, 820.06375pt x 180.675pt>
+File: Translation/Figures/alphaz.pdf Graphic file (type pdf)
+<use Translation/Figures/alphaz.pdf>
+Package pdftex.def Info: Translation/Figures/alphaz.pdf  used on input line 81.
+
+(pdftex.def)             Requested size: 361.34999pt x 79.61302pt.
+ [65 <./Translation/Figures/alphaz.pdf>]
+Package epstopdf Info: Source file: <Translation/Figures/trans1.eps>
+(epstopdf)                    date: 2021-02-12 18:28:06
+(epstopdf)                    size: 38646 bytes
+(epstopdf)             Output file: <Translation/Figures/trans1-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2021-02-12 18:28:15
+(epstopdf)                    size: 25751 bytes
+(epstopdf)             Command: <repstopdf --outfile=Translation/Figures/trans1
+-eps-converted-to.pdf Translation/Figures/trans1.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+<Translation/Figures/trans1-eps-converted-to.pdf, id=1830, 480.79625pt x 398.48
+875pt>
+File: Translation/Figures/trans1-eps-converted-to.pdf Graphic file (type pdf)
+<use Translation/Figures/trans1-eps-converted-to.pdf>
+Package pdftex.def Info: Translation/Figures/trans1-eps-converted-to.pdf  used 
+on input line 156.
+(pdftex.def)             Requested size: 252.94499pt x 209.64752pt.
+ [66
+
+] [67 <./Translation/Figures/trans1-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+[69]
+<Translation/Figures/sparseindex_2.pdf, id=1867, 515.9275pt x 325.215pt>
+File: Translation/Figures/sparseindex_2.pdf Graphic file (type pdf)
+<use Translation/Figures/sparseindex_2.pdf>
+Package pdftex.def Info: Translation/Figures/sparseindex_2.pdf  used on input l
+ine 177.
+(pdftex.def)             Requested size: 397.48499pt x 250.56023pt.
+ [70
+
+ <./Translation/Figures/sparseindex_2.pdf>]
+<Translation/Figures/sparseindex_3.pdf, id=1904, 346.29375pt x 487.8225pt>
+File: Translation/Figures/sparseindex_3.pdf Graphic file (type pdf)
+<use Translation/Figures/sparseindex_3.pdf>
+Package pdftex.def Info: Translation/Figures/sparseindex_3.pdf  used on input l
+ine 213.
+(pdftex.def)             Requested size: 252.94499pt x 356.33076pt.
+ [71 <./Translation/Figures/sparseindex_3.pdf>] [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+[75] [76] [77
+
+]
+Package epstopdf Info: Source file: <Translation/Figures/transfull.eps>
+(epstopdf)                    date: 2021-06-15 14:56:21
+(epstopdf)                    size: 43653 bytes
+(epstopdf)             Output file: <Translation/Figures/transfull-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-06-15 18:04:53
+(epstopdf)                    size: 47528 bytes
+(epstopdf)             Command: <repstopdf --outfile=Translation/Figures/transf
+ull-eps-converted-to.pdf Translation/Figures/transfull.eps>
+(epstopdf)             \includegraphics on input line 315.
+Package epstopdf Info: Output file is already uptodate.
+<Translation/Figures/transfull-eps-converted-to.pdf, id=1978, 419.5675pt x 381.
+425pt>
+File: Translation/Figures/transfull-eps-converted-to.pdf Graphic file (type pdf
+)
+<use Translation/Figures/transfull-eps-converted-to.pdf>
+Package pdftex.def Info: Translation/Figures/transfull-eps-converted-to.pdf  us
+ed on input line 315.
+(pdftex.def)             Requested size: 252.94499pt x 229.95093pt.
+ [78
+
+ <./Translation/Figures/transfull-eps-converted-to.pdf>]
+[79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+[81] [82
+
+] [83] [84] [85] [86
+
+]
+Package epstopdf Info: Source file: <Translation/Figures/transfullA1.eps>
+(epstopdf)                    date: 2021-07-07 07:53:13
+(epstopdf)                    size: 47421 bytes
+(epstopdf)             Output file: <Translation/Figures/transfullA1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-07-07 07:55:11
+(epstopdf)                    size: 45536 bytes
+(epstopdf)             Command: <repstopdf --outfile=Translation/Figures/transf
+ullA1-eps-converted-to.pdf Translation/Figures/transfullA1.eps>
+(epstopdf)             \includegraphics on input line 455.
+Package epstopdf Info: Output file is already uptodate.
+<Translation/Figures/transfullA1-eps-converted-to.pdf, id=2047, 446.66875pt x 4
+23.5825pt>
+File: Translation/Figures/transfullA1-eps-converted-to.pdf Graphic file (type p
+df)
+<use Translation/Figures/transfullA1-eps-converted-to.pdf>
+Package pdftex.def Info: Translation/Figures/transfullA1-eps-converted-to.pdf  
+used on input line 455.
+(pdftex.def)             Requested size: 216.81pt x 205.60532pt.
+Package epstopdf Info: Source file: <Translation/Figures/transfullB1.eps>
+(epstopdf)                    date: 2021-07-07 07:53:41
+(epstopdf)                    size: 47178 bytes
+(epstopdf)             Output file: <Translation/Figures/transfullB1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-07-07 07:55:11
+(epstopdf)                    size: 45519 bytes
+(epstopdf)             Command: <repstopdf --outfile=Translation/Figures/transf
+ullB1-eps-converted-to.pdf Translation/Figures/transfullB1.eps>
+(epstopdf)             \includegraphics on input line 456.
+Package epstopdf Info: Output file is already uptodate.
+<Translation/Figures/transfullB1-eps-converted-to.pdf, id=2048, 446.66875pt x 4
+23.5825pt>
+File: Translation/Figures/transfullB1-eps-converted-to.pdf Graphic file (type p
+df)
+<use Translation/Figures/transfullB1-eps-converted-to.pdf>
+Package pdftex.def Info: Translation/Figures/transfullB1-eps-converted-to.pdf  
+used on input line 456.
+(pdftex.def)             Requested size: 216.81pt x 205.60532pt.
+Package epstopdf Info: Source file: <Translation/Figures/transfullA2.eps>
+(epstopdf)                    date: 2021-06-18 08:22:25
+(epstopdf)                    size: 47517 bytes
+(epstopdf)             Output file: <Translation/Figures/transfullA2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-06-18 08:23:29
+(epstopdf)                    size: 47140 bytes
+(epstopdf)             Command: <repstopdf --outfile=Translation/Figures/transf
+ullA2-eps-converted-to.pdf Translation/Figures/transfullA2.eps>
+(epstopdf)             \includegraphics on input line 457.
+Package epstopdf Info: Output file is already uptodate.
+<Translation/Figures/transfullA2-eps-converted-to.pdf, id=2049, 446.66875pt x 4
+23.5825pt>
+File: Translation/Figures/transfullA2-eps-converted-to.pdf Graphic file (type p
+df)
+<use Translation/Figures/transfullA2-eps-converted-to.pdf>
+Package pdftex.def Info: Translation/Figures/transfullA2-eps-converted-to.pdf  
+used on input line 457.
+(pdftex.def)             Requested size: 216.81pt x 205.60532pt.
+Package epstopdf Info: Source file: <Translation/Figures/transfullB2.eps>
+(epstopdf)                    date: 2021-06-18 08:22:25
+(epstopdf)                    size: 47016 bytes
+(epstopdf)             Output file: <Translation/Figures/transfullB2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2021-06-18 08:23:29
+(epstopdf)                    size: 46767 bytes
+(epstopdf)             Command: <repstopdf --outfile=Translation/Figures/transf
+ullB2-eps-converted-to.pdf Translation/Figures/transfullB2.eps>
+(epstopdf)             \includegraphics on input line 458.
+Package epstopdf Info: Output file is already uptodate.
+<Translation/Figures/transfullB2-eps-converted-to.pdf, id=2050, 446.66875pt x 4
+23.5825pt>
+File: Translation/Figures/transfullB2-eps-converted-to.pdf Graphic file (type p
+df)
+<use Translation/Figures/transfullB2-eps-converted-to.pdf>
+Package pdftex.def Info: Translation/Figures/transfullB2-eps-converted-to.pdf  
+used on input line 458.
+(pdftex.def)             Requested size: 216.81pt x 205.60532pt.
+ [87
+
+ <./Translation/Figures/transfullA1-eps-converted-to.pdf> <./Translation/Figure
+s/transfullB1-eps-converted-to.pdf> <./Translation/Figures/transfullA2-eps-conv
+erted-to.pdf> <./Translation/Figures/transfullB2-eps-converted-to.pdf>] [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89])
+[90]
+Chapter 6.
+(./Smatrix/Smatrix.tex [91
+
+
+] [92] [93] [94] [95] [96
+
+] [97]
+<Smatrix/Figures/Cuboid.pdf, id=2217, 189.70876pt x 174.6525pt>
+File: Smatrix/Figures/Cuboid.pdf Graphic file (type pdf)
+<use Smatrix/Figures/Cuboid.pdf>
+Package pdftex.def Info: Smatrix/Figures/Cuboid.pdf  used on input line 233.
+(pdftex.def)             Requested size: 93.95122pt x 86.49455pt.
+
+Overfull \hbox (83.9512pt too wide) in paragraph at lines 233--233
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[]\OT1/cmr/m/n/10 Circular
+ []
+
+<Smatrix/Figures/Cylinder.pdf, id=2218, 127.47626pt x 159.59625pt>
+File: Smatrix/Figures/Cylinder.pdf Graphic file (type pdf)
+<use Smatrix/Figures/Cylinder.pdf>
+Package pdftex.def Info: Smatrix/Figures/Cylinder.pdf  used on input line 235.
+(pdftex.def)             Requested size: 65.04256pt x 81.43439pt.
+
+Overfull \hbox (55.04254pt too wide) in paragraph at lines 235--235
+[][] 
+ []
+
+<Smatrix/Figures/Sphere.pdf, id=2219, 178.6675pt x 182.6825pt>
+File: Smatrix/Figures/Sphere.pdf Graphic file (type pdf)
+<use Smatrix/Figures/Sphere.pdf>
+Package pdftex.def Info: Smatrix/Figures/Sphere.pdf  used on input line 237.
+(pdftex.def)             Requested size: 86.72377pt x 88.67337pt.
+
+Overfull \hbox (76.72375pt too wide) in paragraph at lines 237--237
+[][] 
+ []
+
+<Smatrix/Figures/Ellipsoid.pdf, id=2220, 196.735pt x 178.6675pt>
+File: Smatrix/Figures/Ellipsoid.pdf Graphic file (type pdf)
+<use Smatrix/Figures/Ellipsoid.pdf>
+Package pdftex.def Info: Smatrix/Figures/Ellipsoid.pdf  used on input line 239.
+
+(pdftex.def)             Requested size: 93.95122pt x 85.3205pt.
+
+Overfull \hbox (83.9512pt too wide) in paragraph at lines 239--239
+[][] 
+ []
+
+
+Overfull \hbox (3.67772pt too wide) in paragraph at lines 239--239
+[]$[]$| 
+ []
+
+
+Overfull \hbox (11.78606pt too wide) in paragraph at lines 223--241
+ [] 
+ []
+
+[98
+
+ <./Smatrix/Figures/Cuboid.pdf> <./Smatrix/Figures/Cylinder.pdf> <./Smatrix/Fig
+ures/Sphere.pdf> <./Smatrix/Figures/Ellipsoid.pdf>] [99] [100] [101])
+[102
+
+
+
+
+]
+Chapter 7.
+(./Tmatrix/Tmatrix.tex [103] [104
+
+] [105] [106]
+<Tmatrix/Figures/ebcm.pdf, id=2377, 322.20375pt x 315.1775pt>
+File: Tmatrix/Figures/ebcm.pdf Graphic file (type pdf)
+<use Tmatrix/Figures/ebcm.pdf>
+Package pdftex.def Info: Tmatrix/Figures/ebcm.pdf  used on input line 148.
+(pdftex.def)             Requested size: 158.99377pt x 155.53001pt.
+ [107
+
+ <./Tmatrix/Figures/ebcm.pdf>]
+Overfull \hbox (0.21744pt too wide) in alignment at lines 210--210
+ [][][] []
+ []
+
+[108] [109] [110] [111]
+Package epstopdf Info: Source file: <Tmatrix/Figures/ebcmsphere.eps>
+(epstopdf)                    date: 2021-07-19 20:44:15
+(epstopdf)                    size: 279739 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/ebcmsphere-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2021-07-19 20:46:33
+(epstopdf)                    size: 451507 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/ebcmsphere
+-eps-converted-to.pdf Tmatrix/Figures/ebcmsphere.eps>
+(epstopdf)             \includegraphics on input line 378.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf, id=2530, 653.44125pt x 495.85
+25pt>
+File: Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf Graphic file (type pdf)
+<use Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf  used 
+on input line 378.
+(pdftex.def)             Requested size: 361.34999pt x 274.20267pt.
+Package epstopdf Info: Source file: <Tmatrix/Figures/ebcmTmm.eps>
+(epstopdf)                    date: 2021-07-19 21:03:59
+(epstopdf)                    size: 25728 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/ebcmTmm-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-07-19 21:04:02
+(epstopdf)                    size: 11111 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/ebcmTmm-ep
+s-converted-to.pdf Tmatrix/Figures/ebcmTmm.eps>
+(epstopdf)             \includegraphics on input line 379.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf, id=2531, 527.9725pt x 325.215pt>
+
+File: Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf Graphic file (type pdf)
+<use Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf  used on 
+input line 379.
+(pdftex.def)             Requested size: 209.58255pt x 129.09618pt.
+Package epstopdf Info: Source file: <Tmatrix/Figures/ebcmTnn.eps>
+(epstopdf)                    date: 2021-07-19 21:03:59
+(epstopdf)                    size: 24704 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/ebcmTnn-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-07-19 21:04:02
+(epstopdf)                    size: 11159 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/ebcmTnn-ep
+s-converted-to.pdf Tmatrix/Figures/ebcmTnn.eps>
+(epstopdf)             \includegraphics on input line 380.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf, id=2532, 527.9725pt x 325.215pt>
+
+File: Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf Graphic file (type pdf)
+<use Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf  used on 
+input line 380.
+(pdftex.def)             Requested size: 209.58255pt x 129.09618pt.
+ [112 <./Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf> <./Tmatrix/Figures/eb
+cmTmm-eps-converted-to.pdf> <./Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf>] [
+113
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+[115] [116
+
+] [117] [118] [119] [120]
+Package epstopdf Info: Source file: <Tmatrix/Figures/brcspecsphere.eps>
+(epstopdf)                    date: 2020-05-04 11:17:10
+(epstopdf)                    size: 47847 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/brcspecsphere-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-27 17:48:03
+(epstopdf)                    size: 17176 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/brcspecsph
+ere-eps-converted-to.pdf Tmatrix/Figures/brcspecsphere.eps>
+(epstopdf)             \includegraphics on input line 643.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf, id=2646, 539.01375pt x 361
+.35pt>
+File: Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf Graphic file (type pdf
+)
+<use Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf  us
+ed on input line 643.
+(pdftex.def)             Requested size: 252.94499pt x 169.57538pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121 <./Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Tmatrix/Figures/brcsdielectricsphere.eps>
+(epstopdf)                    date: 2020-05-04 10:51:24
+(epstopdf)                    size: 59008 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/brcsdielectricsphere-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2021-02-27 17:48:03
+(epstopdf)                    size: 21459 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/brcsdielec
+tricsphere-eps-converted-to.pdf Tmatrix/Figures/brcsdielectricsphere.eps>
+(epstopdf)             \includegraphics on input line 676.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf, id=2663, 502.87875p
+t x 341.275pt>
+File: Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.
+pdf  used on input line 676.
+(pdftex.def)             Requested size: 231.26378pt x 156.94153pt.
+Package epstopdf Info: Source file: <Tmatrix/Figures/brcsdielectricspheregrid.e
+ps>
+(epstopdf)                    date: 2020-05-04 11:05:58
+(epstopdf)                    size: 169130 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/brcsdielectricspheregrid-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-27 17:48:04
+(epstopdf)                    size: 239653 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/brcsdielec
+tricspheregrid-eps-converted-to.pdf Tmatrix/Figures/brcsdielectricspheregrid.ep
+s>
+(epstopdf)             \includegraphics on input line 677.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf, id=2664, 578.16
+pt x 499.8675pt>
+File: Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/brcsdielectricspheregrid-eps-converted
+-to.pdf  used on input line 677.
+(pdftex.def)             Requested size: 224.03743pt x 193.69664pt.
+ [122 <./Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf> <./Tmatrix/
+Figures/brcsdielectricspheregrid-eps-converted-to.pdf>] [123
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+Package epstopdf Info: Source file: <Tmatrix/Figures/scspecsphere.eps>
+(epstopdf)                    date: 2020-08-25 18:24:31
+(epstopdf)                    size: 46955 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/scspecsphere-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2021-02-27 17:48:04
+(epstopdf)                    size: 16549 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/scspecsphe
+re-eps-converted-to.pdf Tmatrix/Figures/scspecsphere.eps>
+(epstopdf)             \includegraphics on input line 783.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/scspecsphere-eps-converted-to.pdf, id=2714, 551.05875pt x 354.
+32375pt>
+File: Tmatrix/Figures/scspecsphere-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Tmatrix/Figures/scspecsphere-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/scspecsphere-eps-converted-to.pdf  use
+d on input line 783.
+(pdftex.def)             Requested size: 289.07999pt x 185.88217pt.
+
+[125 <./Tmatrix/Figures/scspecsphere-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Tmatrix/Figures/scsdielectricspheregrid.ep
+s>
+(epstopdf)                    date: 2020-08-25 19:27:21
+(epstopdf)                    size: 99989 bytes
+(epstopdf)             Output file: <Tmatrix/Figures/scsdielectricspheregrid-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2021-02-27 17:48:24
+(epstopdf)                    size: 74922 bytes
+(epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/scsdielect
+ricspheregrid-eps-converted-to.pdf Tmatrix/Figures/scsdielectricspheregrid.eps>
+
+(epstopdf)             \includegraphics on input line 804.
+Package epstopdf Info: Output file is already uptodate.
+<Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf, id=2739, 551.058
+75pt x 434.62375pt>
+File: Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf>
+Package pdftex.def Info: Tmatrix/Figures/scsdielectricspheregrid-eps-converted-
+to.pdf  used on input line 804.
+(pdftex.def)             Requested size: 252.94499pt x 199.49828pt.
+ [126 <./Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf>] [127
+
+]
+Overfull \hbox (3.81693pt too wide) in paragraph at lines 870--871
+\OT1/cmr/m/n/10 only terms that mat-ter are of the form $\OML/cmm/m/it/10 C[]\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 ) [][] \OML/cmm
+/m/it/10 ^^L \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 ) [][] \OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/
+10 .
+ []
+
+) [128
+
+]
+Chapter 8.
+(./FastMultipoleMethod/FastMultipoleMethod.tex (./FastMultipoleMethod/FMM.tex
+[129
+
+
+]
+<FastMultipoleMethod/Figures/fmmgreens.pdf, id=2790, 431.6125pt x 216.81pt>
+File: FastMultipoleMethod/Figures/fmmgreens.pdf Graphic file (type pdf)
+<use FastMultipoleMethod/Figures/fmmgreens.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/fmmgreens.pdf  used on inp
+ut line 48.
+(pdftex.def)             Requested size: 289.07999pt x 145.21562pt.
+ [130 <./FastMultipoleMethod/Figures/fmmgreens.pdf>] [131]
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/gaussquad.eps>
+
+(epstopdf)                    date: 2020-06-12 07:57:38
+(epstopdf)                    size: 28179 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/gaussquad-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2020-06-12 07:57:53
+(epstopdf)                    size: 17416 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/gaussquad-eps-converted-to.pdf FastMultipoleMethod/Figures/gaussquad.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf, id=2989, 587.19376
+pt x 448.67625pt>
+File: FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf Graphic file (
+type pdf)
+<use FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/gaussquad-eps-converted-to
+.pdf  used on input line 120.
+(pdftex.def)             Requested size: 289.07999pt x 220.88707pt.
+ [132 <./FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf>] [133]
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/quadsphere5.ep
+s>
+(epstopdf)                    date: 2020-06-18 14:17:48
+(epstopdf)                    size: 24290 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/quadsphere5-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2020-06-18 14:18:00
+(epstopdf)                    size: 13043 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/quadsphere5-eps-converted-to.pdf FastMultipoleMethod/Figures/quadsphere5.eps>
+
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf, id=3029, 506.893
+75pt x 302.12875pt>
+File: FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/quadsphere5-eps-converted-
+to.pdf  used on input line 193.
+(pdftex.def)             Requested size: 216.81pt x 129.22592pt.
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/quadsphere6.ep
+s>
+(epstopdf)                    date: 2020-06-18 14:17:44
+(epstopdf)                    size: 26011 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/quadsphere6-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2020-06-18 14:18:00
+(epstopdf)                    size: 14150 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/quadsphere6-eps-converted-to.pdf FastMultipoleMethod/Figures/quadsphere6.eps>
+
+(epstopdf)             \includegraphics on input line 194.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf, id=3030, 506.893
+75pt x 302.12875pt>
+File: FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/quadsphere6-eps-converted-
+to.pdf  used on input line 194.
+(pdftex.def)             Requested size: 216.81pt x 129.22592pt.
+ [134] [135 <./FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf> <.
+/FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf>]
+<FastMultipoleMethod/Figures/aggdiss.pdf, id=3081, 703.62875pt x 395.4775pt>
+File: FastMultipoleMethod/Figures/aggdiss.pdf Graphic file (type pdf)
+<use FastMultipoleMethod/Figures/aggdiss.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/aggdiss.pdf  used on input
+ line 266.
+(pdftex.def)             Requested size: 433.62pt x 243.71506pt.
+ [136 <./FastMultipoleMethod/Figures/aggdiss.pdf>]
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/TLtheta.eps>
+(epstopdf)                    date: 2020-07-12 08:36:16
+(epstopdf)                    size: 43026 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/TLtheta-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-07-12 08:36:19
+(epstopdf)                    size: 29345 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/TLtheta-eps-converted-to.pdf FastMultipoleMethod/Figures/TLtheta.eps>
+(epstopdf)             \includegraphics on input line 317.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf, id=3090, 587.19376pt
+ x 327.2225pt>
+File: FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/TLtheta-eps-converted-to.p
+df  used on input line 317.
+(pdftex.def)             Requested size: 252.94499pt x 140.95757pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138 <./FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf>]
+<FastMultipoleMethod/Figures/indexing.pdf, id=3122, 405.515pt x 320.19624pt>
+File: FastMultipoleMethod/Figures/indexing.pdf Graphic file (type pdf)
+<use FastMultipoleMethod/Figures/indexing.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/indexing.pdf  used on inpu
+t line 369.
+(pdftex.def)             Requested size: 216.81pt x 171.19824pt.
+ [139 <./FastMultipoleMethod/Figures/indexing.pdf>]
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/TLthetainterp.
+eps>
+(epstopdf)                    date: 2020-07-12 08:55:52
+(epstopdf)                    size: 36920 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/TLthetainterp-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-12 08:55:54
+(epstopdf)                    size: 16875 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/TLthetainterp-eps-converted-to.pdf FastMultipoleMethod/Figures/TLthetainterp.
+eps>
+(epstopdf)             \includegraphics on input line 380.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf, id=3264, 550.0
+55pt x 311.1625pt>
+File: FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/TLthetainterp-eps-converte
+d-to.pdf  used on input line 380.
+(pdftex.def)             Requested size: 289.07999pt x 163.53368pt.
+ [140 <./FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf>]
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [141]
+[142] [143] [144]
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt1.eps>
+(epstopdf)                    date: 2020-06-18 21:26:18
+(epstopdf)                    size: 35576 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/filt1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-06-18 21:26:26
+(epstopdf)                    size: 16603 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/filt1-eps-converted-to.pdf FastMultipoleMethod/Figures/filt1.eps>
+(epstopdf)             \includegraphics on input line 556.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf, id=3309, 488.82625pt x
+ 283.0575pt>
+File: FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf
+  used on input line 556.
+(pdftex.def)             Requested size: 216.81pt x 125.5477pt.
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt2.eps>
+(epstopdf)                    date: 2020-06-18 21:26:19
+(epstopdf)                    size: 31249 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/filt2-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-06-18 21:26:26
+(epstopdf)                    size: 21270 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/filt2-eps-converted-to.pdf FastMultipoleMethod/Figures/filt2.eps>
+(epstopdf)             \includegraphics on input line 558.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf, id=3310, 490.83376pt x
+ 283.0575pt>
+File: FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf
+  used on input line 558.
+(pdftex.def)             Requested size: 216.81pt x 125.02942pt.
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt3.eps>
+(epstopdf)                    date: 2020-06-18 21:26:23
+(epstopdf)                    size: 30539 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/filt3-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-06-18 21:26:27
+(epstopdf)                    size: 21016 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/filt3-eps-converted-to.pdf FastMultipoleMethod/Figures/filt3.eps>
+(epstopdf)             \includegraphics on input line 565.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf, id=3311, 488.82625pt x
+ 283.0575pt>
+File: FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf
+  used on input line 565.
+(pdftex.def)             Requested size: 216.81pt x 125.5477pt.
+Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt4.eps>
+(epstopdf)                    date: 2020-06-18 21:26:24
+(epstopdf)                    size: 35027 bytes
+(epstopdf)             Output file: <FastMultipoleMethod/Figures/filt4-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-06-18 21:26:28
+(epstopdf)                    size: 16201 bytes
+(epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
+s/filt4-eps-converted-to.pdf FastMultipoleMethod/Figures/filt4.eps>
+(epstopdf)             \includegraphics on input line 567.
+Package epstopdf Info: Output file is already uptodate.
+<FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf, id=3312, 488.82625pt x
+ 283.0575pt>
+File: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf>
+Package pdftex.def Info: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf
+  used on input line 567.
+(pdftex.def)             Requested size: 216.81pt x 125.5477pt.
+ [145
+
+ <./FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf> <./FastMultipoleMet
+hod/Figures/filt2-eps-converted-to.pdf> <./FastMultipoleMethod/Figures/filt3-ep
+s-converted-to.pdf> <./FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf>]
+ [146]pdfTeX warning (ext4): destination with the same identifier (name{equatio
+n.8.6.64}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.585 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.8.6.64}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.585 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.8.6.64}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.585 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.8.6.64}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.585 \begin{equation}
+                       [147
+
+] [148]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [149]
+[150] [151
+
+] [152] [153] [154] [155] [156] [157] [158] [159]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [160]
+[161] [162] [163]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [164]
+[165] [166
+
+] [167]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [168
+
+]
+[169]) (./FastMultipoleMethod/FMM1d.tex [170]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+[171
+
+] [172] [173] [174] [175]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [176]))
+[177] [178
+
+
+]
+Chapter 9.
+(./Kirchhoff/Kirchhoff.tex
+<Kirchhoff/Figures/kirchhoffgeometry.pdf, id=3641, 294.09875pt x 186.6975pt>
+File: Kirchhoff/Figures/kirchhoffgeometry.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/kirchhoffgeometry.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/kirchhoffgeometry.pdf  used on input
+ line 35.
+(pdftex.def)             Requested size: 180.67499pt x 114.69435pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[179] [180 <./Kirchhoff/Figures/kirchhoffgeometry.pdf>] [181]
+<Kirchhoff/Figures/surfacephaseint.pdf, id=3717, 214.8025pt x 211.79124pt>
+File: Kirchhoff/Figures/surfacephaseint.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/surfacephaseint.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/surfacephaseint.pdf  used on input l
+ine 146.
+(pdftex.def)             Requested size: 180.67499pt x 178.1458pt.
+ [182 <./Kirchhoff/Figures/surfacephaseint.pdf>] [183] [184] [185] [186
+
+] [187]
+<Kirchhoff/Figures/Specular.pdf, id=3833, 149.55875pt x 164.615pt>
+File: Kirchhoff/Figures/Specular.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/Specular.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/Specular.pdf  used on input line 425
+.
+(pdftex.def)             Requested size: 86.72377pt x 95.45667pt.
+
+Overfull \hbox (76.72375pt too wide) in paragraph at lines 425--425
+[][] 
+ []
+
+[188 <./Kirchhoff/Figures/Specular.pdf>] [189]
+<Kirchhoff/Figures/Backscatter.pdf, id=3918, 149.55875pt x 164.615pt>
+File: Kirchhoff/Figures/Backscatter.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/Backscatter.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/Backscatter.pdf  used on input line 
+661.
+(pdftex.def)             Requested size: 72.26999pt x 79.5468pt.
+
+Overfull \hbox (62.26997pt too wide) in paragraph at lines 661--661
+[][] 
+ []
+
+<Kirchhoff/Figures/Rectangle.pdf, id=3919, 150.5625pt x 164.615pt>
+File: Kirchhoff/Figures/Rectangle.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/Rectangle.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/Rectangle.pdf  used on input line 66
+2.
+(pdftex.def)             Requested size: 72.26999pt x 79.0168pt.
+
+Overfull \hbox (62.26997pt too wide) in paragraph at lines 662--662
+[][] 
+ []
+
+<Kirchhoff/Figures/Ellipse.pdf, id=3920, 149.55875pt x 163.61125pt>
+File: Kirchhoff/Figures/Ellipse.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/Ellipse.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/Ellipse.pdf  used on input line 663.
+
+(pdftex.def)             Requested size: 72.26999pt x 79.06175pt.
+
+Overfull \hbox (62.26997pt too wide) in paragraph at lines 663--663
+[][] 
+ []
+
+<Kirchhoff/Figures/Circle.pdf, id=3921, 149.55875pt x 164.615pt>
+File: Kirchhoff/Figures/Circle.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/Circle.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/Circle.pdf  used on input line 665.
+(pdftex.def)             Requested size: 72.26999pt x 79.5468pt.
+
+Overfull \hbox (62.26997pt too wide) in paragraph at lines 665--665
+[][] 
+ []
+
+<Kirchhoff/Figures/Triangle.pdf, id=3922, 152.57pt x 162.6075pt>
+File: Kirchhoff/Figures/Triangle.pdf Graphic file (type pdf)
+<use Kirchhoff/Figures/Triangle.pdf>
+Package pdftex.def Info: Kirchhoff/Figures/Triangle.pdf  used on input line 666
+.
+(pdftex.def)             Requested size: 72.26999pt x 77.02597pt.
+
+Overfull \hbox (62.26997pt too wide) in paragraph at lines 666--666
+[][] 
+ []
+
+) [190 <./Kirchhoff/Figures/Backscatter.pdf> <./Kirchhoff/Figures/Rectangle.pdf
+> <./Kirchhoff/Figures/Ellipse.pdf> <./Kirchhoff/Figures/Circle.pdf> <./Kirchho
+ff/Figures/Triangle.pdf>]
+Chapter 10.
+(./RandomObjects/RandomObjects.tex
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+ [191
+
+
+]
+Package epstopdf Info: Source file: <RandomObjects/Figures/gaussiansurf1.eps>
+(epstopdf)                    date: 2020-05-20 22:50:32
+(epstopdf)                    size: 69626 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/gaussiansurf1-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-05-20 22:50:34
+(epstopdf)                    size: 28702 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/gaus
+siansurf1-eps-converted-to.pdf RandomObjects/Figures/gaussiansurf1.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf, id=4129, 569.12625pt
+ x 284.06125pt>
+File: RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/gaussiansurf1-eps-converted-to.p
+df  used on input line 35.
+(pdftex.def)             Requested size: 289.07999pt x 144.29283pt.
+Package epstopdf Info: Source file: <RandomObjects/Figures/gaussiansurf2.eps>
+(epstopdf)                    date: 2020-05-20 22:50:32
+(epstopdf)                    size: 69653 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/gaussiansurf2-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-05-20 22:50:34
+(epstopdf)                    size: 28864 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/gaus
+siansurf2-eps-converted-to.pdf RandomObjects/Figures/gaussiansurf2.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf, id=4130, 569.12625pt
+ x 284.06125pt>
+File: RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/gaussiansurf2-eps-converted-to.p
+df  used on input line 36.
+(pdftex.def)             Requested size: 289.07999pt x 144.29283pt.
+
+[192 <./RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf> <./RandomObje
+cts/Figures/gaussiansurf2-eps-converted-to.pdf>] [193]
+Package epstopdf Info: Source file: <RandomObjects/Figures/rough2norm.eps>
+(epstopdf)                    date: 2020-05-19 09:53:26
+(epstopdf)                    size: 84173 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/rough2norm-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-05-19 09:55:57
+(epstopdf)                    size: 197866 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/roug
+h2norm-eps-converted-to.pdf RandomObjects/Figures/rough2norm.eps>
+(epstopdf)             \includegraphics on input line 133.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/rough2norm-eps-converted-to.pdf, id=4166, 386.44376pt x 
+375.4025pt>
+File: RandomObjects/Figures/rough2norm-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use RandomObjects/Figures/rough2norm-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/rough2norm-eps-converted-to.pdf 
+ used on input line 133.
+(pdftex.def)             Requested size: 180.67499pt x 175.51123pt.
+Package epstopdf Info: Source file: <RandomObjects/Figures/rough2exp.eps>
+(epstopdf)                    date: 2020-05-19 09:53:26
+(epstopdf)                    size: 93163 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/rough2exp-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2020-05-19 09:55:58
+(epstopdf)                    size: 313704 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/roug
+h2exp-eps-converted-to.pdf RandomObjects/Figures/rough2exp.eps>
+(epstopdf)             \includegraphics on input line 134.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/rough2exp-eps-converted-to.pdf, id=4167, 386.44376pt x 3
+75.4025pt>
+File: RandomObjects/Figures/rough2exp-eps-converted-to.pdf Graphic file (type p
+df)
+<use RandomObjects/Figures/rough2exp-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/rough2exp-eps-converted-to.pdf  
+used on input line 134.
+(pdftex.def)             Requested size: 180.67499pt x 175.51123pt.
+ [194 <./RandomObjects/Figures/rough2norm-eps-converted-to.pdf> <./RandomObject
+s/Figures/rough2exp-eps-converted-to.pdf>] [195]
+Package epstopdf Info: Source file: <RandomObjects/Figures/gauss3Dnorm.eps>
+(epstopdf)                    date: 2020-05-20 22:44:44
+(epstopdf)                    size: 320400 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/gauss3Dnorm-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-05-20 22:44:52
+(epstopdf)                    size: 257466 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/gaus
+s3Dnorm-eps-converted-to.pdf RandomObjects/Figures/gauss3Dnorm.eps>
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf, id=4203, 534.99875pt x
+ 416.55624pt>
+File: RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf
+  used on input line 171.
+(pdftex.def)             Requested size: 216.81pt x 168.81241pt.
+Package epstopdf Info: Source file: <RandomObjects/Figures/gauss3Dexp.eps>
+(epstopdf)                    date: 2020-05-20 22:44:45
+(epstopdf)                    size: 332185 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/gauss3Dexp-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-05-20 22:44:52
+(epstopdf)                    size: 283267 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/gaus
+s3Dexp-eps-converted-to.pdf RandomObjects/Figures/gauss3Dexp.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf, id=4204, 534.99875pt x 
+416.55624pt>
+File: RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf 
+ used on input line 173.
+(pdftex.def)             Requested size: 216.81pt x 168.81241pt.
+ [196
+
+ <./RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf> <./RandomObjects/Fi
+gures/gauss3Dexp-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [197
+
+]
+[198]
+Package epstopdf Info: Source file: <RandomObjects/Figures/fracsurf.eps>
+(epstopdf)                    date: 2021-05-20 08:22:00
+(epstopdf)                    size: 129236 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/fracsurf-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2021-05-20 08:22:06
+(epstopdf)                    size: 49496 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/frac
+surf-eps-converted-to.pdf RandomObjects/Figures/fracsurf.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/fracsurf-eps-converted-to.pdf, id=4240, 612.2875pt x 317
+.185pt>
+File: RandomObjects/Figures/fracsurf-eps-converted-to.pdf Graphic file (type pd
+f)
+<use RandomObjects/Figures/fracsurf-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/fracsurf-eps-converted-to.pdf  u
+sed on input line 210.
+(pdftex.def)             Requested size: 231.26378pt x 119.80072pt.
+Package epstopdf Info: Source file: <RandomObjects/Figures/fracdiffvrms.eps>
+(epstopdf)                    date: 2021-05-31 20:42:42
+(epstopdf)                    size: 234891 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/fracdiffvrms-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2021-05-31 20:42:49
+(epstopdf)                    size: 88579 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/frac
+diffvrms-eps-converted-to.pdf RandomObjects/Figures/fracdiffvrms.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf, id=4241, 607.26875pt 
+x 328.22626pt>
+File: RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/fracdiffvrms-eps-converted-to.pd
+f  used on input line 211.
+(pdftex.def)             Requested size: 231.26378pt x 124.9927pt.
+ [199
+
+ <./RandomObjects/Figures/fracsurf-eps-converted-to.pdf> <./RandomObjects/Figur
+es/fracdiffvrms-eps-converted-to.pdf>] [200] [201
+
+]
+Package epstopdf Info: Source file: <RandomObjects/Figures/bicont.eps>
+(epstopdf)                    date: 2021-07-06 19:46:32
+(epstopdf)                    size: 131338 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/bicont-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2021-07-06 19:46:38
+(epstopdf)                    size: 124604 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/bico
+nt-eps-converted-to.pdf RandomObjects/Figures/bicont.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/bicont-eps-converted-to.pdf, id=4313, 746.79pt x 599.238
+75pt>
+File: RandomObjects/Figures/bicont-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RandomObjects/Figures/bicont-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/bicont-eps-converted-to.pdf  use
+d on input line 300.
+(pdftex.def)             Requested size: 325.215pt x 260.95935pt.
+ [202 <./RandomObjects/Figures/bicont-eps-converted-to.pdf>] [203
+
+]
+Package epstopdf Info: Source file: <RandomObjects/Figures/pmspectrum.eps>
+(epstopdf)                    date: 2020-05-21 14:43:16
+(epstopdf)                    size: 49788 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/pmspectrum-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-05-21 14:43:53
+(epstopdf)                    size: 20432 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/pmsp
+ectrum-eps-converted-to.pdf RandomObjects/Figures/pmspectrum.eps>
+(epstopdf)             \includegraphics on input line 329.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/pmspectrum-eps-converted-to.pdf, id=4334, 551.05875pt x 
+389.455pt>
+File: RandomObjects/Figures/pmspectrum-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use RandomObjects/Figures/pmspectrum-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/pmspectrum-eps-converted-to.pdf 
+ used on input line 329.
+(pdftex.def)             Requested size: 289.07999pt x 204.31242pt.
+ [204 <./RandomObjects/Figures/pmspectrum-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <RandomObjects/Figures/oceanPSD.eps>
+(epstopdf)                    date: 2020-05-21 14:52:37
+(epstopdf)                    size: 28800 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/oceanPSD-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-05-21 14:53:16
+(epstopdf)                    size: 19944 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/ocea
+nPSD-eps-converted-to.pdf RandomObjects/Figures/oceanPSD.eps>
+(epstopdf)             \includegraphics on input line 380.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/oceanPSD-eps-converted-to.pdf, id=4361, 426.59375pt x 40
+4.51125pt>
+File: RandomObjects/Figures/oceanPSD-eps-converted-to.pdf Graphic file (type pd
+f)
+<use RandomObjects/Figures/oceanPSD-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/oceanPSD-eps-converted-to.pdf  u
+sed on input line 380.
+(pdftex.def)             Requested size: 180.67499pt x 171.32555pt.
+ [205 <./RandomObjects/Figures/oceanPSD-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <RandomObjects/Figures/oceansurfaceheight.e
+ps>
+(epstopdf)                    date: 2021-06-01 09:40:25
+(epstopdf)                    size: 228747 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/oceansurfaceheight-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2021-06-01 09:40:30
+(epstopdf)                    size: 415738 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/ocea
+nsurfaceheight-eps-converted-to.pdf RandomObjects/Figures/oceansurfaceheight.ep
+s>
+(epstopdf)             \includegraphics on input line 411.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf, id=4391, 499.86
+75pt x 483.8075pt>
+File: RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/oceansurfaceheight-eps-converted
+-to.pdf  used on input line 411.
+(pdftex.def)             Requested size: 216.81pt x 209.84183pt.
+ [206 <./RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf>] [207]
+Package epstopdf Info: Source file: <RandomObjects/Figures/GaussianParticles/cs
+gamma.eps>
+(epstopdf)                    date: 2020-05-25 20:53:36
+(epstopdf)                    size: 94451 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/GaussianParticles/cs
+gamma-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-25 20:53:38
+(epstopdf)                    size: 33820 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/Gaus
+sianParticles/csgamma-eps-converted-to.pdf RandomObjects/Figures/GaussianPartic
+les/csgamma.eps>
+(epstopdf)             \includegraphics on input line 476.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf, id=4423,
+ 564.1075pt x 378.41376pt>
+File: RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/csgamma-eps-co
+nverted-to.pdf  used on input line 476.
+(pdftex.def)             Requested size: 252.94499pt x 169.67833pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[208]
+<RandomObjects/Figures/GaussianParticles/part7.jpg, id=4446, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part7.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part7.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part7.jpg  use
+d on input line 522.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part8.jpg, id=4447, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part8.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part8.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part8.jpg  use
+d on input line 523.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part9.jpg, id=4448, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part9.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part9.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part9.jpg  use
+d on input line 524.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part4.jpg, id=4449, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part4.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part4.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part4.jpg  use
+d on input line 526.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part5.jpg, id=4450, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part5.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part5.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part5.jpg  use
+d on input line 527.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part6.jpg, id=4451, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part6.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part6.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part6.jpg  use
+d on input line 528.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part1.jpg, id=4452, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part1.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part1.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part1.jpg  use
+d on input line 530.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part2.jpg, id=4453, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part2.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part2.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part2.jpg  use
+d on input line 531.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+<RandomObjects/Figures/GaussianParticles/part3.jpg, id=4454, 637.38126pt x 692.
+5875pt>
+File: RandomObjects/Figures/GaussianParticles/part3.jpg Graphic file (type jpg)
+
+<use RandomObjects/Figures/GaussianParticles/part3.jpg>
+Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part3.jpg  use
+d on input line 532.
+(pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
+
+Overfull \hbox (4.21396pt too wide) in paragraph at lines 521--539
+ [][] 
+ []
+
+[209 <./RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf>]
+[210 <./RandomObjects/Figures/GaussianParticles/part7.jpg> <./RandomObjects/Fig
+ures/GaussianParticles/part8.jpg> <./RandomObjects/Figures/GaussianParticles/pa
+rt9.jpg> <./RandomObjects/Figures/GaussianParticles/part4.jpg> <./RandomObjects
+/Figures/GaussianParticles/part5.jpg> <./RandomObjects/Figures/GaussianParticle
+s/part6.jpg> <./RandomObjects/Figures/GaussianParticles/part1.jpg> <./RandomObj
+ects/Figures/GaussianParticles/part2.jpg> <./RandomObjects/Figures/GaussianPart
+icles/part3.jpg>] [211
+
+]
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [212]
+[213] [214
+
+]
+Package epstopdf Info: Source file: <RandomObjects/Figures/ionoPSD1.eps>
+(epstopdf)                    date: 2021-06-30 06:35:03
+(epstopdf)                    size: 128434 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/ionoPSD1-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2021-06-30 06:35:10
+(epstopdf)                    size: 41583 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/iono
+PSD1-eps-converted-to.pdf RandomObjects/Figures/ionoPSD1.eps>
+(epstopdf)             \includegraphics on input line 652.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf, id=4555, 638.385pt x 371.
+3875pt>
+File: RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf Graphic file (type pd
+f)
+<use RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf  u
+sed on input line 652.
+(pdftex.def)             Requested size: 216.81pt x 126.1284pt.
+Package epstopdf Info: Source file: <RandomObjects/Figures/ionoPSD2.eps>
+(epstopdf)                    date: 2021-06-30 06:35:03
+(epstopdf)                    size: 127385 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/ionoPSD2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2021-06-30 06:35:11
+(epstopdf)                    size: 40781 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/iono
+PSD2-eps-converted-to.pdf RandomObjects/Figures/ionoPSD2.eps>
+(epstopdf)             \includegraphics on input line 653.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf, id=4556, 638.385pt x 371.
+3875pt>
+File: RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf Graphic file (type pd
+f)
+<use RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf  u
+sed on input line 653.
+(pdftex.def)             Requested size: 216.81pt x 126.1284pt.
+Package epstopdf Info: Source file: <RandomObjects/Figures/ionoProfile.eps>
+(epstopdf)                    date: 2021-06-30 06:35:04
+(epstopdf)                    size: 112965 bytes
+(epstopdf)             Output file: <RandomObjects/Figures/ionoProfile-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2021-06-30 06:35:11
+(epstopdf)                    size: 43703 bytes
+(epstopdf)             Command: <repstopdf --outfile=RandomObjects/Figures/iono
+Profile-eps-converted-to.pdf RandomObjects/Figures/ionoProfile.eps>
+(epstopdf)             \includegraphics on input line 659.
+Package epstopdf Info: Output file is already uptodate.
+<RandomObjects/Figures/ionoProfile-eps-converted-to.pdf, id=4557, 658.46pt x 37
+6.40625pt>
+File: RandomObjects/Figures/ionoProfile-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use RandomObjects/Figures/ionoProfile-eps-converted-to.pdf>
+Package pdftex.def Info: RandomObjects/Figures/ionoProfile-eps-converted-to.pdf
+  used on input line 659.
+(pdftex.def)             Requested size: 289.07999pt x 165.25166pt.
+ [215 <./RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf> <./RandomObjects/
+Figures/ionoPSD2-eps-converted-to.pdf> <./RandomObjects/Figures/ionoProfile-eps
+-converted-to.pdf>]) [216]
+Chapter 11.
+(./ReflectionRefraction/ReflectionRefraction.tex [217
+
+
+]
+<ReflectionRefraction/Figures/reflectionPlane.pdf, id=4606, 436.63126pt x 279.0
+425pt>
+File: ReflectionRefraction/Figures/reflectionPlane.pdf Graphic file (type pdf)
+<use ReflectionRefraction/Figures/reflectionPlane.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/reflectionPlane.pdf  used
+ on input line 41.
+(pdftex.def)             Requested size: 216.81pt x 138.55862pt.
+Package epstopdf Info: Source file: <ReflectionRefraction/Figures/reflectionray
+splane.eps>
+(epstopdf)                    date: 2020-05-11 19:16:29
+(epstopdf)                    size: 90892 bytes
+(epstopdf)             Output file: <ReflectionRefraction/Figures/reflectionray
+splane-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-11 19:16:33
+(epstopdf)                    size: 209903 bytes
+(epstopdf)             Command: <repstopdf --outfile=ReflectionRefraction/Figur
+es/reflectionraysplane-eps-converted-to.pdf ReflectionRefraction/Figures/reflec
+tionraysplane.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf, id=4607
+, 618.31pt x 501.875pt>
+File: ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf Gra
+phic file (type pdf)
+<use ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/reflectionraysplane-eps-c
+onverted-to.pdf  used on input line 56.
+(pdftex.def)             Requested size: 289.07999pt x 234.64835pt.
+ [218 <./ReflectionRefraction/Figures/reflectionPlane.pdf> <./ReflectionRefract
+ion/Figures/reflectionraysplane-eps-converted-to.pdf>] [219]
+Package epstopdf Info: Source file: <ReflectionRefraction/Figures/reflectonrays
+phere.eps>
+(epstopdf)                    date: 2020-05-13 19:01:19
+(epstopdf)                    size: 132094 bytes
+(epstopdf)             Output file: <ReflectionRefraction/Figures/reflectonrays
+phere-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 19:01:22
+(epstopdf)                    size: 296929 bytes
+(epstopdf)             Command: <repstopdf --outfile=ReflectionRefraction/Figur
+es/reflectonraysphere-eps-converted-to.pdf ReflectionRefraction/Figures/reflect
+onraysphere.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+<ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf, id=4662,
+ 623.32875pt x 484.81125pt>
+File: ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/reflectonraysphere-eps-co
+nverted-to.pdf  used on input line 91.
+(pdftex.def)             Requested size: 325.215pt x 252.94662pt.
+ [220 <./ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf>]
+ [221]
+<ReflectionRefraction/Figures/refractionPlane.pdf, id=4693, 399.4925pt x 281.05
+pt>
+File: ReflectionRefraction/Figures/refractionPlane.pdf Graphic file (type pdf)
+<use ReflectionRefraction/Figures/refractionPlane.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractionPlane.pdf  used
+ on input line 131.
+(pdftex.def)             Requested size: 216.81pt x 152.52808pt.
+
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [222 <./ReflectionRefraction/Figures/refractionPlane.pdf>]
+Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionray
+splane.eps>
+(epstopdf)                    date: 2020-05-11 12:51:53
+(epstopdf)                    size: 22839 bytes
+(epstopdf)             Output file: <ReflectionRefraction/Figures/refractionray
+splane-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-11 12:51:57
+(epstopdf)                    size: 9229 bytes
+(epstopdf)             Command: <repstopdf --outfile=ReflectionRefraction/Figur
+es/refractionraysplane-eps-converted-to.pdf ReflectionRefraction/Figures/refrac
+tionraysplane.eps>
+(epstopdf)             \includegraphics on input line 180.
+Package epstopdf Info: Output file is already uptodate.
+<ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf, id=4735
+, 594.22pt x 478.78876pt>
+File: ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf Gra
+phic file (type pdf)
+<use ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractionraysplane-eps-c
+onverted-to.pdf  used on input line 180.
+(pdftex.def)             Requested size: 252.94499pt x 203.80763pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[223pdfTeX warning (ext4): destination with the same identifier (name{equation.
+11.4.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.186 
+      pdfTeX warning (ext4): destination with the same identifier (name{equatio
+n.11.4.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.186 
+      ] [224 <./ReflectionRefraction/Figures/refractionraysplane-eps-converted-
+to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [225]
+[226]
+<ReflectionRefraction/Figures/refractionCircle.pdf, id=4772, 249.93375pt x 294.
+09875pt>
+File: ReflectionRefraction/Figures/refractionCircle.pdf Graphic file (type pdf)
+
+<use ReflectionRefraction/Figures/refractionCircle.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractionCircle.pdf  use
+d on input line 220.
+(pdftex.def)             Requested size: 180.67499pt x 212.60806pt.
+ [227 <./ReflectionRefraction/Figures/refractionCircle.pdf>]
+Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionray
+scircle.eps>
+(epstopdf)                    date: 2020-05-14 14:41:34
+(epstopdf)                    size: 54849 bytes
+(epstopdf)             Output file: <ReflectionRefraction/Figures/refractionray
+scircle-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-14 14:41:45
+(epstopdf)                    size: 20356 bytes
+(epstopdf)             Command: <repstopdf --outfile=ReflectionRefraction/Figur
+es/refractionrayscircle-eps-converted-to.pdf ReflectionRefraction/Figures/refra
+ctionrayscircle.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
+<ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf, id=482
+6, 522.95375pt x 487.8225pt>
+File: ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf Gr
+aphic file (type pdf)
+<use ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractionrayscircle-eps-
+converted-to.pdf  used on input line 281.
+(pdftex.def)             Requested size: 252.94499pt x 235.95348pt.
+ [228 <./ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [229]
+Underfull \vbox (badness 3503) has occurred while \output is active []
+
+ [230]
+Overfull \hbox (33.07385pt too wide) in paragraph at lines 370--371
+\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 ^^R[]$ \OT1/cmr/m/n/10 is the an-gle fr
+om the per-pen-dic-u-lar at the re-frac-tion point to the in-te-rior point, and
+ $[](\OML/cmm/m/it/10 ^^R[]\OT1/cmr/m/n/10 )$
+ []
+
+<ReflectionRefraction/Figures/refractioncirclethetap.pdf, id=4852, 172.645pt x 
+253.94875pt>
+File: ReflectionRefraction/Figures/refractioncirclethetap.pdf Graphic file (typ
+e pdf)
+<use ReflectionRefraction/Figures/refractioncirclethetap.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractioncirclethetap.pd
+f  used on input line 376.
+(pdftex.def)             Requested size: 144.54pt x 212.61024pt.
+Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionray
+scircleiterative.eps>
+(epstopdf)                    date: 2020-05-14 14:32:10
+(epstopdf)                    size: 28613 bytes
+(epstopdf)             Output file: <ReflectionRefraction/Figures/refractionray
+scircleiterative-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-14 14:32:13
+(epstopdf)                    size: 11181 bytes
+(epstopdf)             Command: <repstopdf --outfile=ReflectionRefraction/Figur
+es/refractionrayscircleiterative-eps-converted-to.pdf ReflectionRefraction/Figu
+res/refractionrayscircleiterative.eps>
+(epstopdf)             \includegraphics on input line 377.
+Package epstopdf Info: Output file is already uptodate.
+<ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-to.pd
+f, id=4853, 403.5075pt x 487.8225pt>
+File: ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-
+to.pdf Graphic file (type pdf)
+<use ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-t
+o.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractionrayscircleitera
+tive-eps-converted-to.pdf  used on input line 377.
+(pdftex.def)             Requested size: 216.81pt x 262.1176pt.
+[231 <./ReflectionRefraction/Figures/refractioncirclethetap.pdf> <./ReflectionR
+efraction/Figures/refractionrayscircleiterative-eps-converted-to.pdf>] [232
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.11.5
+.56}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.431 ...onRefraction/refractionCircleIterative.m}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.11.5.57}) has been already used, 
+duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.431 ...onRefraction/refractionCircleIterative.m}
+                                                  ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [233]
+Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionsph
+eredirect.eps>
+(epstopdf)                    date: 2021-06-17 17:59:27
+(epstopdf)                    size: 135581 bytes
+(epstopdf)             Output file: <ReflectionRefraction/Figures/refractionsph
+eredirect-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-06-17 18:00:18
+(epstopdf)                    size: 280783 bytes
+(epstopdf)             Command: <repstopdf --outfile=ReflectionRefraction/Figur
+es/refractionspheredirect-eps-converted-to.pdf ReflectionRefraction/Figures/ref
+ractionspheredirect.eps>
+(epstopdf)             \includegraphics on input line 454.
+Package epstopdf Info: Output file is already uptodate.
+<ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf, id=4
+921, 554.07pt x 563.10374pt>
+File: ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf>
+Package pdftex.def Info: ReflectionRefraction/Figures/refractionspheredirect-ep
+s-converted-to.pdf  used on input line 454.
+(pdftex.def)             Requested size: 289.07999pt x 293.79515pt.
+
+[234] [235 <./ReflectionRefraction/Figures/refractionspheredirect-eps-converted
+-to.pdf>]) [236]
+Chapter 12.
+(./Utilities/Utilities.tex (./Utilities/CoordinateTransforms.tex [237
+
+
+]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 67.
+ [238
+
+]
+[239
+
+] [240]) [241] (./Utilities/BesselFunctions.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 95.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 95.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 95.
+
+[242
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 116.
+
+[243]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 132.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 132.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 132.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
+
+[244
+
+]) [245] (./Utilities/LegendrePolynomials.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+[246
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+[247
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathaccent' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathaccent' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+[248
+
+] [249]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathaccent' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+[250
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathaccent' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 190.
+
+[251]) [252] (./Utilities/Miscellaneous.tex [253
+
+] [254
+
+] [255] [256]
+Package epstopdf Info: Source file: <Utilities/Figures/discoball.eps>
+(epstopdf)                    date: 2020-04-26 13:59:36
+(epstopdf)                    size: 125727 bytes
+(epstopdf)             Output file: <Utilities/Figures/discoball-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-04-26 13:59:41
+(epstopdf)                    size: 282472 bytes
+(epstopdf)             Command: <repstopdf --outfile=Utilities/Figures/discobal
+l-eps-converted-to.pdf Utilities/Figures/discoball.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
+<Utilities/Figures/discoball-eps-converted-to.pdf, id=5090, 568.1225pt x 447.67
+25pt>
+File: Utilities/Figures/discoball-eps-converted-to.pdf Graphic file (type pdf)
+<use Utilities/Figures/discoball-eps-converted-to.pdf>
+Package pdftex.def Info: Utilities/Figures/discoball-eps-converted-to.pdf  used
+ on input line 149.
+(pdftex.def)             Requested size: 252.94499pt x 199.3195pt.
+ [257
+
+ <./Utilities/Figures/discoball-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Utilities/Figures/uniformrand.eps>
+(epstopdf)                    date: 2020-04-26 14:01:49
+(epstopdf)                    size: 202296 bytes
+(epstopdf)             Output file: <Utilities/Figures/uniformrand-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-04-26 14:02:36
+(epstopdf)                    size: 338397 bytes
+(epstopdf)             Command: <repstopdf --outfile=Utilities/Figures/uniformr
+and-eps-converted-to.pdf Utilities/Figures/uniformrand.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+<Utilities/Figures/uniformrand-eps-converted-to.pdf, id=5104, 568.1225pt x 447.
+6725pt>
+File: Utilities/Figures/uniformrand-eps-converted-to.pdf Graphic file (type pdf
+)
+<use Utilities/Figures/uniformrand-eps-converted-to.pdf>
+Package pdftex.def Info: Utilities/Figures/uniformrand-eps-converted-to.pdf  us
+ed on input line 174.
+(pdftex.def)             Requested size: 252.94499pt x 199.3195pt.
+)) (./Waveport.bbl [258
+
+ <./Utilities/Figures/uniformrand-eps-converted-to.pdf>] [259
+
+
+] [260] [261] [262]
+Underfull \hbox (badness 10000) in paragraph at lines 378--381
+[]\OT1/cmr/m/n/10 ``Line-sphere in-ter-sec-tion.'' [][]$\OT1/cmtt/m/n/10 https 
+: / / en . wikipedia . org / wiki / Line \ OT1 \ textendashsphere _
+ []
+
+)
+<Cover/backcover.pdf, id=5145, 614.295pt x 794.97pt>
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf>
+Package pdftex.def Info: Cover/backcover.pdf  used on input line 118.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf>
+Package pdftex.def Info: Cover/backcover.pdf  used on input line 118.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<Cover/backcover.pdf, id=5148, page=1, 614.295pt x 794.97pt>
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [263]
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [264 <./Cover/backcover.pdf>]
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf>
+Package pdftex.def Info: Cover/backcover.pdf  used on input line 119.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf>
+Package pdftex.def Info: Cover/backcover.pdf  used on input line 119.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [265]
+<Cover/backcover.pdf, id=5171, page=2, 614.295pt x 794.97pt>
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 2>
+Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 2>
+Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 2>
+Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [266 <./Cover/backcover.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+
+(./Waveport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package rerunfilecheck Info: File `Waveport.out' has not changed.
+(rerunfilecheck)             Checksum: B546873416E42945747F996FCB7D26E5;15081.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+ ) 
+Here is how much of TeX's memory you used:
+ 23929 strings out of 492616
+ 422845 string characters out of 6129482
+ 595731 words of memory out of 5000000
+ 25892 multiletter control sequences out of 15000+600000
+ 547799 words of font info for 82 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 45i,18n,71p,1490b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Waveport.pdf (268 pages, 10941071 bytes).
+PDF statistics:
+ 5562 PDF objects out of 6186 (max. 8388607)
+ 4573 compressed objects within 46 object streams
+ 1388 named destinations out of 1440 (max. 500000)
+ 2010 words of extra memory for PDF output out of 10000 (max. 10000000)
+

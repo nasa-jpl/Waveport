@@ -1,0 +1,217 @@
+
+\section{Legendre Polynomials}
+
+The routines in this section compute Legendre polynomials,  normalized associated Legendre polynomials and their derivatives in formats useful to scattering. Associated Legendre polynomials are computed at both positive and negative $m$ and automatically include the Condon-Shortley phase.  
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+\subsection{Legendre Polynomials, $P_l(x)$}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+
+The Legendre polynomials satisfy the equation
+\begin{equation}
+\dfrac{d}{dx} \left[ (1-x^2)\dfrac{d}{dx}P_l(x)\right] + l(l+1)P_l(x) = 0
+\end{equation}
+
+for $-1 \le x \le 1$, with the following recurrence relation
+\begin{equation}
+(l+1)P_{l+1}(x) = (2l+1)xP_l(x) - lP_{l-1}(x) \label{plrec}
+\end{equation}
+
+The routine \texttt{legendrePl} returns $P_l(x)$ on a 2D array with degrees $0$ to $L$ along rows and evaluation points along columns.  
+
+
+{\footnotesize
+\VerbatimInput{\code/LegendrePolynomials/legendrePl.m}
+}
+
+\clearpage
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+\subsection{Legendre Polynomial Derivative, $d/dx P_l(x)$}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+The derivative of the Legendre polynomials satisfies either of the following recurrence relations
+\begin{equation}
+\dfrac{x^2-1}{l}\dfrac{d}{dx}P_l(x) = xP_l(x) - P_{l-1}(x)
+\end{equation}
+
+\begin{equation}
+(2l+1)P_l(x) = \dfrac{d}{dx}(P_{l+1}(x) - P_{l-1}(x))
+\end{equation}
+
+The first has a divide by zero when $x$ is 1 or -1.  Rearranging the second equation we get following recurrence 
+\begin{equation}
+\dfrac{d}{dx}P_{l+1}(x) = (2l+1)P_l(x) + \dfrac{d}{dx} P_{l-1}(x)
+\end{equation}
+
+\noindent which is safe on $x=[-1, 1]$.  Initial conditions are the special cases $P'_0(x) = 0$ and $P'_1(x) = 1$, and the derivative has the feature that $P'_l(1) = l(l+1)/2$.  The routine \texttt{legendrePlp} is like \texttt{legendrePl}: it returns $d/dx P_l(x)$ on a 2D array with degrees $0$ to $L$ along rows and evaluation points along columns.  
+
+{\footnotesize
+\VerbatimInput{\code/LegendrePolynomials/legendrePlp.m}
+}
+
+\clearpage
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+\subsection{Normalized Associated Legendre Polynomials, $\widetilde{P}_l^m(x)$}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+
+The associated Legendre polynomials, $P_l^m(x)$, are given by
+\begin{equation}
+P_l^m(x) = \dfrac{(-1)^m}{2^l l!} (1-x^2)^{m/2} \dfrac{d^{l+m}}{dx^{l+m}} (x^2 - 1)^l \label{plm}
+\end{equation}
+
+\noindent for integers $l$ and $m$ such that $l \ge 0$ and $-l \le m \le l$.  The Condon-Shortley phase is included in the definition of the associated Legendre polynomials. The following identity relates positive and negative $m$
+\begin{equation}
+P_l^{-m}(x) = (-1)^m \dfrac{(l-m)!}{(l+m)!} P_l^m(x)\
+\label{eq2}
+\end{equation}
+
+The normalized associated Legendre polynomials $\widetilde P_l^m(x)$ are recommended for scattering computations because they avoid direct computation of factorials. These are given by
+\begin{equation}
+\widetilde P_l^m(x) = \sqrt{\dfrac{(l + \frac{1}{2})(l-m)!}{(l+m)!}} P_l^m(x) \label{plmnorm}
+\end{equation}
+
+\noindent where
+\begin{equation}
+\widetilde P_l^{-m}(x) = (-1)^m \widetilde{P}_l^m(x)
+\end{equation}
+
+The routine \texttt{Plm} returns the normalized associated Legendre polynomials for $l=0,...,L$, all $\pm m$, linearly indexed (see Chapter \ref{chap:wavefunctions} on linear indexing). The result is returned with harmonics indexed along rows, and evaluation points along columns. It calls Matlab's \texttt{legendre} with the \texttt{'norm'} option, which returns $m = 0,...,l$ and an extra factor of $(-1)^m$. \texttt{Plm} takes out the extra $(-1)^m$ from Matlab's normalization so that the one factor of $(-1)^m$ in \eqref{plm} remains. %Use the switch \texttt{'scalar'} to include the $(l,m) = (0,0)$ term. The total number of harmonics is $N = L^2 + 2L$ or $N = L^2 + 2L + 1$ for scalar.
+
+{\footnotesize
+\VerbatimInput{\code/LegendrePolynomials/Plm.m}
+}
+
+
+
+%
+%\subsection{Normalized Associated Legendre Polynomials Derivative, $d/dx\widetilde{P}_l^m(x)$}
+%
+%The derivative of the associated Legendre polynomials has several recurrence relations that are given in terms of the non-differentiated functions, but they all have the problem of divide by zero at $\pm1$. A mixed recurrence on $l$ can be derived starting with the unnormalized recurrence
+%\eq{(l-m+1)P_{l+1}^m(x) = (2l+1)xP_l^m(x) - (l+m)P_{l-1}^m(x)}
+%
+%and differentiating, which gives
+%\eq{(l-m+1)\dfrac{d}{dx}P_{l+1}^m(x) =  (2l+1)\left( P_l^m(x) +  x\dfrac{d}{dx}P_l^m(x)\right)- (l+m)\dfrac{d}{dx}P_{l-1}^m(x) \label{dpplus}}
+%
+%Substituting the expression for the normalized Legendre polynomials into \eqref{dpplus} and simplifying
+%%
+%%\eq{\sqrt{\dfrac{(l+m)!}{(l + \frac{1}{2})(l-m)!}} \widetilde P_l^m(x) =  P_l^m(x)}
+%%
+%%\ea{(l-m+1)\sqrt{\dfrac{(l+1+m)!}{(l +1+ \frac{1}{2})(l+1-m)!}} \dfrac{d}{dx}\widetilde P_{l+1}^m(x) &=&  (2l+1)\sqrt{\dfrac{(l+m)!}{(l + \frac{1}{2})(l-m)!}} \left( \widetilde P_l^m(x)   +  x\dfrac{d}{dx}\widetilde P_l^m(x)\right)\\
+%%\ &\ & - (l+m)\sqrt{\dfrac{(l-1+m)!}{(l -1 + \frac{1}{2})(l-1-m)!}} \dfrac{d}{dx}\widetilde P_{l-1}^m(x)  \label{dpplus} }
+%%
+%%\ea{(l-m+1)\sqrt{\dfrac{(l+1+m)(l+m)}{(l +1+ \frac{1}{2})(l+1-m)(l-m)}} \dfrac{d}{dx}\widetilde P_{l+1}^m(x) &=&  (2l+1)\sqrt{\dfrac{(l+m)}{(l + \frac{1}{2})(l-m)}} \left( \widetilde P_l^m(x)   +  x\dfrac{d}{dx}\widetilde P_l^m(x)\right)\\
+%%\ &\ & - (l+m)\sqrt{\dfrac{1}{(l -1 + \frac{1}{2})}} \dfrac{d}{dx}\widetilde P_{l-1}^m(x)  \label{dpplus} }
+%
+%\ea{  \dfrac{d}{dx}\widetilde P_{l+1}^m(x) &=&   a_{l,m} \left( \widetilde P_l^m(x)   +  x\dfrac{d}{dx}\widetilde P_l^m(x)\right) -  b_{l,m} \dfrac{d}{dx}\widetilde P_{l-1}^m(x)  }
+%%
+%%\ea{a_{l,m} &=& \dfrac{1}{(l-m+1)}\sqrt{\dfrac{(l +1+ \frac{1}{2})(l+1-m)(l-m)}{(l+1+m)(l+m)}}  (2l+1)\sqrt{\dfrac{(l+m)}{(l + \frac{1}{2})(l-m)}} \\
+%%b_{l,m} &=&  \dfrac{1}{(l-m+1)}\sqrt{\dfrac{(l +1+ \frac{1}{2})(l+1-m)(l-m)}{(l+1+m)(l+m)}}(l+m)\sqrt{\dfrac{1}{(l -1 + \frac{1}{2})}}}
+%
+%\ea{a_{l,m} &=&  2 \sqrt{\dfrac{(l + \frac{3}{2})(l + \frac{1}{2}) }{(l-m+1)(l+m+1) }}   \\
+%b_{l,m} &=&   \sqrt{\dfrac{(l +\frac{3}{2}) (l-m)(l+m)}{(l - \frac{1}{2})(l-m+1)(l+m+1) }} }
+%
+%This is initialized along the $m = l$ diagonal with 
+%\eq{ \dfrac{d}{dx} \widetilde P_{0}^0(x) = 0}
+%\eq{  \dfrac{d}{dx} \widetilde P_{l+1}^l(x) = \sqrt{\dfrac{(2l+1)(l + \frac{3}{2})}{(l + \frac{1}{2})}} \left(\widetilde P_l^l(x) + x \dfrac{d}{dx} \widetilde P_{l}^l(x) \right)}
+%
+%which comes from differentiating $P_{l+1}^l (x) = x(2l+1)P_l^l(x)$ and normalizating. 
+%
+%%\eq{\sqrt{\dfrac{(l+m)!}{(l + \frac{1}{2})(l-m)!}} \widetilde P_l^m(x) =  P_l^m(x)}
+%
+%
+%%\eq{ \sqrt{\dfrac{(l+1+m)!}{(l + 1 + \frac{1}{2})(l+1-m)!}} \widetilde P_{l+1}^m(x) = x(2l+1) \sqrt{\dfrac{(l+m)!}{(l + \frac{1}{2})(l-m)!}} \widetilde P_l^m(x) }
+%%
+%%\eq{ \sqrt{\dfrac{(l+1+l)!}{(l + 1 + \frac{1}{2})}} \widetilde P_{l+1}^l(x) = x(2l+1) \sqrt{\dfrac{(l+l)!}{(l + \frac{1}{2})}} \widetilde P_l^l(x) }
+%%
+%%\eq{ \sqrt{\dfrac{(2l+1)}{(l + 1 + \frac{1}{2})}} \widetilde P_{l+1}^l(x) = x(2l+1) \sqrt{\dfrac{1}{(l + \frac{1}{2})}} \widetilde P_l^l(x) }
+%
+%%\eq{  \widetilde P_{l+1}^l(x) = c_{l,m} x  \widetilde P_l^l(x) }
+%
+%
+%This recurrence requires both degrees less than or equal to $l$.  This is given by the routine \texttt{Plmp}, and has the same structure as \texttt{Plm}.   
+%
+%{\footnotesize
+%\VerbatimInput{\code/LegendrePolynomials/Plmp.m}
+%}
+%
+%
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+\subsection{Normalized Associated Legendre Polynomials Derivative, $d/dx\widetilde{P}_l^m(x)$}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+
+The derivative of the normalized associated Legendre polynomials is found by substituting \eqref{plmnorm} into the following non-normalized recurrence relation for the associated Legendre polynomial derivative:
+\eq{(x^2-1) \dfrac{d}{dx} P_l^m(x) = lx P_l^m(x) - (l+m)P_{l-1}^m(x)}
+
+which gives
+\begin{equation}
+\dfrac{d}{dx}\widetilde P_l^m(x) = \dfrac{1}{x^2-1}\left( lx \widetilde P_l^m(x) - \sqrt{\dfrac{(l+1/2)}{(l-1/2)}}\sqrt{(l+m)(l-m)} \widetilde P_{l-1}^m(x)\right)
+\end{equation}
+
+This recurrence only requires $\widetilde P_l^m(x)$ to be computed at degrees less than or equal to $l$.  This is computed by the routine \texttt{Plmp}, and has the same structure as \texttt{Plm}, which returns $l=0,...,L$, all $\pm m$, linearly indexed (see Chapter \ref{chap:wavefunctions}). This version is not suitable at the end points $x = [-1, 1]$. In fact, the difficultly of computing the derivative of the associated Legendre polynomials at the end-points is well-known, and other routines can be found elsewhere. However, we use this routine in scattering problems when the poles do not need to be sampled, for example, when using Gauss-Legendre quadrature as the basis for spherical harmonic transforms (see Chapter \ref{chap:fmm}). 
+
+{\footnotesize
+\VerbatimInput{\code/LegendrePolynomials/Plmp.m}
+}
+
+\clearpage
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+\subsection{Normalized Associated Legendre Polynomials, $m\widetilde{P}_l^m(\cos\theta)/\sin\theta $}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+
+The variant $m\widetilde{P}_l^m(\cos\theta)/\sin\theta $ is needed for vector wave functions. Numerically, direct division by $\sin\theta$ is a problem at the poles, however, analytically, dividing by $\sin\theta$ is harmless because $P_l^m(\cos\theta) \sim \sin^m\theta$.  With the right recurrence relation, it can be computed directly.  Start with the following unnormalized recurrence relation
+\begin{equation}
+\dfrac{m}{\sin\theta}P_l^m(\cos\theta) = -\dfrac{1}{2}\left(P_{l-1}^{m+1}(\cos\theta) + (l+m-1)(l+m)P_{l-1}^{m-1}(\cos\theta) \right) 
+\end{equation}
+
+Then substituting \eqref{plmnorm} and canceling like factorials
+\begin{eqnarray}
+\dfrac{m}{\sin\theta}\widetilde P_l^m(\cos\theta)& =& \dfrac{1}{2}\sqrt{\dfrac{l-\frac{1}{2}}{l+\frac{1}{2}}}\left(\sqrt{(l-m)(l-m-1)}\widetilde P_{l-1}^{m+1}(\cos\theta)\right. \nonumber \\
+\ & \ & +\left. \sqrt{(l+m)(l+m-1)}\widetilde P_{l-1}^{m-1}(\cos\theta) \right) 
+\end{eqnarray}
+
+This is computed by the routine \texttt{mPlmsin}, and has similar structure to \texttt{Plm}.  It returns degrees $l = 1,..,L$, all $m$, linearly indexed along rows with evaluation points along columns.  We exclude the monopole because this variant is only used for vector wave functions. It uses the initial condition
+\begin{equation}
+\dfrac{(1)}{\sin\theta}\widetilde P_1^1(\cos\theta) = \sqrt{\dfrac{3}{4}}
+\end{equation}
+
+Technically this initial condition should have a negative sign. However, we iterate on the output of the Matlab's \texttt{legendre}, which has an extra negative sign. Therefore, we adjust the negative signs at the end of the routine so that the outputs will match a direct computation of the quantity $m\widetilde{P}_l^m(\cos\theta)/\sin\theta $ when using \texttt{Plm}. 
+
+{\footnotesize
+\VerbatimInput{\code/LegendrePolynomials/mPlmsin.m}
+}
+
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+\subsection{Normalized Associated Legendre Polynomials Derivative, $d/d\theta\widetilde{P}_l^m(\cos\theta)$}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+
+The variant $d/d\theta\widetilde{P}_l^m(\cos\theta)$ is the derivative of the normalized associated Legendre polynomials with respect to $\theta$ when the argument is $\cos\theta$.  Start with the recurrence relation for unnormalized Legendre polynomials 
+\begin{eqnarray}
+\dfrac{d}{d\theta}P_l^m(\cos\theta) &= &-\sin\theta \dfrac{d}{d\cos\theta}P_l^m(\cos\theta)  \\
+\ &=& -\dfrac{1}{2}\left((l+m)(l-m+1)P_l^{m-1}(\cos\theta) -P_l^{m+1}(\cos\theta)\right) 
+\end{eqnarray}
+
+Substituting the expression for the normalized Legendre polynomials and canceling like factorials 
+\eq{
+\dfrac{d}{d\theta}\widetilde P_l^m(\cos\theta) = \dfrac{1}{2}\left(\sqrt{(l+m)(l-m+1)}\widetilde P_l^{m-1}(\cos\theta) - \sqrt{(l-m)(l+m+1)}\widetilde P_l^{m+1}(\cos\theta)\right)  
+}
+%
+%\begin{eqnarray}
+%\dfrac{d}{d\theta}\widetilde P_l^m(\cos\theta) &=& \dfrac{1}{2}\left(\sqrt{(l+m)(l-m+1)}\widetilde P_l^{m-1}(\cos\theta)\right. \nonumber \\
+%\ & \ & -\left. \sqrt{(l-m)(l+m+1)}\widetilde P_l^{m+1}(\cos\theta)\right)  
+%\end{eqnarray}
+
+This recurrence only requires degrees equal to $l$.  This is given by the routine \texttt{Plmp2}, and has similar structure to \texttt{Plm}.  It returns degrees $l = 1,..,L$, all $m$, linearly indexed in rows and evaluation points along columns.  We exclude the monopole because this variant is used for vector wave functions, and because the derivative for $(l,m) = (0,0)$ is zero.  It uses the initial condition 
+\begin{equation}
+\dfrac{d}{d\theta}\widetilde{P}_l^0(\cos\theta) = -\sqrt{l(l+1)}\widetilde{P}_l^1(\cos\theta) 
+\end{equation}
+
+{\footnotesize
+\VerbatimInput{\code/LegendrePolynomials/Plmp2.m}
+}
