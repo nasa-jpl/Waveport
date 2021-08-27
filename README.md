@@ -24,10 +24,10 @@ The topics of the library follow closely the textbooks of Chew, Tsang, Kong, and
 - Coordinate transforms and special functions
 
 ## Document
-The main document is Tex/Waveport.pdf. This is written in the style of Numerical Recipes. Equations, derivations, explanations and code are combined inline in the text. All the Latex source files are in Tex/.
+The main document is Waveport.pdf. It is written in the style of Numerical Recipes. Equations, derivations, explanations and code are combined inline in the text. All the Latex source files are in Tex/.
 
 ## Code 
-The Matlab routines are in directory Code/. Most routines are building blocks for analysis rather than complete heavy-hitting numerical codes. Example scripts for running the routines are included in the repository under each topic directory.
+Matlab routines are in directory Code/. Most routines are building blocks for analysis rather than complete heavy-hitting numerical codes. Example scripts for running the routines are included in the repository under each topic directory.
 
 ## License
 The code is released under the Apache 2.0 Open Source license. It is free to run and modify for non-commercial use.
