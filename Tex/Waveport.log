@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  25 AUG 2021 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 AUG 2021 09:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3592,7 +3592,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Waveport.pdf (268 pages, 10941071 bytes).
+Output written on Waveport.pdf (268 pages, 10941061 bytes).
 PDF statistics:
  5562 PDF objects out of 6186 (max. 8388607)
  4573 compressed objects within 46 object streams
