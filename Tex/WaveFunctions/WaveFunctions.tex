@@ -1,6 +1,6 @@
 
 
-This chapter gives routines and tools for computing and using scalar and vector wave functions in free-space spherical coordinates. The wave functions represent the frequency-domain multipoles of the field, which together give the multipole expansion of a field. While the wave functions themselves are not always used, the coefficients of the expansions are quite useful. The expansion coefficients can be quickly manipulated by rotation and translation addition theorems to transform the fields in different reference frames (see Chapters \ref{chap:rotation} and \ref{chap:translation}). This chapter provides codes for spherical wave functions, and serves as a quick reference for certain properties and derivations. 
+This chapter gives routines and tools for computing and using scalar and vector wave functions in free-space spherical coordinates. The wave functions represent the frequency-domain multipoles of the field, which together give the multipole expansion of a field. While the wave functions themselves are not always used, the coefficients of the expansions are quite useful. The expansion coefficients can be quickly manipulated by rotation and translation addition theorems to transform the fields in different reference frames (see Chapters \ref{chap:rotation} and \ref{chap:translation}). This chapter provides codes for spherical wave functions and serves as a quick reference for certain properties and derivations. 
 
 \section{Indexing}
 
@@ -370,7 +370,7 @@ The helper function \texttt{BCmult} takes the outputs from \texttt{BC} and expan
 
 \section{Vector Spherical Wave Functions}
 \label{sec:vecsphwave}
-The vector spherical wave functions are solutions to the free-space vector wave equation in spherical coordinates for electric or magnetic fields, \cite{chew1995waves, tsang2000scattering}.  Analogous to the scalar wave functions, they are products of spherical Bessel functions and the vector spherical harmonics, and come in regular and radiating forms. 
+The vector spherical wave functions are solutions to the free-space vector wave equation in spherical coordinates for electric and magnetic fields, \cite{chew1995waves, tsang2000scattering}.  Analogous to scalar wave functions, they are composed of products of spherical Bessel functions and vector spherical harmonics and come in regular and radiating forms. 
 \begin{eqnarray}
 \textit{Rg}\M{k,\br} &=& \dfrac{1}{\sqrt{l(l+1)}}\nabla \times \left[ \bb{r} \textit{Rg}\psi_{lm}(k,\br)\right]  \\
 \ &= & j_l(kr) \bb{C}_{lm}(\theta,\phi) \\ 

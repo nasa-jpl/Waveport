@@ -1,12 +1,12 @@
 
 \section{Coordinate Transformations}
 
-Table \ref{tablecoord} contains coordinates transformations between Cartesian, cylindrical, and spherical coordinates and vector fields, \cite{ulaby1999fundamentals}. The routines in Table \ref{tablecoord} overload the built-in Matlab functions of the same names in order to use $\theta$, $\phi$ orderings and definitions consistent with most scattering textbooks (physics convention, rather than mathematics convention which is what Matlab uses).  The same routines transform between either coordinate points or vector fields. For example, transforming Cartesians points $(x,y,z)$ to spherical coordinates $(r,\theta,\phi)$ is done as
+Table \ref{tablecoord} contains coordinate transformations between Cartesian, cylindrical, and spherical coordinates and vector fields, \cite{ulaby1999fundamentals}. The routines in Table \ref{tablecoord} overload the built-in Matlab functions of the same names in order to use $\theta$, $\phi$ orderings and definitions consistent with most scattering textbooks (physics convention, rather than mathematics convention which is what Matlab uses).  The same routines transform between either coordinate points or vector fields. For example, transforming Cartesians points $(x,y,z)$ to spherical coordinates $(r,\theta,\phi)$ is done as
 \begin{verbatim}
 [r, th, phi] = cart2sph(x,y,z)
 \end{verbatim}
 
-The vector transforms always needs the coordinates of the input vector field. For example, transforming a Cartesian vector field $(A_x,A_y,A_z)$ located at points $(x,y,z)$ to spherical vector components $(A_r,A_{\theta},A_{\phi})$ is done as
+Vector transformations always need the coordinates of the input vector field. For example, transforming a Cartesian vector field $(A_x,A_y,A_z)$ located at points $(x,y,z)$ to spherical vector components $(A_r,A_{\theta},A_{\phi})$ is done as
 \begin{verbatim}
 [Ar, Ath, Aphi] = cart2sph(x,y,z,Ax,Ay,Az)
 \end{verbatim}

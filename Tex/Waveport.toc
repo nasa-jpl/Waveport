@@ -142,7 +142,7 @@
 \contentsline {subsection}{\numberline {8.3.1}Gauss-Legendre quadrature}{132}{subsection.8.3.1}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.3.2}Numerical Integration of Spherical Harmonics}{132}{subsection.8.3.2}% 
+\contentsline {subsection}{\numberline {8.3.2}Numerical Integration of Spherical Harmonics}{133}{subsection.8.3.2}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
 \contentsline {subsection}{\numberline {8.3.3}Numerical Integration of Products of Spherical Harmonics}{134}{subsection.8.3.3}% 

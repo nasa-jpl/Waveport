@@ -233,7 +233,7 @@ l'^2, & l' = 1 \lor ( l+1>l' \land l' > 1) \\
 \right\}
 \end{equation}  
 
-$N(l-1,L')$ counts the submatrix containing all diagonal subblocks up to but not including the desired $l$ row of diagonal blocks. The second term counts completed column blocks in the current row block up to but not including the desired $l'$. The last term counts the desired diagonal. This counting requires knowledge of $L'$.
+$N(l-1,L')$ counts the submatrix containing all diagonal subblocks up to but not including the desired $l$ row of diagonal blocks. The second term counts completed column blocks in the current row block up that go up to but do not include the desired $l'$. The last term counts the desired diagonal. This counting requires knowledge of $L'$.
 
 Finally, the linear index of an element in the triangular fill region under the conditions that $L \ge L'$, $l > L$, and $0 \le l' \le L'-1$ is
 \begin{eqnarray}
@@ -243,7 +243,7 @@ I_{\textrm{fill}}(l,l',m,L,L') &=& N(L,L') + \sum_{i= L+1}^{l-1} \left(\sum_{j=0
 \ & \ & \left. +L(6Lp+7)+6(Lp+1)^2)\right) + l'^2 + (l' + m + 1) 
 \end{eqnarray}
 
-The first term counts the number of elements in the actual matrix.  The second term counts the completed row blocks up to but not including the current row block in the fill triangle.  The third term counts the column blocks in the current row block up to but not including the active diagonal (made simpler by that fact that $l' < l$ in the fill region).  The last term indexes the active diagonal.  
+The first term counts the number of elements in the actual matrix.  The second term counts the completed row blocks up to but not including the current row block in the fill triangle.  The third term counts the column blocks in the current row block to go up to but do not include the active diagonal (this is made simpler by the fact that $l' < l$ in the fill region).  The last term indexes the active diagonal.  
 
 
 
@@ -437,7 +437,7 @@ The routine \texttt{AzBzSparse} returns four column arrays of the row index, col
 \subsection{Diagonalized Vector Translation Matrix}
 
 
-The routine \texttt{vectorTranslation} takes as input a vector of expansion coefficients in frame $i$, $\bb{a}$ and $\bb{b}$, the maximum degrees $L$ and $L'$ of the translation matrix and the translation vector $\br_{ji}$ in Cartesian coordinates, and returns expansion coefficients in frame $j$, $\bb{c}$ and $\bb{d}$. The lengths of $\bb{a}$ and $\bb{b}$ should be $L'^2 + 2L' $.  Use \texttt{'rg'} for the regular form and \texttt{'norm'} for fully normalized vector wave functions. This uses the routines for the sparse versions of the rotation matrix and axial translation matrices to save memory.  If the pair of matrices is desired, then include the optional third and fourth outputs. 
+The routine \texttt{vectorTranslation} takes as input a vector of expansion coefficients in frame $i$, $\bb{a}$ and $\bb{b}$, the maximum degrees $L$ and $L'$ of the translation matrix and the translation vector $\br_{ji}$ in Cartesian coordinates and returns expansion coefficients in frame $j$, $\bb{c}$ and $\bb{d}$. The lengths of $\bb{a}$ and $\bb{b}$ should be $L'^2 + 2L' $.  Use \texttt{'rg'} for the regular form and \texttt{'norm'} for fully normalized vector wave functions. This uses the routines for the sparse versions of the rotation matrix and axial translation matrices to save memory.  If the pair of matrices is desired, then include the optional third and fourth outputs. 
 
 
 {\scriptsize
@@ -487,7 +487,7 @@ c_{7,\nu\mu} &=& \dfrac{i\mu kr\cos\theta }{\nu(\nu+1)} \\
 c_{8,\nu\mu} &=& \dfrac{i kr\sin\theta e^{i\phi} }{2\nu(\nu+1)} \sqrt{(\nu-\mu)(\nu+\mu+1)} \\
 c_{9,\nu\mu} &=& \dfrac{i kr\sin\theta e^{-i\phi} }{2\nu(\nu+1)} \sqrt{(\nu+\mu)(\nu-\mu+1)}  } 
 
-\noindent where $(r,\theta,\phi)$ are the spherical coordinates of the vector, $\br_{ji}$, that points from the originating frame to the translated frame.
+\noindent where $(r,\theta,\phi)$ are the spherical coordinates of the vector $\br_{ji}$ that points from the originating frame to the translated frame.
 
 
 The routine \texttt{AB} takes as input the maximum harmonic degrees $L$ and $L'$, wavenumber $k$, and translation vector, $r_{ji}$, and returns full vector translation matrices $A$ and $B$. It calls \texttt{alpha} to compute the full scalar translation matrix. Use string switch \texttt{'rg'} for the regular form of the matrices, and \texttt{'norm'} for fully normalized vector wave functions. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 AUG 2021 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 SEP 2021 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1957,7 +1957,9 @@ type pdf)
 Package pdftex.def Info: FastMultipoleMethod/Figures/gaussquad-eps-converted-to
 .pdf  used on input line 120.
 (pdftex.def)             Requested size: 289.07999pt x 220.88707pt.
- [132 <./FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf>] [133]
+ [132 <./FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf>] [133
+
+]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/quadsphere5.ep
 s>
 (epstopdf)                    date: 2020-06-18 14:17:48
@@ -1969,7 +1971,7 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/quadsphere5-eps-converted-to.pdf FastMultipoleMethod/Figures/quadsphere5.eps>
 
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf, id=3029, 506.893
 75pt x 302.12875pt>
@@ -1977,7 +1979,7 @@ File: FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf Graphic file
  (type pdf)
 <use FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/quadsphere5-eps-converted-
-to.pdf  used on input line 193.
+to.pdf  used on input line 194.
 (pdftex.def)             Requested size: 216.81pt x 129.22592pt.
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/quadsphere6.ep
 s>
@@ -1990,7 +1992,7 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/quadsphere6-eps-converted-to.pdf FastMultipoleMethod/Figures/quadsphere6.eps>
 
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf, id=3030, 506.893
 75pt x 302.12875pt>
@@ -1998,7 +2000,7 @@ File: FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf Graphic file
  (type pdf)
 <use FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/quadsphere6-eps-converted-
-to.pdf  used on input line 194.
+to.pdf  used on input line 195.
 (pdftex.def)             Requested size: 216.81pt x 129.22592pt.
  [134] [135 <./FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf> <.
 /FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf>]
@@ -2006,7 +2008,7 @@ to.pdf  used on input line 194.
 File: FastMultipoleMethod/Figures/aggdiss.pdf Graphic file (type pdf)
 <use FastMultipoleMethod/Figures/aggdiss.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/aggdiss.pdf  used on input
- line 266.
+ line 267.
 (pdftex.def)             Requested size: 433.62pt x 243.71506pt.
  [136 <./FastMultipoleMethod/Figures/aggdiss.pdf>]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/TLtheta.eps>
@@ -2018,7 +2020,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 29345 bytes
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/TLtheta-eps-converted-to.pdf FastMultipoleMethod/Figures/TLtheta.eps>
-(epstopdf)             \includegraphics on input line 317.
+(epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf, id=3090, 587.19376pt
  x 327.2225pt>
@@ -2026,7 +2028,7 @@ File: FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/TLtheta-eps-converted-to.p
-df  used on input line 317.
+df  used on input line 318.
 (pdftex.def)             Requested size: 252.94499pt x 140.95757pt.
 
 
@@ -2040,7 +2042,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: FastMultipoleMethod/Figures/indexing.pdf Graphic file (type pdf)
 <use FastMultipoleMethod/Figures/indexing.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/indexing.pdf  used on inpu
-t line 369.
+t line 370.
 (pdftex.def)             Requested size: 216.81pt x 171.19824pt.
  [139 <./FastMultipoleMethod/Figures/indexing.pdf>]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/TLthetainterp.
@@ -2054,7 +2056,7 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/TLthetainterp-eps-converted-to.pdf FastMultipoleMethod/Figures/TLthetainterp.
 eps>
-(epstopdf)             \includegraphics on input line 380.
+(epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf, id=3264, 550.0
 55pt x 311.1625pt>
@@ -2062,7 +2064,7 @@ File: FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/TLthetainterp-eps-converte
-d-to.pdf  used on input line 380.
+d-to.pdf  used on input line 381.
 (pdftex.def)             Requested size: 289.07999pt x 163.53368pt.
  [140 <./FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf>]
 Underfull \vbox (badness 3375) has occurred while \output is active []
@@ -2078,7 +2080,7 @@ erted-to.pdf>
 (epstopdf)                    size: 16603 bytes
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/filt1-eps-converted-to.pdf FastMultipoleMethod/Figures/filt1.eps>
-(epstopdf)             \includegraphics on input line 556.
+(epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf, id=3309, 488.82625pt x
  283.0575pt>
@@ -2086,7 +2088,7 @@ File: FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf
-  used on input line 556.
+  used on input line 557.
 (pdftex.def)             Requested size: 216.81pt x 125.5477pt.
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt2.eps>
 (epstopdf)                    date: 2020-06-18 21:26:19
@@ -2097,7 +2099,7 @@ erted-to.pdf>
 (epstopdf)                    size: 21270 bytes
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/filt2-eps-converted-to.pdf FastMultipoleMethod/Figures/filt2.eps>
-(epstopdf)             \includegraphics on input line 558.
+(epstopdf)             \includegraphics on input line 559.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf, id=3310, 490.83376pt x
  283.0575pt>
@@ -2105,7 +2107,7 @@ File: FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf Graphic file (type
  pdf)
 <use FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf
-  used on input line 558.
+  used on input line 559.
 (pdftex.def)             Requested size: 216.81pt x 125.02942pt.
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt3.eps>
 (epstopdf)                    date: 2020-06-18 21:26:23
@@ -2116,7 +2118,7 @@ erted-to.pdf>
 (epstopdf)                    size: 21016 bytes
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/filt3-eps-converted-to.pdf FastMultipoleMethod/Figures/filt3.eps>
-(epstopdf)             \includegraphics on input line 565.
+(epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf, id=3311, 488.82625pt x
  283.0575pt>
@@ -2124,7 +2126,7 @@ File: FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf Graphic file (type
  pdf)
 <use FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf
-  used on input line 565.
+  used on input line 566.
 (pdftex.def)             Requested size: 216.81pt x 125.5477pt.
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt4.eps>
 (epstopdf)                    date: 2020-06-18 21:26:24
@@ -2135,7 +2137,7 @@ erted-to.pdf>
 (epstopdf)                    size: 16201 bytes
 (epstopdf)             Command: <repstopdf --outfile=FastMultipoleMethod/Figure
 s/filt4-eps-converted-to.pdf FastMultipoleMethod/Figures/filt4.eps>
-(epstopdf)             \includegraphics on input line 567.
+(epstopdf)             \includegraphics on input line 568.
 Package epstopdf Info: Output file is already uptodate.
 <FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf, id=3312, 488.82625pt x
  283.0575pt>
@@ -2143,7 +2145,7 @@ File: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf Graphic file (type
  pdf)
 <use FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf
-  used on input line 567.
+  used on input line 568.
 (pdftex.def)             Requested size: 216.81pt x 125.5477pt.
  [145
 
@@ -2154,22 +2156,22 @@ s-converted-to.pdf> <./FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf>]
 n.8.6.64}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.585 \begin{equation}
+l.586 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.8.6.64}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.585 \begin{equation}
+l.586 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.8.6.64}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.585 \begin{equation}
+l.586 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.8.6.64}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.585 \begin{equation}
+l.586 \begin{equation}
                        [147
 
 ] [148]
@@ -3592,7 +3594,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Waveport.pdf (268 pages, 10941061 bytes).
+Output written on Waveport.pdf (268 pages, 10941018 bytes).
 PDF statistics:
  5562 PDF objects out of 6186 (max. 8388607)
  4573 compressed objects within 46 object streams

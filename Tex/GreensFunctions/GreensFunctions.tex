@@ -129,7 +129,7 @@ A useful property is
 
 \clearpage
 \newpage
-The routine \texttt{dyadicGreens} takes as input the wavenumber $k$, and components of the difference vector $\br - \br'$ in Cartesian coordinates and returns the six unique matrix entries of the dyadic Green's function.  The routine \texttt{curlDyadicGreens} takes the same inputs and returns the six matrix entries of the curl of the dyadic Green's function.  These are straight computations, no provisions are made for the singularity.  
+The routine \texttt{dyadicGreens} takes as input the wavenumber $k$, and components of the difference vector $\br - \br'$ in Cartesian coordinates and returns the six unique matrix entries of the dyadic Green's function.  The routine \texttt{curlDyadicGreens} takes the same inputs and returns the six matrix entries of the curl of the dyadic Green's function. These are straight computations. No provisions are made for the singularity.  
 
 {\footnotesize
 \VerbatimInput{\code/GreensFunctions/dyadicGreens.m}
@@ -264,7 +264,7 @@ This has dimensions of the length squared, which cancels the dimensions of the o
 
 \noindent where $a$ is the radius of the area-equivalent disk, $k_b$ is the background wavenumber and $\Delta S$ has dimensions of length squared. Similar to \eqref{voxelint}, \eqref{voxelsurfint} is equal to the area of the voxel when $k_b a \rightarrow 0$.
 
-The routine \texttt{volintGreens} returns the volume-integrated Green's function and discrete volume element for the cases above. It takes as input the radius of the circular or spherical voxel, $a$, the background wavenumber, $k_b$, and a string switch with three options: \texttt{'2D'} for scalar 2D, \texttt{'3D'} for scalar 3D, or \texttt{'dyadic'} for the 3D dyadic version. Typically, $a$ and $k_b$ are constant in a given VIE discretization, but the routine is vectorized to enable study over a range of values.
+The routine \texttt{volintGreens} returns the volume-integrated Green's function and discrete volume element for the cases above. It takes as input the radius of the circular or spherical voxel, $a$, the background wavenumber, $k_b$, and a string switch with three options: \texttt{'2D'} for scalar 2D, \texttt{'3D'} for scalar 3D, or \texttt{'dyadic'} for the 3D dyadic version. Often $a$ and $k_b$ are constant in a given VIE discretization, but the routine is vectorized to take arrays of values.
 
 {\footnotesize
 \VerbatimInput{\code/GreensFunctions/volintGreens.m}
@@ -276,7 +276,7 @@ The routine \texttt{volintGreens} returns the volume-integrated Green's function
 
 \section{Method of Moments}
 
-The VIEs provide a framework for solving for the total field solution inside an inhomogeneous distribution of material and then using the total field solution to predict the scattered field at points away from the object. In their continuous forms, the VIEs are nonlinear functions of the total field. The Method of Moments (MoM, or Moment Method) is a procedure to discretize the VIEs in order to cast the scattering problem as a system of linear equations, to which linear algebra algorithms can be applied. In general, for an accurate solution, an object must be discretized better than $\lambda/10$ for the wavelength in the highest dielectric constant in the object. 
+The VIEs provide a framework for solving for the total field solution inside an inhomogeneous distribution of material and then using the total field solution to predict the scattered field at points away from the object. In their continuous forms, the VIEs are nonlinear functions of the total field. The Method of Moments (MoM, or Moment Method) is a procedure to discretize the VIEs in order to cast the scattering problem as a system of linear equations to which linear algebra algorithms can be applied. In general, for an accurate solution an object must be discretized better than $\lambda/10$ for the wavelength in the highest dielectric constant in the object. 
 
 \subsection{Pulse Basis Function}
 The simplest discretization of the VIE are pulse basis functions. The object and field are sampled with non-overlapping cubic voxels, where it is assumed the the object and field are constant in each voxel. The object function is approximated as 
@@ -392,7 +392,7 @@ G_{uv}(\bb{r}_m=\bb{r}_n), \qquad m = n, u = v \quad (0, u \ne v)  \end{cases}}
 {\bb{G}_{zx}}{\bb{G}_{zy}}{\bb{G}_{zz}} 
 \thbth{\bb{O}}{}{}{}{\bb{O}}{}{}{}{\bb{O}}  \right) \thrcol{\bb{E}_x}{\bb{E}_y}{\bb{E}_z} = \thrcol{\bb{E}_{inc,x}}{\bb{E}_{inc,y}}{\bb{E}_{inc,z}} \label{mommatrixtot}}
 
-\noindent where $\bb{I}$ is the identity matrix, $\bb{G}_{uv}$ is the Green's function matrix block for a given polarization pair, $\bb{E}_{inc,v}$ and $\bb{E}_{v}$ are vectors of the incident field and total field solution, respectively, $\bb{O}$ is the diagonal matrix of the object function which is applied to each component. The self term (diagonals) of $\bb{G}_{xx}, \bb{G}_{yy}, \bb{G}_{zz}$, take the value, \eqref{singintvec}, while the self terms of the other blocks are zero. Recall, $\bb{G}_{uv} = \bb{G}_{vu}$, and each block matrix is square symmetric. The size of each block matrix and field vector is the same size as the scalar case. The fields components lead to 3 times as many unknowns as compared to the scalar cases, and polarization mixing makes the MoM matrix 9 times larger than the 3D scalar case. 
+\noindent where $\bb{I}$ is the identity matrix, $\bb{G}_{uv}$ is the Green's function matrix block for a given polarization pair, $\bb{E}_{inc,v}$ and $\bb{E}_{v}$ are vectors of the incident field and total field solution, respectively, $\bb{O}$ is the diagonal matrix of the object function which is applied to each component. The self term (diagonals) of $\bb{G}_{xx}, \bb{G}_{yy}, \bb{G}_{zz}$, take the value, \eqref{singintvec}, while the self terms of the other blocks are zero. Recall, $\bb{G}_{uv} = \bb{G}_{vu}$, and each block matrix is square symmetric. The size of each block matrix and field vector is the same size as the scalar case. The field components lead to 3 times as many unknowns as compared to the scalar cases, and polarization mixing makes the MoM matrix 9 times larger than the 3D scalar case. 
 
 
 \paragraph{Induced Current}
@@ -435,7 +435,7 @@ Then \eqref{mommatrixtot} can be written
 
 \section{Scattered Field VIE}
 
-Once the total field solution is found, the scattered field away from the object is computed again with the VIE. Here, the unprimed position vector of the Green's function is evaluated at an observation point outside of the object domain. In this case, the Green's function is often referred to as the receiver Green's function. This can be a point of confusion when comparing it to the Green's function as used in the MoM solution, where the unprimed position vector is evaluated throughout the object domain, including at singular points. In the end, the receiver Green's function is the same as the one used in the MoM solution, except that the unprimed position vector is simply evaluated outside of the object at a point that is also usually associated with a sensor.
+Once the total field solution is found, the scattered field away from the object is computed again with the VIE. Here, the unprimed position vector of the Green's function is evaluated at an observation point outside of the object domain. In this case, the Green's function is often referred to as the receiver Green's function. This can be a point of confusion when comparing it to the Green's function as used in the MoM solution, where the unprimed position vector is evaluated throughout the object domain including at singular points. In the end, the receiver Green's function is the same as the one used in the MoM solution, except that the unprimed position vector is simply evaluated outside of the object at a point that is also usually associated with a sensor.
 
 From reciprocity, it turns out that the receiver Green's function is equivalent to the incident field generated by a point source at the observation location. This is practically and conceptually useful. It links the incident field needed when solving for the total field solution to the scattered field VIE needed to compute the measurements from sources or receivers at the same location. This idea is generalized to the case of real antennas fed by waveguides using the waveport vector Green's function described in \cite{haynes2012vector}. The overarching idea here is that only the incident field of a source or an antenna needs to be known in order to compute both the total field solution and the received voltage measurements in a consistent way. 
 
@@ -477,7 +477,7 @@ The incident field from the point source takes the place of the receiver Green's
 
 \paragraph{Vector case}
 
-Let a current source be an infinitesimal dipole at location $\br_j$ with strength $I$ and polarization $\hat{\bb{p}}$
+Let the current source be an infinitesimal dipole at $\br_j$ with strength $I$ and polarization $\hat{\bb{p}}$
 \eq{\bb{J}(\br) = I \hat{\bb{p}} \delta(\br - \br_j)}
 
 Substituting this into \eqref{evolintj}
@@ -507,10 +507,11 @@ When measuring fields with real antennas, we never measure the three electric fi
 \label{sparamviefig}
 \end{figure}
 
-Let two antennas in frames $i$ and $j$ be used to probe an object with a VNA that measures the entire system as a 2-port device, as shown in Figure \ref{sparamviefig}. The complex excitation amplitudes on each transmission line are $a_o^i$ and $a_o^j$, while the received amplitudes are $b_o^i$ and $b_o^j$. The VNA is calibrated to the reference planes on the transmission lines. Assume that the spatial distribution of the antenna incident field is referenced to a fixed coordinate origin of the antenna, and the excitation (amplitude and phase) is referenced to the calibration planes on the transmission line. The waveport vector Green's function, which replaces the dyadic receiver Green's function, and effectively collapses the incident field dyad in \eqref{incdyad}, is
+Let two antennas in frames $i$ and $j$ be used to probe an object with a VNA that measures the entire system as a 2-port device, as shown in Figure \ref{sparamviefig}. The complex excitation amplitudes on each transmission line are $a_o^i$ and $a_o^j$, while the received amplitudes are $b_o^i$ and $b_o^j$. The VNA is calibrated to the reference planes on the transmission lines. Assume that the spatial distribution of the antenna incident field is referenced to a fixed coordinate origin of the antenna, and the excitation (amplitude and phase) is referenced to the calibration planes on the transmission line. The waveport vector Green's function is
 \eq{\bb{g}(\br) = -\dfrac{Z_o}{2a_o}\dfrac{1}{i\omega\mu} \bb{E}_{inc}(\br)}
 
-\noindent where $Z_o$ is the characteristic impedance of the receiver transmission line and $a_o$ is the excitation used to create $\bb{E}_{inc}(\br)$. When used in the VIE, the 2-port scattered field $S$-parameter measurement, $S_{ji}$, is given by 
+\noindent where $Z_o$ is the characteristic impedance of the receiver transmission line and $a_o$ is the excitation used to create the incident field $\bb{E}_{inc}(\br)$. The waveport vector Green's replaces the dyadic receiver Green's function \eqref{incdyad} and effectively collapses the dyad.
+When used in the VIE, the 2-port scattered field $S$-parameter measurement, $S_{ji}$, is given by 
 \eq{S_{ji} = -\dfrac{1}{2i\omega\mu} \dfrac{Z_o^j}{a_o^j a_o^i} \int \bb{E}_{inc,j}(\br') \cdot O(\br') \bb{E}_{i}(\br') dV'}
 
 \noindent where $a_o^j$ is the excitation used to create the incident field of the receiver, $\bb{E}_{inc,j}(\br')$, and $a_o^i$ is the excitation used to create the incident field of the transmitter $\bb{E}_{inc,i}(\br')$ which in turn is used to compute the solution of the total field $\bb{E}_{i}(\br')$.  In practice, if we know the average transmit power on the transmission line, $P_{ave}$, then from transmission line analysis the magnitude of $a_o$ is given by 

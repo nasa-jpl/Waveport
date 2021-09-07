@@ -63,14 +63,14 @@ We list different radar cross sections and their relations to the S-matrix. Most
 \paragraph{Extinction Cross Section} The extinction cross section (or total cross section) for a given incident direction is given by the optical theorem, \cite{zhang2019generalized}, as the imaginary part of the co-polarized scattered field in the forward direction
 \eq{\sigma_{ext,\beta}(\hat{k}_i) = \dfrac{4\pi}{k}\textrm{Im}\left[S_{\beta\beta}(\hat{k}_i,\hat{k}_i)\right]}
 
-\paragraph{Absorption Cross Section} The absorption cross section is defined as the power absorbed by the scattering objected divided by the power scattered. It can be written in terms of the extinction and total cross sections as 
+\paragraph{Absorption Cross Section} The absorption cross section is defined as the power absorbed by the scattering object divided by the power scattered. It can be written in terms of the extinction and total cross sections as 
 \eq{\sigma_a = \sigma_{ext} - \sigma_s}
 
-This subtraction can sometimes be numerically inaccurate, and so the absorption cross section can also be defined directly in terms of the internal field, \cite{yurkin2007discrete}.
+This subtraction is sometimes numerically inaccurate and so the absorption cross section can also be defined directly in terms of the internal field, \cite{yurkin2007discrete}.
 
 \paragraph{Polarization and Orientation Averaged Scattering Cross Section}
 
-The polarization and orientation averaged scattered cross section is given by the integral of the scattering cross section over all possible incident directions and polarizations, including normalization:
+The polarization and orientation averaged scattered cross section is given by the integral of the scattering cross section over all possible incident directions and polarizations including normalization:
 %\eq{\left< \sigma \right> = \left<  \sigma_{s\beta}(\hat{k}_i)  \right>_{\beta,\hat{k}_i} = \dfrac{1}{2\pi} \int_0^{2\pi}\left(  \dfrac{1}{4\pi} \int \sigma_{s\beta}(\hat{k}_i) d\Omega_i \right) d\beta }
 \eq{\left< \sigma \right> =  \dfrac{1}{2\pi} \int_0^{2\pi}\left(  \dfrac{1}{4\pi} \int \sigma_{s\beta}(\hat{k}_i) d\Omega_i \right) d\beta \label{polorientavescs} }
 
@@ -91,7 +91,7 @@ An S-matrix will often be computed in a reference frame aligned naturally with t
 %
 %The polarization vectors are then decomposed into the local $\hat{v}$ and $\hat{h}$ polarizations of the object frame. Then the S-matrix is evaluated in its frame. In this procedure, there is no need to 'rotate back', because it is sufficient to have transformed both the incident and scattered quantities to the object frame.  
 
-Let an object rotation be described by ZXZ Euler angles $(\alpha,\beta,\gamma)$ with corresponding rotation matrix $\bb{R}$.  $\bb{R}$ describes a forward rotation, i.e., a point rides with the rotated frame. The inverse rotation is $\bb{R}^t$, where points are fixed in the global frame and we view them as though we ride with the rotating frame. The inverse rotation is first applied to the incident and scattered directions of the global frame so that they are viewed from the rotated object frame, let these be $(\theta_{os},\phi_{os};\theta_{oi},\phi_{oi})$. The polarization vectors are then evaluated in the object frame at these points giving $(\hat{v}_{os},\hat{h}_{os};\hat{v}_{oi},\hat{h}_{oi})$. The object-frame polarization vectors now need to be viewed from the global frame. This is done by rotating the object-frame polarization vectors with an forward rotation, so that they appear as vectors in the global frame:
+Let an object rotation be described by ZXZ Euler angles $(\alpha,\beta,\gamma)$ with corresponding rotation matrix $\bb{R}$.  $\bb{R}$ describes a forward rotation, i.e., a point rides with the rotated frame. The inverse rotation is $\bb{R}^t$, where points are fixed in the global frame and we view them as though we ride with the rotating frame. The inverse rotation is first applied to the incident and scattered directions of the global frame so that they are viewed from the rotated object frame. Let these angles be $(\theta_{os},\phi_{os};\theta_{oi},\phi_{oi})$. The polarization vectors are then evaluated in the object frame at these points giving $(\hat{v}_{os},\hat{h}_{os};\hat{v}_{oi},\hat{h}_{oi})$. The object-frame polarization vectors now need to be viewed from the global frame. This is done by rotating the object-frame polarization vectors with an forward rotation, so that they appear as vectors in the global frame:
 \eq{\hat{v}_{o}' = \bb{R}(\hat{v}_o)}
 
 In matrix notation, S-matrix of the rotated object, as viewed in the global frame, is given by 
@@ -162,7 +162,7 @@ The routine \texttt{smatrix\char`_thin\char`_circular\char`_cylinder} returns th
 
 \subsection{Thin Circular Disk}
 
-In \cite{schiffer1979light} the scattering for both needles and disks is derived. The results are similar to pervious section, except for different coordinate systems. The far field scattered field for a thin disk is
+Scattering from both needles and disks is derived in \cite{schiffer1979light} and the results for needles match those in the previous section. The far field scattered field for a thin disk is
 \ea{\bb{E}_s &=& -E_o\dfrac{e^{ikr}}{2\pi r} k^2 L A \left[ \hat{k}_s \times \hat{k}_s \times (\bb{P} \cdot \hat{e}_i ) \right] \textrm{jinc}(U)\\
 U &=&  kL \Omega  \\
 \Omega^2 &=& (\sin\theta_i \cos\phi_i- \sin\theta_s\cos\phi_s)^2 + (\sin\theta_i \sin\phi_i- \sin\theta_s\sin\phi_s )^2  }
@@ -206,7 +206,7 @@ When the object is homogenous \eqref{eqbasmat1} becomes
 
 \section{Volume Phase Integral}
 \label{sec:volumephaseint}
-The volume phase integral occurs in the S-matrix formulation of the  Born approximation for homogeneous dielectric objects, Section \ref{smatrixborn}.  The volume phase integral for several simple objects is derived below and summarized in Table \ref{tablevolphaseint}. These are just the 3D Fourier transform over the object domain. In general, the volume phase integral can be expressed as a product of the volume of the object times a function that has maximum value of one and that depends on the incident/scattered directions. To facilitate the derivations, \eqref{volphaseint} is written in terms of the wave vector difference, $\bb{K}$, as 
+The volume phase integral occurs in the S-matrix formulation of the  Born approximation for homogeneous dielectric objects, Section \ref{smatrixborn}.  The volume phase integral for several simple objects is derived below and summarized in Table \ref{tablevolphaseint}. These are just the 3D Fourier transform over the object domain. The volume phase integral can be expressed as a product of the object volume and a function that has maximum value of one that depends on the incident/scattered directions. To facilitate derivations, \eqref{volphaseint} is written in terms of the wave vector difference, $\bb{K}$, as 
 \eq{I(\theta_{s},\phi_{s};\theta_{i},\phi_{i})   =  \int e^{i \bb{K} \cdot \br}  dV \label{volphaseint2}}
 \noindent where
 \ea{\bb{K} &=& \bb{k}_i-\bb{k}_s \label{Kvector}  = k(\hat{k}_i-\hat{k}_s) \\

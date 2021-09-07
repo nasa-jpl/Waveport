@@ -10,7 +10,7 @@ This chapter gives routines for computing rotation matrices that operate on the 
 \ &= &
  \thbth{\cos(\alpha)}{-\sin(\alpha)}{0} {\sin(\alpha)}{ \cos(\alpha)}{ 0} {0}{ 0}{ 1}\thbth{1}{ 0}{ 0}{0 }{\cos(\beta)}{ -\sin(\beta)}{0}{ \sin(\beta) }{\cos(\beta)}\thbth{\cos(\gamma)}{ -\sin(\gamma)}{ 0} {\sin(\gamma)}{ \cos(\gamma) }{0}  {0 }{0 }{1} \label{rot}
 }
-Each matrix is a right-handed rotation about the axes of the unrotated, or fixed, global frame. The reason the matrices are applied in what seems like reverse order, and applied about the axes of the fixed frame, is because each matrix stacks the rotations in front of it to create the effect that each rotation was applied about the axes of the rotated frame in the order $(\alpha,\beta,\gamma)$.
+Each matrix is a right-handed rotation about the axes of the unrotated, or fixed, global frame. The reason the matrices are applied in what seems like reverse order, and applied about the axes of the fixed frame, is because each new matrix stacks the rotations in front of it. This creates the effect that each rotation was applied about the axes of the rotated frame in the order $(\alpha,\beta,\gamma)$.
 
 \begin{figure}[H] 
    \centering
@@ -379,7 +379,7 @@ The routine \texttt{dlmpBeta} is a straight implementation of \eqref{dlmprec1}, 
 }
 
 \subsection{Sparse Recursive}
-Like the full $D_{lmp}$, $d_{lmp}(\beta)$ can be computed as a sparse matrix on a 1D array with proper bookkeeping to avoid having to create and index a large matrix of zeros.  We solved the problem of indexing the sparse rotation matrix before.  \texttt{dlmpBetaSparse} is a version of \texttt{dlmpBeta} that returns the row, column and matrix entries for sparse complex ZXZ $d_{lmp}(\beta)$.  
+Like the full $D_{lmp}$, $d_{lmp}(\beta)$ can be computed as a sparse matrix on a 1D array with proper bookkeeping to avoid having to create and index a large matrix of zeros.  We previously solved the problem of indexing the sparse rotation matrix.  \texttt{dlmpBetaSparse} is a version of \texttt{dlmpBeta} that returns the row, column and matrix entries for sparse complex ZXZ $d_{lmp}(\beta)$.  
 
 {\footnotesize
 \VerbatimInput{\code/Rotation/dlmpBetaSparse.m}
