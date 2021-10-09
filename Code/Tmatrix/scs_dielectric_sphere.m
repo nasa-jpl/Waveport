@@ -35,6 +35,3 @@ while err > eps;
     l = l + 1;
 end
 scs = 2*pi/(abs(k1)^2)*scs;
-
-
-

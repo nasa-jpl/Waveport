@@ -77,7 +77,7 @@ l1 = (1i).^(-l-1);
 l2 = (1i).^(-l);
 diagind = 1:(2*N);
 L1invL2inv = sparse(diagind,diagind,1./[l1; l2],2*N,2*N);
-L2L1 = sparse(diagind,diagind,[l2; l1],2*N,2*N);
+L2L1 = sparse(diagind,diagind,[l2; -l1],2*N,2*N);
 
 % apply coefficient matricies
 Tmatrix = (k/(4*pi))*(L1invL2inv*(Tmatrix*L2L1));

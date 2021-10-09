@@ -84,100 +84,101 @@
 \BOOKMARK [1][-]{section.7.5}{7.5 S-matrix to T-matrix Transformation}{chapter.7}% 84
 \BOOKMARK [1][-]{section.7.6}{7.6 Far-field T-matrix}{chapter.7}% 85
 \BOOKMARK [1][-]{section.7.7}{7.7 Radar Cross Section from T-matrix}{chapter.7}% 86
-\BOOKMARK [2][-]{subsection.7.7.1}{7.7.1 Backscatter Radar Cross Section of a Sphere}{section.7.7}% 87
-\BOOKMARK [2][-]{subsection.7.7.2}{7.7.2 Backscatter RCS of a PEC Sphere}{section.7.7}% 88
-\BOOKMARK [2][-]{subsection.7.7.3}{7.7.3 Backscatter RCS of a Dielectric Sphere}{section.7.7}% 89
-\BOOKMARK [1][-]{section.7.8}{7.8 Scattering Cross Section from T-matrix}{chapter.7}% 90
-\BOOKMARK [2][-]{subsection.7.8.1}{7.8.1 Scattering Cross Section of a Sphere}{section.7.8}% 91
-\BOOKMARK [2][-]{subsection.7.8.2}{7.8.2 Scattering Cross Section of a PEC Sphere}{section.7.8}% 92
-\BOOKMARK [2][-]{subsection.7.8.3}{7.8.3 Scattering Cross Section of a Dielectric Sphere}{section.7.8}% 93
-\BOOKMARK [2][-]{subsection.7.8.4}{7.8.4 Polarization and Orientation Averaged Scattering Cross Section using T-matrix}{section.7.8}% 94
-\BOOKMARK [0][-]{chapter.8}{8 Fast Multipole Method}{}% 95
-\BOOKMARK [1][-]{section.8.1}{8.1 Far-Field Green's Function and Plane Wave Expansion}{chapter.8}% 96
-\BOOKMARK [1][-]{section.8.2}{8.2 Selection of L}{chapter.8}% 97
-\BOOKMARK [1][-]{section.8.3}{8.3 Integration over the Unit Sphere}{chapter.8}% 98
-\BOOKMARK [2][-]{subsection.8.3.1}{8.3.1 Gauss-Legendre quadrature}{section.8.3}% 99
-\BOOKMARK [2][-]{subsection.8.3.2}{8.3.2 Numerical Integration of Spherical Harmonics}{section.8.3}% 100
-\BOOKMARK [2][-]{subsection.8.3.3}{8.3.3 Numerical Integration of Products of Spherical Harmonics}{section.8.3}% 101
-\BOOKMARK [2][-]{subsection.8.3.4}{8.3.4 Green's Function Integration}{section.8.3}% 102
-\BOOKMARK [1][-]{section.8.4}{8.4 Aggregation/Disaggregation}{chapter.8}% 103
-\BOOKMARK [2][-]{subsection.8.4.1}{8.4.1 Octree}{section.8.4}% 104
-\BOOKMARK [2][-]{subsection.8.4.2}{8.4.2 Aggregation}{section.8.4}% 105
-\BOOKMARK [2][-]{subsection.8.4.3}{8.4.3 Disaggregation}{section.8.4}% 106
-\BOOKMARK [1][-]{section.8.5}{8.5 Translation Operator}{chapter.8}% 107
-\BOOKMARK [2][-]{subsection.8.5.1}{8.5.1 Basic Translation Operator}{section.8.5}% 108
-\BOOKMARK [2][-]{subsection.8.5.2}{8.5.2 Translation Operator Interpolation}{section.8.5}% 109
-\BOOKMARK [1][-]{section.8.6}{8.6 Scalar Spherical Filter}{chapter.8}% 110
-\BOOKMARK [2][-]{subsection.8.6.1}{8.6.1 Spherical Harmonic Transforms}{section.8.6}% 111
-\BOOKMARK [2][-]{subsection.8.6.2}{8.6.2 Forward Scalar Spherical Transform}{section.8.6}% 112
-\BOOKMARK [2][-]{subsection.8.6.3}{8.6.3 Inverse Scalar Spherical Transform}{section.8.6}% 113
-\BOOKMARK [2][-]{subsection.8.6.4}{8.6.4 Scalar Spherical Filter}{section.8.6}% 114
-\BOOKMARK [2][-]{subsection.8.6.5}{8.6.5 Fast Scalar Spherical Filter}{section.8.6}% 115
-\BOOKMARK [1][-]{section.8.7}{8.7 Vector Spherical Filter}{chapter.8}% 116
-\BOOKMARK [2][-]{subsection.8.7.1}{8.7.1 Vector Spherical Harmonic Transforms}{section.8.7}% 117
-\BOOKMARK [2][-]{subsection.8.7.2}{8.7.2 Forward Vector Spherical Transform}{section.8.7}% 118
-\BOOKMARK [2][-]{subsection.8.7.3}{8.7.3 Inverse Vector Spherical Transform}{section.8.7}% 119
-\BOOKMARK [2][-]{subsection.8.7.4}{8.7.4 Vector Spherical Filter}{section.8.7}% 120
-\BOOKMARK [2][-]{subsection.8.7.5}{8.7.5 Fast Vector Spherical Filter}{section.8.7}% 121
-\BOOKMARK [1][-]{section.8.8}{8.8 Scattering Matrices for the FMM}{chapter.8}% 122
-\BOOKMARK [2][-]{subsection.8.8.1}{8.8.1 S-matrix and Field Multiplication using Quadrature}{section.8.8}% 123
-\BOOKMARK [2][-]{subsection.8.8.2}{8.8.2 S-matrix to T-matrix Transformation using Quadrature}{section.8.8}% 124
-\BOOKMARK [2][-]{subsection.8.8.3}{8.8.3 T-matrix to S-matrix Transformation using Quadrature}{section.8.8}% 125
-\BOOKMARK [1][-]{section.8.9}{8.9 1D FMM, 1/\(x-x'\)}{chapter.8}% 126
-\BOOKMARK [0][-]{chapter.9}{9 Kirchhoff Approximation}{}% 127
-\BOOKMARK [1][-]{section.9.1}{9.1 Derivation of the Kirchhoff Approximation}{chapter.9}% 128
-\BOOKMARK [1][-]{section.9.2}{9.2 Fresnel Reflection Coefficients}{chapter.9}% 129
-\BOOKMARK [1][-]{section.9.3}{9.3 Facetized Surfaces}{chapter.9}% 130
-\BOOKMARK [1][-]{section.9.4}{9.4 Surface Phase Integral}{chapter.9}% 131
-\BOOKMARK [2][-]{subsection.9.4.1}{9.4.1 Specular Direction}{section.9.4}% 132
-\BOOKMARK [2][-]{subsection.9.4.2}{9.4.2 Rectangle}{section.9.4}% 133
-\BOOKMARK [2][-]{subsection.9.4.3}{9.4.3 Ellipse}{section.9.4}% 134
-\BOOKMARK [2][-]{subsection.9.4.4}{9.4.4 Circle}{section.9.4}% 135
-\BOOKMARK [2][-]{subsection.9.4.5}{9.4.5 Triangle}{section.9.4}% 136
-\BOOKMARK [1][-]{section.9.5}{9.5 S-matrix of a Facet}{chapter.9}% 137
-\BOOKMARK [1][-]{section.9.6}{9.6 Radar Cross Section of a Facet}{chapter.9}% 138
-\BOOKMARK [2][-]{subsection.9.6.1}{9.6.1 Specular RCS of a Facet}{section.9.6}% 139
-\BOOKMARK [2][-]{subsection.9.6.2}{9.6.2 Backscatter RCS of a Facet}{section.9.6}% 140
-\BOOKMARK [0][-]{chapter.10}{10 Random Object Generation}{}% 141
-\BOOKMARK [1][-]{section.10.1}{10.1 1D Random Signals}{chapter.10}% 142
-\BOOKMARK [1][-]{section.10.2}{10.2 2D Random Surfaces}{chapter.10}% 143
-\BOOKMARK [1][-]{section.10.3}{10.3 3D Random Volumes}{chapter.10}% 144
-\BOOKMARK [1][-]{section.10.4}{10.4 1D Fractal Signals}{chapter.10}% 145
-\BOOKMARK [1][-]{section.10.5}{10.5 Bicontinuous Random Media}{chapter.10}% 146
-\BOOKMARK [1][-]{section.10.6}{10.6 Ocean Waves}{chapter.10}% 147
-\BOOKMARK [1][-]{section.10.7}{10.7 Gaussian Random Particles}{chapter.10}% 148
-\BOOKMARK [1][-]{section.10.8}{10.8 Ionosphere Irregularity}{chapter.10}% 149
-\BOOKMARK [0][-]{chapter.11}{11 Reflection and Refraction}{}% 150
-\BOOKMARK [1][-]{section.11.1}{11.1 Snell's Law}{chapter.11}% 151
-\BOOKMARK [1][-]{section.11.2}{11.2 Reflection Point - Flat Interface}{chapter.11}% 152
-\BOOKMARK [1][-]{section.11.3}{11.3 Reflection Point - Sphere}{chapter.11}% 153
-\BOOKMARK [1][-]{section.11.4}{11.4 Refraction Point - Flat Interface}{chapter.11}% 154
-\BOOKMARK [1][-]{section.11.5}{11.5 Refraction Point - Circular Interface}{chapter.11}% 155
-\BOOKMARK [2][-]{subsection.11.5.1}{11.5.1 Refraction Point - Circular Interface - Analytical}{section.11.5}% 156
-\BOOKMARK [2][-]{subsection.11.5.2}{11.5.2 Refraction Point - Circular Interface - Iterative}{section.11.5}% 157
-\BOOKMARK [1][-]{section.11.6}{11.6 Refraction Point - Sphere}{chapter.11}% 158
-\BOOKMARK [0][-]{chapter.12}{12 Utilities}{}% 159
-\BOOKMARK [1][-]{section.12.1}{12.1 Coordinate Transformations}{chapter.12}% 160
-\BOOKMARK [1][-]{section.12.2}{12.2 Spherical Bessel Functions}{chapter.12}% 161
-\BOOKMARK [2][-]{subsection.12.2.1}{12.2.1 Sombrero function: jinc\(x\)}{section.12.2}% 162
-\BOOKMARK [2][-]{subsection.12.2.2}{12.2.2 Spherical Bessel function: jn\(x\)}{section.12.2}% 163
-\BOOKMARK [2][-]{subsection.12.2.3}{12.2.3 Spherical Bessel function: jn\(x\)/x}{section.12.2}% 164
-\BOOKMARK [2][-]{subsection.12.2.4}{12.2.4 Spherical Bessel function derivative: jn'\(x\)}{section.12.2}% 165
-\BOOKMARK [2][-]{subsection.12.2.5}{12.2.5 Spherical Bessel function derivative: [xjn\(x\)]'}{section.12.2}% 166
-\BOOKMARK [2][-]{subsection.12.2.6}{12.2.6 Spherical Hankel function: hn\(1\)\(x\)}{section.12.2}% 167
-\BOOKMARK [2][-]{subsection.12.2.7}{12.2.7 Spherical Hankel function derivative: h'n\(1\)\(x\)}{section.12.2}% 168
-\BOOKMARK [2][-]{subsection.12.2.8}{12.2.8 Spherical Hankel function derivative: [xhn\(1\)\(x\)]'}{section.12.2}% 169
-\BOOKMARK [1][-]{section.12.3}{12.3 Legendre Polynomials}{chapter.12}% 170
-\BOOKMARK [2][-]{subsection.12.3.1}{12.3.1 Legendre Polynomials, Pl\(x\)}{section.12.3}% 171
-\BOOKMARK [2][-]{subsection.12.3.2}{12.3.2 Legendre Polynomial Derivative, d/dx Pl\(x\)}{section.12.3}% 172
-\BOOKMARK [2][-]{subsection.12.3.3}{12.3.3 Normalized Associated Legendre Polynomials, P"0365Plm\(x\)}{section.12.3}% 173
-\BOOKMARK [2][-]{subsection.12.3.4}{12.3.4 Normalized Associated Legendre Polynomials Derivative, d/dxP"0365Plm\(x\)}{section.12.3}% 174
-\BOOKMARK [2][-]{subsection.12.3.5}{12.3.5 Normalized Associated Legendre Polynomials, mP"0365Plm\(cos\)/sin}{section.12.3}% 175
-\BOOKMARK [2][-]{subsection.12.3.6}{12.3.6 Normalized Associated Legendre Polynomials Derivative, d/dP"0365Plm\(cos\)}{section.12.3}% 176
-\BOOKMARK [1][-]{section.12.4}{12.4 Miscellaneous}{chapter.12}% 177
-\BOOKMARK [2][-]{subsection.12.4.1}{12.4.1 FFT Frequency}{section.12.4}% 178
-\BOOKMARK [2][-]{subsection.12.4.2}{12.4.2 Phase wrapping}{section.12.4}% 179
-\BOOKMARK [2][-]{subsection.12.4.3}{12.4.3 Cubic Roots}{section.12.4}% 180
-\BOOKMARK [2][-]{subsection.12.4.4}{12.4.4 Quartic Roots}{section.12.4}% 181
-\BOOKMARK [2][-]{subsection.12.4.5}{12.4.5 Uniform Points on a Sphere}{section.12.4}% 182
-\BOOKMARK [2][-]{subsection.12.4.6}{12.4.6 Uniformly Random Points on a Sphere}{section.12.4}% 183
+\BOOKMARK [2][-]{subsection.7.7.1}{7.7.1 Backscatter Radar Cross Section from T-matrix}{section.7.7}% 87
+\BOOKMARK [2][-]{subsection.7.7.2}{7.7.2 Backscatter Radar Cross Section of a Sphere}{section.7.7}% 88
+\BOOKMARK [2][-]{subsection.7.7.3}{7.7.3 Backscatter RCS of a PEC Sphere}{section.7.7}% 89
+\BOOKMARK [2][-]{subsection.7.7.4}{7.7.4 Backscatter RCS of a Dielectric Sphere}{section.7.7}% 90
+\BOOKMARK [1][-]{section.7.8}{7.8 Scattering Cross Section from T-matrix}{chapter.7}% 91
+\BOOKMARK [2][-]{subsection.7.8.1}{7.8.1 Scattering Cross Section of a Sphere}{section.7.8}% 92
+\BOOKMARK [2][-]{subsection.7.8.2}{7.8.2 Scattering Cross Section of a PEC Sphere}{section.7.8}% 93
+\BOOKMARK [2][-]{subsection.7.8.3}{7.8.3 Scattering Cross Section of a Dielectric Sphere}{section.7.8}% 94
+\BOOKMARK [2][-]{subsection.7.8.4}{7.8.4 Polarization and Orientation Averaged Scattering Cross Section using T-matrix}{section.7.8}% 95
+\BOOKMARK [0][-]{chapter.8}{8 Fast Multipole Method}{}% 96
+\BOOKMARK [1][-]{section.8.1}{8.1 Far-Field Green's Function and Plane Wave Expansion}{chapter.8}% 97
+\BOOKMARK [1][-]{section.8.2}{8.2 Selection of L}{chapter.8}% 98
+\BOOKMARK [1][-]{section.8.3}{8.3 Integration over the Unit Sphere}{chapter.8}% 99
+\BOOKMARK [2][-]{subsection.8.3.1}{8.3.1 Gauss-Legendre quadrature}{section.8.3}% 100
+\BOOKMARK [2][-]{subsection.8.3.2}{8.3.2 Numerical Integration of Spherical Harmonics}{section.8.3}% 101
+\BOOKMARK [2][-]{subsection.8.3.3}{8.3.3 Numerical Integration of Products of Spherical Harmonics}{section.8.3}% 102
+\BOOKMARK [2][-]{subsection.8.3.4}{8.3.4 Green's Function Integration}{section.8.3}% 103
+\BOOKMARK [1][-]{section.8.4}{8.4 Aggregation/Disaggregation}{chapter.8}% 104
+\BOOKMARK [2][-]{subsection.8.4.1}{8.4.1 Octree}{section.8.4}% 105
+\BOOKMARK [2][-]{subsection.8.4.2}{8.4.2 Aggregation}{section.8.4}% 106
+\BOOKMARK [2][-]{subsection.8.4.3}{8.4.3 Disaggregation}{section.8.4}% 107
+\BOOKMARK [1][-]{section.8.5}{8.5 Translation Operator}{chapter.8}% 108
+\BOOKMARK [2][-]{subsection.8.5.1}{8.5.1 Basic Translation Operator}{section.8.5}% 109
+\BOOKMARK [2][-]{subsection.8.5.2}{8.5.2 Translation Operator Interpolation}{section.8.5}% 110
+\BOOKMARK [1][-]{section.8.6}{8.6 Scalar Spherical Filter}{chapter.8}% 111
+\BOOKMARK [2][-]{subsection.8.6.1}{8.6.1 Spherical Harmonic Transforms}{section.8.6}% 112
+\BOOKMARK [2][-]{subsection.8.6.2}{8.6.2 Forward Scalar Spherical Transform}{section.8.6}% 113
+\BOOKMARK [2][-]{subsection.8.6.3}{8.6.3 Inverse Scalar Spherical Transform}{section.8.6}% 114
+\BOOKMARK [2][-]{subsection.8.6.4}{8.6.4 Scalar Spherical Filter}{section.8.6}% 115
+\BOOKMARK [2][-]{subsection.8.6.5}{8.6.5 Fast Scalar Spherical Filter}{section.8.6}% 116
+\BOOKMARK [1][-]{section.8.7}{8.7 Vector Spherical Filter}{chapter.8}% 117
+\BOOKMARK [2][-]{subsection.8.7.1}{8.7.1 Vector Spherical Harmonic Transforms}{section.8.7}% 118
+\BOOKMARK [2][-]{subsection.8.7.2}{8.7.2 Forward Vector Spherical Transform}{section.8.7}% 119
+\BOOKMARK [2][-]{subsection.8.7.3}{8.7.3 Inverse Vector Spherical Transform}{section.8.7}% 120
+\BOOKMARK [2][-]{subsection.8.7.4}{8.7.4 Vector Spherical Filter}{section.8.7}% 121
+\BOOKMARK [2][-]{subsection.8.7.5}{8.7.5 Fast Vector Spherical Filter}{section.8.7}% 122
+\BOOKMARK [1][-]{section.8.8}{8.8 Scattering Matrices for the FMM}{chapter.8}% 123
+\BOOKMARK [2][-]{subsection.8.8.1}{8.8.1 S-matrix and Field Multiplication using Quadrature}{section.8.8}% 124
+\BOOKMARK [2][-]{subsection.8.8.2}{8.8.2 S-matrix to T-matrix Transformation using Quadrature}{section.8.8}% 125
+\BOOKMARK [2][-]{subsection.8.8.3}{8.8.3 T-matrix to S-matrix Transformation using Quadrature}{section.8.8}% 126
+\BOOKMARK [1][-]{section.8.9}{8.9 1D FMM, 1/\(x-x'\)}{chapter.8}% 127
+\BOOKMARK [0][-]{chapter.9}{9 Kirchhoff Approximation}{}% 128
+\BOOKMARK [1][-]{section.9.1}{9.1 Derivation of the Kirchhoff Approximation}{chapter.9}% 129
+\BOOKMARK [1][-]{section.9.2}{9.2 Fresnel Reflection Coefficients}{chapter.9}% 130
+\BOOKMARK [1][-]{section.9.3}{9.3 Facetized Surfaces}{chapter.9}% 131
+\BOOKMARK [1][-]{section.9.4}{9.4 Surface Phase Integral}{chapter.9}% 132
+\BOOKMARK [2][-]{subsection.9.4.1}{9.4.1 Specular Direction}{section.9.4}% 133
+\BOOKMARK [2][-]{subsection.9.4.2}{9.4.2 Rectangle}{section.9.4}% 134
+\BOOKMARK [2][-]{subsection.9.4.3}{9.4.3 Ellipse}{section.9.4}% 135
+\BOOKMARK [2][-]{subsection.9.4.4}{9.4.4 Circle}{section.9.4}% 136
+\BOOKMARK [2][-]{subsection.9.4.5}{9.4.5 Triangle}{section.9.4}% 137
+\BOOKMARK [1][-]{section.9.5}{9.5 S-matrix of a Facet}{chapter.9}% 138
+\BOOKMARK [1][-]{section.9.6}{9.6 Radar Cross Section of a Facet}{chapter.9}% 139
+\BOOKMARK [2][-]{subsection.9.6.1}{9.6.1 Specular RCS of a Facet}{section.9.6}% 140
+\BOOKMARK [2][-]{subsection.9.6.2}{9.6.2 Backscatter RCS of a Facet}{section.9.6}% 141
+\BOOKMARK [0][-]{chapter.10}{10 Random Object Generation}{}% 142
+\BOOKMARK [1][-]{section.10.1}{10.1 1D Random Signals}{chapter.10}% 143
+\BOOKMARK [1][-]{section.10.2}{10.2 2D Random Surfaces}{chapter.10}% 144
+\BOOKMARK [1][-]{section.10.3}{10.3 3D Random Volumes}{chapter.10}% 145
+\BOOKMARK [1][-]{section.10.4}{10.4 1D Fractal Signals}{chapter.10}% 146
+\BOOKMARK [1][-]{section.10.5}{10.5 Bicontinuous Random Media}{chapter.10}% 147
+\BOOKMARK [1][-]{section.10.6}{10.6 Ocean Waves}{chapter.10}% 148
+\BOOKMARK [1][-]{section.10.7}{10.7 Gaussian Random Particles}{chapter.10}% 149
+\BOOKMARK [1][-]{section.10.8}{10.8 Ionosphere Irregularity}{chapter.10}% 150
+\BOOKMARK [0][-]{chapter.11}{11 Reflection and Refraction}{}% 151
+\BOOKMARK [1][-]{section.11.1}{11.1 Snell's Law}{chapter.11}% 152
+\BOOKMARK [1][-]{section.11.2}{11.2 Reflection Point - Flat Interface}{chapter.11}% 153
+\BOOKMARK [1][-]{section.11.3}{11.3 Reflection Point - Sphere}{chapter.11}% 154
+\BOOKMARK [1][-]{section.11.4}{11.4 Refraction Point - Flat Interface}{chapter.11}% 155
+\BOOKMARK [1][-]{section.11.5}{11.5 Refraction Point - Circular Interface}{chapter.11}% 156
+\BOOKMARK [2][-]{subsection.11.5.1}{11.5.1 Refraction Point - Circular Interface - Analytical}{section.11.5}% 157
+\BOOKMARK [2][-]{subsection.11.5.2}{11.5.2 Refraction Point - Circular Interface - Iterative}{section.11.5}% 158
+\BOOKMARK [1][-]{section.11.6}{11.6 Refraction Point - Sphere}{chapter.11}% 159
+\BOOKMARK [0][-]{chapter.12}{12 Utilities}{}% 160
+\BOOKMARK [1][-]{section.12.1}{12.1 Coordinate Transformations}{chapter.12}% 161
+\BOOKMARK [1][-]{section.12.2}{12.2 Spherical Bessel Functions}{chapter.12}% 162
+\BOOKMARK [2][-]{subsection.12.2.1}{12.2.1 Sombrero function: jinc\(x\)}{section.12.2}% 163
+\BOOKMARK [2][-]{subsection.12.2.2}{12.2.2 Spherical Bessel function: jn\(x\)}{section.12.2}% 164
+\BOOKMARK [2][-]{subsection.12.2.3}{12.2.3 Spherical Bessel function: jn\(x\)/x}{section.12.2}% 165
+\BOOKMARK [2][-]{subsection.12.2.4}{12.2.4 Spherical Bessel function derivative: jn'\(x\)}{section.12.2}% 166
+\BOOKMARK [2][-]{subsection.12.2.5}{12.2.5 Spherical Bessel function derivative: [xjn\(x\)]'}{section.12.2}% 167
+\BOOKMARK [2][-]{subsection.12.2.6}{12.2.6 Spherical Hankel function: hn\(1\)\(x\)}{section.12.2}% 168
+\BOOKMARK [2][-]{subsection.12.2.7}{12.2.7 Spherical Hankel function derivative: h'n\(1\)\(x\)}{section.12.2}% 169
+\BOOKMARK [2][-]{subsection.12.2.8}{12.2.8 Spherical Hankel function derivative: [xhn\(1\)\(x\)]'}{section.12.2}% 170
+\BOOKMARK [1][-]{section.12.3}{12.3 Legendre Polynomials}{chapter.12}% 171
+\BOOKMARK [2][-]{subsection.12.3.1}{12.3.1 Legendre Polynomials, Pl\(x\)}{section.12.3}% 172
+\BOOKMARK [2][-]{subsection.12.3.2}{12.3.2 Legendre Polynomial Derivative, d/dx Pl\(x\)}{section.12.3}% 173
+\BOOKMARK [2][-]{subsection.12.3.3}{12.3.3 Normalized Associated Legendre Polynomials, P"0365Plm\(x\)}{section.12.3}% 174
+\BOOKMARK [2][-]{subsection.12.3.4}{12.3.4 Normalized Associated Legendre Polynomials Derivative, d/dxP"0365Plm\(x\)}{section.12.3}% 175
+\BOOKMARK [2][-]{subsection.12.3.5}{12.3.5 Normalized Associated Legendre Polynomials, mP"0365Plm\(cos\)/sin}{section.12.3}% 176
+\BOOKMARK [2][-]{subsection.12.3.6}{12.3.6 Normalized Associated Legendre Polynomials Derivative, d/dP"0365Plm\(cos\)}{section.12.3}% 177
+\BOOKMARK [1][-]{section.12.4}{12.4 Miscellaneous}{chapter.12}% 178
+\BOOKMARK [2][-]{subsection.12.4.1}{12.4.1 FFT Frequency}{section.12.4}% 179
+\BOOKMARK [2][-]{subsection.12.4.2}{12.4.2 Phase wrapping}{section.12.4}% 180
+\BOOKMARK [2][-]{subsection.12.4.3}{12.4.3 Cubic Roots}{section.12.4}% 181
+\BOOKMARK [2][-]{subsection.12.4.4}{12.4.4 Quartic Roots}{section.12.4}% 182
+\BOOKMARK [2][-]{subsection.12.4.5}{12.4.5 Uniform Points on a Sphere}{section.12.4}% 183
+\BOOKMARK [2][-]{subsection.12.4.6}{12.4.6 Uniformly Random Points on a Sphere}{section.12.4}% 184

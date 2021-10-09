@@ -424,14 +424,14 @@ Substituting the definition of the T-matrix
 \ & \ & + i^{-l}   \bb{B}_{lm}(\theta_s,\phi_s)\left(T^{NM}_{lm,l'm'} a_{l'm'} + T^{NN}_{lm,l'm'} b_{l'm'}  \right)  }
 
 The coefficients $a_{lm}$ and $b_{lm}$ are chosen as the expansion coefficients for the vector plane waves, \eqref{almplaneE} and \eqref{blmplaneE}, giving 
-\ea{\bb{E}_s(\hat{k}_s) &=& 4\pi\dfrac{e^{ikr}}{kr}  \sum_{lm}\sum_{l'm'} i^{-l-1} \bb{C}_{lm}(\theta_s,\phi_s)\left(T^{MM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  + T^{MN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot  \bb{E}_i   \nonumber \\
-\ & \ &  + i^{-l}   \bb{B}_{lm}(\theta_s,\phi_s)\left(T^{NM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  + T^{NN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot  \bb{E}_i  \label{scattmatrix1}  }
+\ea{\bb{E}_s(\hat{k}_s) &=& 4\pi\dfrac{e^{ikr}}{kr}  \sum_{lm}\sum_{l'm'} i^{-l-1} \bb{C}_{lm}(\theta_s,\phi_s)\left(T^{MM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  - T^{MN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot  \bb{E}_i   \nonumber \\
+\ & \ &  + i^{-l}   \bb{B}_{lm}(\theta_s,\phi_s)\left(T^{NM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  - T^{NN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot  \bb{E}_i  \label{scattmatrix1}  }
 
 \noindent where $(\theta_i,\phi_i)$ are the spherical angles of the incident field direction, and $\bb{E}_i$ is the polarized incident electric field.  At this point, the sum can be computed directly and dotted with the polarization unit vectors as needed.  This is written more clearly in matrix notation over the $\theta$, $\phi$ components of the fields as
 \ea{\twobyone{E_{s,\theta}(\hat{k}_s)}{E_{s,\phi}(\hat{k}_s)} &=& 4\pi\dfrac{e^{ikr}}{kr} \twobytwo{\bb{C}_{\theta}^t(\theta_s,\phi_s)}{\bb{B}_{\theta}^t(\theta_s,\phi_s)}{\bb{C}_{\phi}^t(\theta_s,\phi_s)}{\bb{B}_{\phi}^t(\theta_s,\phi_s)}
 \twobytwo{\overline{\bb{L}}_1}{0}{0}{\overline{\bb{L}}_2} 
 \tbt{\overline{\bb{T}}^{MM}}{\overline{\bb{T}}^{MN} }{\overline{\bb{T}}^{NM}}{\overline{\bb{T}}^{NN}}  \nonumber \\
-\ & \ & \twobytwo{\overline{\bb{L}}_2^{-1}}{0}{0}{\overline{\bb{L}}_1^{-1}} \twobytwo{\bb{C}_{\theta}^*(\theta_i,\phi_i) }{\bb{C}_{\phi}^*(\theta_i,\phi_i) }{\bb{B}_{\theta}^*(\theta_i,\phi_i) } {\bb{B}_{\phi}^*(\theta_i,\phi_i) } \twobyone{E_{i,\theta}(\hat{k}_i)}{E_{i,\phi}(\hat{k}_i)} \label{scattmatrix} }
+\ & \ & \twobytwo{\overline{\bb{L}}_2^{-1}}{0}{0}{-\overline{\bb{L}}_1^{-1}} \twobytwo{\bb{C}_{\theta}^*(\theta_i,\phi_i) }{\bb{C}_{\phi}^*(\theta_i,\phi_i) }{\bb{B}_{\theta}^*(\theta_i,\phi_i) } {\bb{B}_{\phi}^*(\theta_i,\phi_i) } \twobyone{E_{i,\theta}(\hat{k}_i)}{E_{i,\phi}(\hat{k}_i)} \label{scattmatrix} }
 
 The vector spherical harmonics are column vectors over harmonics $(l,m)$ (where $^t$ is transpose and $^*$ is simple conjugate). The coefficient matrices $\bb{L}$ are diagonal with elements
 \ea{\left[ \overline{\bb{L}}_1\right]_{ll} &=& i^{-l-1}  \\
@@ -467,7 +467,7 @@ Further vectorizing \eqref{scattmatrix} over incident and scattered directions, 
 {\overline{\bb{S}}_{\phi\theta} }
 {\overline{\bb{S}}_{\phi\phi} }   
 =
-\dfrac{4\pi}{k} \twobytwo{\overline{\bb{C}}_{\theta}}{\overline{\bb{B}}_{\theta}}{\overline{\bb{C}}_{\phi}}{\overline{\bb{B}}_{\phi}}\twobytwo{\overline{\bb{L}}_1}{0}{0}{\overline{\bb{L}}_2} \tbt{\overline{\bb{T}}^{MM}}{\overline{\bb{T}}^{MN} }{\overline{\bb{T}}^{NM}}{\overline{\bb{T}}^{NN}}  \twobytwo{\overline{\bb{L}}_2^{-1}}{0}{0}{\overline{\bb{L}}_1^{-1}} \twobytwo{\overline{\bb{C}}_{\theta}^*}{\overline{\bb{C}}_{\phi}^*}{\overline{\bb{B}}_{\theta}^* } {\overline{\bb{B}}_{\phi}^*} \label{TtoSBC}} 
+\dfrac{4\pi}{k} \twobytwo{\overline{\bb{C}}_{\theta}}{\overline{\bb{B}}_{\theta}}{\overline{\bb{C}}_{\phi}}{\overline{\bb{B}}_{\phi}}\twobytwo{\overline{\bb{L}}_1}{0}{0}{\overline{\bb{L}}_2} \tbt{\overline{\bb{T}}^{MM}}{\overline{\bb{T}}^{MN} }{\overline{\bb{T}}^{NM}}{\overline{\bb{T}}^{NN}}  \twobytwo{\overline{\bb{L}}_2^{-1}}{0}{0}{-\overline{\bb{L}}_1^{-1}} \twobytwo{\overline{\bb{C}}_{\theta}^*}{\overline{\bb{C}}_{\phi}^*}{\overline{\bb{B}}_{\theta}^* } {\overline{\bb{B}}_{\phi}^*} \label{TtoSBC}} 
 
 \noindent where here $^*$ is conjugate transpose. The S-matrix block matrices have scattered field directions along rows, and incident field directions along columns. Recall that the left vector spherical harmonics are evaluated at scattered directions, and the right ones are evaluated at incident directions. This can be used to compute the S-matrix at arbitrary combinations of incident and scattered directions. Also the vector spherical harmonics are fully normalized.  See Section \ref{fastTtoS} for an exact computation of this using spherical harmonic transforms when the S-matrix can be sampled on the nodes of Gaussian quadrature. 
 
@@ -502,7 +502,7 @@ This identity assumes that the weights are chosen so that the integral is comput
 {\overline{\bb{S}}_{\phi\phi} }   
 \twobytwo{\overline{\bb{W}}}{0}{0}{\overline{\bb{W}}} 
 \twobytwo{\overline{\bb{C}}_{\theta}}{\overline{\bb{B}}_{\theta}}{\overline{\bb{C}}_{\phi}}{\overline{\bb{B}}_{\phi}} 
-\twobytwo{\overline{\bb{L}}_2}{0}{0}{\overline{\bb{L}}_1} \label{StoTBC}}
+\twobytwo{\overline{\bb{L}}_2}{0}{0}{-\overline{\bb{L}}_1} \label{StoTBC}}
 
 This expression transforms the S-matrix to the T-matrix under the condition that the S-matrix is fully sampled and can be accurately integrated with $\overline{\bb{W}}$. See Section \ref{fastStoT} for a fast routine that computes this integral exactly when the S-matrix is sampled at the nodes of Gaussian quadrature. 
 
@@ -529,7 +529,7 @@ Both field expansions are band limited with the same number of harmonics. Define
 
 Using \eqref{TtoSBC}, this is related to the full T-matrix as
 \eq{
-\twobytwo{\overline{\bb{T}}^{BB}}{\overline{\bb{T}}^{BC}}{\overline{\bb{T}}^{CB}}{\overline{\bb{T}}^{CC}}= \dfrac{4\pi}{k} \twobytwo{\overline{\bb{L}}_2}{0}{0}{\overline{\bb{L}}_1} \tbt{\overline{\bb{T}}^{NN}}{\overline{\bb{T}}^{NM}}  {\overline{\bb{T}}^{MN} }{\overline{\bb{T}}^{MM}}\twobytwo{\overline{\bb{L}}_1^{-1}}{0}{0} {\overline{\bb{L}}_2^{-1}}\label{ffTmatrix}} 
+\twobytwo{\overline{\bb{T}}^{BB}}{\overline{\bb{T}}^{BC}}{\overline{\bb{T}}^{CB}}{\overline{\bb{T}}^{CC}}= \dfrac{4\pi}{k} \twobytwo{\overline{\bb{L}}_2}{0}{0}{\overline{\bb{L}}_1} \tbt{\overline{\bb{T}}^{NN}}{\overline{\bb{T}}^{NM}}  {\overline{\bb{T}}^{MN} }{\overline{\bb{T}}^{MM}}\twobytwo{-\overline{\bb{L}}_1^{-1}}{0}{0} {\overline{\bb{L}}_2^{-1}}\label{ffTmatrix}} 
 
 The reverse is accomplished by simple inversion.
 
@@ -545,7 +545,8 @@ The routines  \texttt{convert\char`_T\char`_to\char`_Tfar} and  \texttt{convert\
 }
 
 
-
+\clearpage
+\newpage
 \section{Radar Cross Section from T-matrix}
 
 The bistatic radar cross section is defined 
@@ -553,8 +554,71 @@ The bistatic radar cross section is defined
 
 This is used with \eqref{scattmatrix1} to compute the radar cross section given an object T-matrix. In short, the process removes the scale factors $E_o e^{ikr}/r$ from \eqref{scattmatrix1} and can then be evaluated given incident/scattered directions and polarizations.  Because $\sigma_{pq} = 4\pi \vert S_{pq}\vert^2$, \eqref{rcsfromSpq}, the routine \texttt{compute\char`_S\char`_from\char`_T}, Section \ref{secTtoS}, can be used to compute the S-matrix for $\hat{p} = \hat{\theta}$ and $\hat{q} = \hat{\phi}$. This can then be converted to any radar cross section polarization combination using \eqref{projectedsmatrix}. 
 
+\subsection{Backscatter Radar Cross Section from T-matrix}
+
+In the backscatter direction $\theta_s = \pi-\theta_i$ and $\phi_s = \pi+\phi_i$.  Alternatively, $\theta_i = \pi - \theta_s$ and $\phi_i = \pi + \phi_s$.  For a T-matrix, it is a little easier to think of backscatter as pointing from the object frame to the source, i.e., in terms of the scattered direction, Figure \ref{brcstmatrixfig}. Therefore, using the second relations in \eqref{scattmatrix1} with the parity relations, \eqref{Blmparity} and \eqref{Clmparity}, we have
+\begin{align}
+\bb{E}_s(\hat{k}_s) &= 4\pi\dfrac{e^{ikr}}{kr}  \sum_{lm}\sum_{l'm'} i^{-l-1} \bb{C}_{lm}(\theta_s,\phi_s)\left(T^{MM}_{lm,l'm'} i^{l'} (-1)^{l'} \bb{C}^*_{l'm'}(\theta_s,\phi_s)  - T^{MN}_{lm,l'm'} i^{l'+1} (-1)^{l'+1} \bb{B}^*_{l'm'}(\theta_s,\phi_s)  \right)\cdot  \bb{E}_i   \nonumber \\
+\ &   + i^{-l}  \bb{B}_{lm}(\theta_s,\phi_s)\left(T^{NM}_{lm,l'm'} i^{l'} (-1)^{l'} \bb{C}^*_{l'm'}(\theta_s,\phi_s)  - T^{NN}_{lm,l'm'} i^{l'+1} (-1)^{l'+1} \bb{B}^*_{l'm'}(\theta_s,\phi_s)  \right)\cdot  \bb{E}_i    \end{align}
+
+Note the vector components of $\bb{B}$ and $\bb{C}$ are for the scattered direction $(\theta_s,\phi_s)$. Next let both the incident and scattered polarizations be written in terms of the spherical unit vectors of the scattered direction, with two separate angles, $\beta_i$ and $\beta_s$, 
+\ea{\hat{\beta}_i &=& \cos\beta_i \hat{\theta}_s + \sin\beta_i \hat{\phi}_s \\
+\hat{\beta}_s &=& \cos\beta_s \hat{\theta}_s + \sin\beta_s \hat{\phi}_s }
+
+\begin{figure}[H] 
+   \centering
+   \includegraphics[width=3in]{Tmatrix/Figures/brcstmatrix} 
+   \caption{Geometry the BRCS from a T-matrix.}
+   \label{brcstmatrixfig}
+\end{figure}
 
 
+
+Using these in \eqref{rcs1} the backscatter radar cross section written in terms of scattered polarizations is
+\begin{align}
+\sigma_{\beta_s,\beta_i} &= \dfrac{(4\pi)^3}{k^2}\left\vert \sum_{lm}\sum_{l'm'} (-i)^{l+1} \left( \hat{\beta}_s\cdot \bb{C}_{lm}(\theta_s,\phi_s) \right)\left(T^{MM}_{lm,l'm'} (-i)^{l'} \bb{C}^*_{l'm'}(\theta_s,\phi_s)  - T^{MN}_{lm,l'm'} (-i)^{l'+1}  \bb{B}^*_{l'm'}(\theta_s,\phi_s)  \right)\cdot \hat{\beta}_i  \right. \nonumber \\
+\ &  \left. + (-i)^{l}  \left(  \hat{\beta}_s\cdot\bb{B}_{lm}(\theta_s,\phi_s)\right)\left(T^{NM}_{lm,l'm'} (-i)^{l'} \bb{C}^*_{l'm'}(\theta_s,\phi_s)  - T^{NN}_{lm,l'm'} (-i)^{l'+1} \bb{B}^*_{l'm'}(\theta_s,\phi_s)  \right)\cdot   \hat{\beta}_i   \right\vert^2 \label{tmatrixbrcs2} 
+\end{align}
+
+
+The routine \texttt{brcs\_from\_Tmatrix} computes the backscatter radar cross section using \eqref{tmatrixbrcs2}. It takes as input the four block T-matrices sized $N \times N$ with harmonics up to degree $L$ all $m$ linearly indexed. The routine takes the scattered directions $(\theta_s,\phi_s)$ measured in the frame of the object, which can be any size. There are two modes: 1) if a single combination of polarization angles $\beta_i$ and $\beta_s$ is provided, then there is one output BRCS, 2) if the four $\hat{\theta}$ and $\hat{\phi}$ orthogonal BCRS vector combinations are requested, then the polarization angles are not needed. The outputs are the size of the angle arrays. The results match the analytical results for PED and dielectric spheres (see next sections).
+
+{\scriptsize
+\VerbatimInput{\code/Tmatrix/brcs_from_Tmatrix.m}
+}
+
+
+
+%
+%Next we can ask what are the polarization and orientation averaged backscatter radar cross sections for co- and cross-polarizations.  These are given by 
+%\ea{\left< \sigma_{co} \right> &=&  \dfrac{1}{2\pi} \int_0^{2\pi}\left(  \dfrac{1}{4\pi} \int \sigma_{\beta,\beta}(\hat{k}_i) d\Omega_i \right) d\beta \\
+%\left< \sigma_{cross} \right> &=&  \dfrac{1}{2\pi} \int_0^{2\pi}\left(  \dfrac{1}{4\pi} \int \sigma_{\beta+\pi/2,\beta}(\hat{k}_i) d\Omega_i \right) d\beta }
+
+%It appears quite complicated to continue analytically from \eqref{tmatrixbrcs1} and no simple reduction has been found yet. 
+
+
+
+
+
+%In the backscatter direction $\theta_s = \pi-\theta_i$ and $\phi_s = \pi+\phi_i$.  Using these in \eqref{scattmatrix1} together with the parity relations for these vector spherical harmonics, \eqref{Blmparity} and \eqref{Clmparity}, we have
+%\ea{\bb{E}_s(\hat{k}_s) &=& 4\pi\dfrac{e^{ikr}}{kr}  \sum_{lm}\sum_{l'm'} i^{-l-1} (-1)^{l}\bb{C}_{lm}(\theta_i,\phi_i)\left(T^{MM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  + T^{MN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot  \bb{E}_i   \nonumber \\
+%\ & \ &  + i^{-l}   (-1)^{l+1} \bb{B}_{lm}(\theta_i,\phi_i)\left(T^{NM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  + T^{NN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot  \bb{E}_i    }
+%
+%The vector components in the place of the scattered direction are now identical to those in the incident direction. Let the incident and scattered polarizations be written in terms of the spherical unit vectors relative to the incident direction, with two separate angles, $\beta_i$ and $\beta_s$, 
+%\ea{\hat{\beta}_i &=& \cos\beta_i \hat{\theta} + \sin\beta_i \hat{\phi} \\
+%\hat{\beta}_s &=& \cos\beta_s \hat{\theta} + \sin\beta_s \hat{\phi} }
+%
+%The backscatter cross section given in terms of polarizations measured from the view of the incident direction is
+%\ea{\sigma_{\beta_s,\beta_i} &=& \dfrac{(4\pi)^3}{k^2}\left\vert \sum_{lm}\sum_{l'm'} i^{-l-1} (-1)^{l}\hat{\beta}_s\cdot \bb{C}_{lm}(\theta_i,\phi_i)\left(T^{MM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  + T^{MN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot \hat{\beta}_i  \right. \nonumber \\
+%\ & \ &  \left. + i^{-l}   (-1)^{l+1} \hat{\beta}_s\cdot\bb{B}_{lm}(\theta_i,\phi_i)\left(T^{NM}_{lm,l'm'} i^{l'}  \bb{C}^*_{l'm'}(\theta_i,\phi_i)  + T^{NN}_{lm,l'm'} i^{l'+1}  \bb{B}^*_{l'm'}(\theta_i,\phi_i)  \right)\cdot   \hat{\beta}_i   \right\vert^2 }
+
+
+
+
+
+
+\clearpage
+\newpage
 \subsection{Backscatter Radar Cross Section of a Sphere}
 
 %\noindent where $\bb{E}_s$ is the far-field scattered field, $\bb{E}_i $ are plane waves incident on the target, and $\hat{p}$ and $\hat{q}$ are polarization unit vectors. 
@@ -670,15 +734,15 @@ h_1' &=& [k_1 a h_l^{(1)}(k_1a)]'
 \noindent where $k_1$ is the wavenumber outside the sphere, and $k_2$ is wavenumber inside the sphere.  Making use of the Wronskian $j_l(x) {h'}_l^{(1)}(x) - h_l^{(1)}(x) j_l'(x) = i/x^2$, it can be shown that $h_1' j_1 - h_1 j_1'  = i/x_1$.  Then the backscatter can also be written 
 \eq{\sigma = \dfrac{\pi}{k^2} \left\vert \sum_{l=1}^{\infty} (-1)^l (2l+1) \left(\dfrac{j_2 j_2' ( x_2^2 - x_1^2) }{x_1 \left(h_1 j_2' - j_2 h_1' \right)\left(x_1^2 h_1 j_2' - x_2^2  j_2 h_1' \right)}\right) \right\vert^2 }
 
-
+\clearpage
 \begin{figure}[h] 
    \centering
    \subfigure{\includegraphics[width=3.2in]{Tmatrix/Figures/brcsdielectricsphere}  \label{brcsdiesph} } 
    \subfigure{\includegraphics[width=3.1in]{Tmatrix/Figures/brcsdielectricspheregrid}   \label{brcsdiesphall}}
    \caption{Backscatter RCS of dielectric sphere, normalized by cross-section area, in free-space. Left: $\epsilon_r = 2.5$. Right: $\epsilon_r =$1 to 5, and $a/\lambda_o$ = 0 to 2.}
  \end{figure}
-%
-%
+ 
+ 
 %\begin{figure}[h] 
 %   \centering
 %   \includegraphics[width=3.5in]{Tmatrix/Figures/brcsdielectricsphere} 
@@ -695,11 +759,11 @@ h_1' &=& [k_1 a h_l^{(1)}(k_1a)]'
 
 The routine \texttt{brcs\_dielectric\_sphere} is a workable routine for the computation of \eqref{sigmaer}.  Assuming a background of vacuum, Figure \ref{brcsdiesph} shows the backscatter RCS for a sphere with $\epsilon_r = 2.5$ as a function of sphere radius. Figure \ref{brcsdiesphall} shows the same as a function of $k_o a$ and $\epsilon_r$. 
 
-\clearpage
 {\footnotesize
 \VerbatimInput{\code/Tmatrix/brcs_dielectric_sphere.m}
 }
 
+\clearpage
 \section{Scattering Cross Section from T-matrix}
 
 The scattering cross section is equal to the scattered power integrated over the sphere for a unit amplitude incident electric field and specific incident direction. From \cite{tsang1985theory}, the scattering cross section is written in terms of the S-matrix as 
@@ -793,7 +857,7 @@ The routine \texttt{scs\char`_pec\char`_sphere} is a workable routine to compute
 {\footnotesize
 \VerbatimInput{\code/Tmatrix/scs_pec_sphere.m}
 }
-
+\clearpage
 \subsection{Scattering Cross Section of a Dielectric Sphere}
 
 The scattering cross section of a dielectric sphere is given by substituting the T-matrix for a dielectric sphere into \eqref{spheresca}. This gives identical results to \cite{tsang2000scattering} Figure 1.6.3 and also matches outputs from Ulaby and Long 2014 Code Module 8.12.
@@ -806,12 +870,10 @@ The scattering cross section of a dielectric sphere is given by substituting the
       \label{scsdiesphall}
 \end{figure}
 
-\clearpage
-
 
 The routine \texttt{scs\char`_dielectric\char`_sphere} computes the scattering cross section of a dielectric sphere given the inner and outer wavenumbers $k_1$, $k_2$, and sphere radius $a$.  
 
-{\footnotesize
+{\scriptsize
 \VerbatimInput{\code/Tmatrix/scs_dielectric_sphere.m}
 }
 

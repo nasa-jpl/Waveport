@@ -242,6 +242,63 @@ mean(abs(Tmn(:) - Tmn2(:)))
 mean(abs(Tnm(:) - Tnm2(:)))
 mean(abs(Tnn(:) - Tnn2(:)))
 
+%% brcs_from_Tmatrix
+
+lam = 1;
+k1 = 2*pi/lam;
+k2 = k1*sqrt(2);
+a = lam;
+L = 12;
+N = L^2 + 2*L;
+type = 1
+if type
+    [Tmm Tnn] = tmatrixDielectricSphere(L,a,k1,k2);
+else
+    [Tmm Tnn] = tmatrixPECSphere(L,a,k1);
+end
+Tmm = diag(Tmm);
+Tmn = zeros(size(Tmm));
+Tnm = Tmn;
+Tnn = diag(Tnn);
+
+% try polarization angle pair
+beta_i = 0;
+beta_s = 0;
+
+theta_s = linspace(0,pi,11);
+phi_s = linspace(0,2*pi,21);
+[Ts Ps] = ndgrid(theta_s,phi_s);
+Ns = numel(Ts);
+
+[sig_tt] = brcs_from_Tmatrix(Tmm,Tmn,Tnm,Tnn,L,k1,Ts,Ps,beta_i,beta_s);
+
+% compute all 
+[sig_tt sig_tp sig_pt sig_pp] = brcs_from_Tmatrix(Tmm,Tmn,Tnm,Tnn,L,k1,Ts,Ps);
+
+% check with sphere
+if type
+	[brcs] = brcs_dielectric_sphere(k1,k2,a)
+else
+    [brcs] = brcs_pec_sphere(k1,a)
+end
+
+% check with S-matrix conversion routine
+Stt2 = zeros(Ns,1);
+Stp2 = Stt2;
+Spt2 = Stt2;
+Spp2 = Stt2;
+for n=1:Ns,
+    [Stt, Stp, Spt, Spp] = compute_S_from_T(Tmm,Tmn,Tnm,Tnn,L,k1,Ts(n),Ps(n),pi-Ts(n),pi+Ps(n));
+    Stt2(n) = squeeze(Stt);
+    Stp2(n) = squeeze(Stp);
+    Spt2(n) = squeeze(Spt);
+    Spp2(n) = squeeze(Spp);
+end
+sig_tt2 = 4*pi*abs((Stt2)).^2
+sig_tp2 = 4*pi*abs((Stp2)).^2
+sig_pt2 = 4*pi*abs((Spt2)).^2
+sig_pp2 = 4*pi*abs((Spp2)).^2
+
 
 
 %% compute_scs_from_tmatrix

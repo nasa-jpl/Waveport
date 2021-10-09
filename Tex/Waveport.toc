@@ -122,202 +122,203 @@
 \contentsline {section}{\numberline {7.4}T-matrix to S-matrix Transformation}{116}{section.7.4}% 
 \contentsline {section}{\numberline {7.5}S-matrix to T-matrix Transformation}{118}{section.7.5}% 
 \contentsline {section}{\numberline {7.6}Far-field T-matrix}{118}{section.7.6}% 
-\contentsline {section}{\numberline {7.7}Radar Cross Section from T-matrix}{120}{section.7.7}% 
-\contentsline {subsection}{\numberline {7.7.1}Backscatter Radar Cross Section of a Sphere}{120}{subsection.7.7.1}% 
-\contentsline {subsection}{\numberline {7.7.2}Backscatter RCS of a PEC Sphere}{121}{subsection.7.7.2}% 
-\contentsline {subsection}{\numberline {7.7.3}Backscatter RCS of a Dielectric Sphere}{122}{subsection.7.7.3}% 
-\contentsline {section}{\numberline {7.8}Scattering Cross Section from T-matrix}{123}{section.7.8}% 
-\contentsline {subsection}{\numberline {7.8.1}Scattering Cross Section of a Sphere}{125}{subsection.7.8.1}% 
-\contentsline {subsection}{\numberline {7.8.2}Scattering Cross Section of a PEC Sphere}{125}{subsection.7.8.2}% 
-\contentsline {subsection}{\numberline {7.8.3}Scattering Cross Section of a Dielectric Sphere}{126}{subsection.7.8.3}% 
-\contentsline {subsection}{\numberline {7.8.4}Polarization and Orientation Averaged Scattering Cross Section using T-matrix}{128}{subsection.7.8.4}% 
-\contentsline {chapter}{\numberline {8}Fast Multipole Method}{129}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Far-Field Green's Function and Plane Wave Expansion}{129}{section.8.1}% 
-\contentsline {paragraph}{Far-Field Green's Function}{129}{section*.23}% 
-\contentsline {paragraph}{Plane Wave Expansion}{130}{section*.24}% 
-\contentsline {paragraph}{Green's Functions}{131}{section*.25}% 
-\contentsline {section}{\numberline {8.2}Selection of L}{131}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Integration over the Unit Sphere}{132}{section.8.3}% 
+\contentsline {section}{\numberline {7.7}Radar Cross Section from T-matrix}{121}{section.7.7}% 
+\contentsline {subsection}{\numberline {7.7.1}Backscatter Radar Cross Section from T-matrix}{121}{subsection.7.7.1}% 
+\contentsline {subsection}{\numberline {7.7.2}Backscatter Radar Cross Section of a Sphere}{123}{subsection.7.7.2}% 
+\contentsline {subsection}{\numberline {7.7.3}Backscatter RCS of a PEC Sphere}{123}{subsection.7.7.3}% 
+\contentsline {subsection}{\numberline {7.7.4}Backscatter RCS of a Dielectric Sphere}{124}{subsection.7.7.4}% 
+\contentsline {section}{\numberline {7.8}Scattering Cross Section from T-matrix}{126}{section.7.8}% 
+\contentsline {subsection}{\numberline {7.8.1}Scattering Cross Section of a Sphere}{127}{subsection.7.8.1}% 
+\contentsline {subsection}{\numberline {7.8.2}Scattering Cross Section of a PEC Sphere}{128}{subsection.7.8.2}% 
+\contentsline {subsection}{\numberline {7.8.3}Scattering Cross Section of a Dielectric Sphere}{129}{subsection.7.8.3}% 
+\contentsline {subsection}{\numberline {7.8.4}Polarization and Orientation Averaged Scattering Cross Section using T-matrix}{130}{subsection.7.8.4}% 
+\contentsline {chapter}{\numberline {8}Fast Multipole Method}{131}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Far-Field Green's Function and Plane Wave Expansion}{131}{section.8.1}% 
+\contentsline {paragraph}{Far-Field Green's Function}{131}{section*.23}% 
+\contentsline {paragraph}{Plane Wave Expansion}{132}{section*.24}% 
+\contentsline {paragraph}{Green's Functions}{133}{section*.25}% 
+\contentsline {section}{\numberline {8.2}Selection of L}{133}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Integration over the Unit Sphere}{134}{section.8.3}% 
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.3.1}Gauss-Legendre quadrature}{132}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.1}Gauss-Legendre quadrature}{134}{subsection.8.3.1}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.3.2}Numerical Integration of Spherical Harmonics}{133}{subsection.8.3.2}% 
+\contentsline {subsection}{\numberline {8.3.2}Numerical Integration of Spherical Harmonics}{135}{subsection.8.3.2}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.3.3}Numerical Integration of Products of Spherical Harmonics}{134}{subsection.8.3.3}% 
+\contentsline {subsection}{\numberline {8.3.3}Numerical Integration of Products of Spherical Harmonics}{136}{subsection.8.3.3}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.3.4}Green's Function Integration}{135}{subsection.8.3.4}% 
+\contentsline {subsection}{\numberline {8.3.4}Green's Function Integration}{137}{subsection.8.3.4}% 
 \setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {8.4}Aggregation/Disaggregation}{136}{section.8.4}% 
+\contentsline {section}{\numberline {8.4}Aggregation/Disaggregation}{138}{section.8.4}% 
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.4.1}Octree}{136}{subsection.8.4.1}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.4.2}Aggregation}{136}{subsection.8.4.2}% 
+\contentsline {subsection}{\numberline {8.4.1}Octree}{138}{subsection.8.4.1}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {8.4.3}Disaggregation}{137}{subsection.8.4.3}% 
-\setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {8.5}Translation Operator}{137}{section.8.5}% 
-\contentsline {subsection}{\numberline {8.5.1}Basic Translation Operator}{137}{subsection.8.5.1}% 
-\contentsline {subsection}{\numberline {8.5.2}Translation Operator Interpolation}{139}{subsection.8.5.2}% 
-\contentsline {section}{\numberline {8.6}Scalar Spherical Filter}{142}{section.8.6}% 
-\contentsline {subsection}{\numberline {8.6.1}Spherical Harmonic Transforms}{142}{subsection.8.6.1}% 
-\contentsline {subsection}{\numberline {8.6.2}Forward Scalar Spherical Transform}{142}{subsection.8.6.2}% 
-\contentsline {subsection}{\numberline {8.6.3}Inverse Scalar Spherical Transform}{144}{subsection.8.6.3}% 
-\contentsline {subsection}{\numberline {8.6.4}Scalar Spherical Filter}{145}{subsection.8.6.4}% 
-\contentsline {subsection}{\numberline {8.6.5}Fast Scalar Spherical Filter}{147}{subsection.8.6.5}% 
-\contentsline {subsubsection}{Basic implementation}{148}{section*.26}% 
-\contentsline {section}{\numberline {8.7}Vector Spherical Filter}{151}{section.8.7}% 
-\contentsline {subsection}{\numberline {8.7.1}Vector Spherical Harmonic Transforms}{151}{subsection.8.7.1}% 
-\contentsline {subsection}{\numberline {8.7.2}Forward Vector Spherical Transform}{151}{subsection.8.7.2}% 
-\contentsline {subsection}{\numberline {8.7.3}Inverse Vector Spherical Transform}{154}{subsection.8.7.3}% 
-\contentsline {subsection}{\numberline {8.7.4}Vector Spherical Filter}{155}{subsection.8.7.4}% 
-\contentsline {subsection}{\numberline {8.7.5}Fast Vector Spherical Filter}{157}{subsection.8.7.5}% 
-\contentsline {subsubsection}{Method 1 - Precomputed Matrix-Vector Multiply}{157}{section*.27}% 
-\contentsline {subsubsection}{Method 2 - Fast Scalar Filter with Correction Terms}{161}{section*.28}% 
-\contentsline {paragraph}{Legendre Derivative Relations:}{161}{section*.29}% 
-\contentsline {paragraph}{$F_{\theta }(\theta ,\phi )$ Component:}{162}{section*.30}% 
-\contentsline {paragraph}{$F_{\phi }(\theta ,\phi )$ Component:}{163}{section*.31}% 
-\contentsline {paragraph}{Summary:}{163}{section*.32}% 
-\contentsline {paragraph}{Routine:}{163}{section*.33}% 
-\contentsline {section}{\numberline {8.8}Scattering Matrices for the FMM}{166}{section.8.8}% 
-\contentsline {subsection}{\numberline {8.8.1}S-matrix and Field Multiplication using Quadrature}{166}{subsection.8.8.1}% 
-\contentsline {subsection}{\numberline {8.8.2}S-matrix to T-matrix Transformation using Quadrature}{167}{subsection.8.8.2}% 
-\contentsline {subsection}{\numberline {8.8.3}T-matrix to S-matrix Transformation using Quadrature}{169}{subsection.8.8.3}% 
-\contentsline {section}{\numberline {8.9}1D FMM, $1/(x-x')$}{171}{section.8.9}% 
-\contentsline {paragraph}{Setup}{171}{section*.34}% 
-\contentsline {paragraph}{Algorithm psuedo-code}{172}{section*.35}% 
-\contentsline {paragraph}{Routines}{173}{section*.36}% 
-\contentsline {chapter}{\numberline {9}Kirchhoff Approximation}{179}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Derivation of the Kirchhoff Approximation}{179}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Fresnel Reflection Coefficients}{181}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}Facetized Surfaces}{181}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Surface Phase Integral}{182}{section.9.4}% 
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {9.4.1}Specular Direction}{183}{subsection.9.4.1}% 
+\contentsline {subsection}{\numberline {8.4.2}Aggregation}{138}{subsection.8.4.2}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {9.4.2}Rectangle}{183}{subsection.9.4.2}% 
+\contentsline {subsection}{\numberline {8.4.3}Disaggregation}{139}{subsection.8.4.3}% 
+\setcounter {tocdepth}{2}
+\contentsline {section}{\numberline {8.5}Translation Operator}{139}{section.8.5}% 
+\contentsline {subsection}{\numberline {8.5.1}Basic Translation Operator}{139}{subsection.8.5.1}% 
+\contentsline {subsection}{\numberline {8.5.2}Translation Operator Interpolation}{141}{subsection.8.5.2}% 
+\contentsline {section}{\numberline {8.6}Scalar Spherical Filter}{144}{section.8.6}% 
+\contentsline {subsection}{\numberline {8.6.1}Spherical Harmonic Transforms}{144}{subsection.8.6.1}% 
+\contentsline {subsection}{\numberline {8.6.2}Forward Scalar Spherical Transform}{144}{subsection.8.6.2}% 
+\contentsline {subsection}{\numberline {8.6.3}Inverse Scalar Spherical Transform}{146}{subsection.8.6.3}% 
+\contentsline {subsection}{\numberline {8.6.4}Scalar Spherical Filter}{147}{subsection.8.6.4}% 
+\contentsline {subsection}{\numberline {8.6.5}Fast Scalar Spherical Filter}{149}{subsection.8.6.5}% 
+\contentsline {subsubsection}{Basic implementation}{150}{section*.26}% 
+\contentsline {section}{\numberline {8.7}Vector Spherical Filter}{153}{section.8.7}% 
+\contentsline {subsection}{\numberline {8.7.1}Vector Spherical Harmonic Transforms}{153}{subsection.8.7.1}% 
+\contentsline {subsection}{\numberline {8.7.2}Forward Vector Spherical Transform}{153}{subsection.8.7.2}% 
+\contentsline {subsection}{\numberline {8.7.3}Inverse Vector Spherical Transform}{156}{subsection.8.7.3}% 
+\contentsline {subsection}{\numberline {8.7.4}Vector Spherical Filter}{157}{subsection.8.7.4}% 
+\contentsline {subsection}{\numberline {8.7.5}Fast Vector Spherical Filter}{159}{subsection.8.7.5}% 
+\contentsline {subsubsection}{Method 1 - Precomputed Matrix-Vector Multiply}{159}{section*.27}% 
+\contentsline {subsubsection}{Method 2 - Fast Scalar Filter with Correction Terms}{163}{section*.28}% 
+\contentsline {paragraph}{Legendre Derivative Relations:}{163}{section*.29}% 
+\contentsline {paragraph}{$F_{\theta }(\theta ,\phi )$ Component:}{164}{section*.30}% 
+\contentsline {paragraph}{$F_{\phi }(\theta ,\phi )$ Component:}{165}{section*.31}% 
+\contentsline {paragraph}{Summary:}{165}{section*.32}% 
+\contentsline {paragraph}{Routine:}{165}{section*.33}% 
+\contentsline {section}{\numberline {8.8}Scattering Matrices for the FMM}{168}{section.8.8}% 
+\contentsline {subsection}{\numberline {8.8.1}S-matrix and Field Multiplication using Quadrature}{168}{subsection.8.8.1}% 
+\contentsline {subsection}{\numberline {8.8.2}S-matrix to T-matrix Transformation using Quadrature}{169}{subsection.8.8.2}% 
+\contentsline {subsection}{\numberline {8.8.3}T-matrix to S-matrix Transformation using Quadrature}{171}{subsection.8.8.3}% 
+\contentsline {section}{\numberline {8.9}1D FMM, $1/(x-x')$}{173}{section.8.9}% 
+\contentsline {paragraph}{Setup}{173}{section*.34}% 
+\contentsline {paragraph}{Algorithm psuedo-code}{174}{section*.35}% 
+\contentsline {paragraph}{Routines}{175}{section*.36}% 
+\contentsline {chapter}{\numberline {9}Kirchhoff Approximation}{181}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Derivation of the Kirchhoff Approximation}{181}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Fresnel Reflection Coefficients}{183}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}Facetized Surfaces}{183}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Surface Phase Integral}{184}{section.9.4}% 
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {9.4.1}Specular Direction}{185}{subsection.9.4.1}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {9.4.3}Ellipse}{183}{subsection.9.4.3}% 
+\contentsline {subsection}{\numberline {9.4.2}Rectangle}{185}{subsection.9.4.2}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {9.4.4}Circle}{184}{subsection.9.4.4}% 
+\contentsline {subsection}{\numberline {9.4.3}Ellipse}{185}{subsection.9.4.3}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {9.4.5}Triangle}{184}{subsection.9.4.5}% 
-\setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {9.5}S-matrix of a Facet}{186}{section.9.5}% 
-\contentsline {section}{\numberline {9.6}Radar Cross Section of a Facet}{187}{section.9.6}% 
-\contentsline {subsection}{\numberline {9.6.1}Specular RCS of a Facet}{187}{subsection.9.6.1}% 
-\contentsline {subsection}{\numberline {9.6.2}Backscatter RCS of a Facet}{188}{subsection.9.6.2}% 
-\contentsline {paragraph}{Rectangle}{189}{section*.37}% 
-\contentsline {paragraph}{Ellipse}{189}{section*.38}% 
-\contentsline {paragraph}{Circle}{189}{section*.39}% 
-\contentsline {paragraph}{Triangle}{190}{section*.40}% 
-\contentsline {paragraph}{Summary}{190}{section*.41}% 
-\contentsline {chapter}{\numberline {10}Random Object Generation}{191}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}1D Random Signals}{191}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}2D Random Surfaces}{194}{section.10.2}% 
-\contentsline {section}{\numberline {10.3}3D Random Volumes}{196}{section.10.3}% 
-\contentsline {section}{\numberline {10.4}1D Fractal Signals}{199}{section.10.4}% 
-\contentsline {section}{\numberline {10.5}Bicontinuous Random Media}{201}{section.10.5}% 
-\contentsline {paragraph}{Distribution}{201}{section*.42}% 
-\contentsline {paragraph}{Correlation Function}{202}{section*.43}% 
-\contentsline {paragraph}{Routine}{202}{section*.44}% 
-\contentsline {section}{\numberline {10.6}Ocean Waves}{204}{section.10.6}% 
-\contentsline {section}{\numberline {10.7}Gaussian Random Particles}{208}{section.10.7}% 
-\contentsline {paragraph}{Log-normal Radius}{208}{section*.45}% 
-\contentsline {paragraph}{Spherical Harmonic Expansion}{208}{section*.46}% 
-\contentsline {paragraph}{Derivation of $c_l$}{209}{section*.47}% 
-\contentsline {paragraph}{Fully Normalized Legendre Polynomials}{211}{section*.48}% 
-\contentsline {paragraph}{Small Correlation Limit}{211}{section*.49}% 
-\contentsline {paragraph}{Routine}{212}{section*.50}% 
-\contentsline {section}{\numberline {10.8}Ionosphere Irregularity}{214}{section.10.8}% 
-\contentsline {paragraph}{Background}{214}{section*.51}% 
-\contentsline {paragraph}{Formulation}{214}{section*.52}% 
-\contentsline {paragraph}{Routine}{216}{section*.53}% 
-\contentsline {chapter}{\numberline {11}Reflection and Refraction}{217}{chapter.11}% 
-\contentsline {section}{\numberline {11.1}Snell's Law}{217}{section.11.1}% 
-\contentsline {section}{\numberline {11.2}Reflection Point - Flat Interface}{217}{section.11.2}% 
-\contentsline {section}{\numberline {11.3}Reflection Point - Sphere}{219}{section.11.3}% 
-\contentsline {paragraph}{Line-Sphere Intersection}{220}{section*.54}% 
-\contentsline {paragraph}{Routine}{221}{section*.55}% 
-\contentsline {section}{\numberline {11.4}Refraction Point - Flat Interface}{222}{section.11.4}% 
-\contentsline {subsubsection}{Quartic Solution}{223}{section*.56}% 
-\contentsline {subsubsection}{Iterative Solution}{223}{section*.57}% 
-\contentsline {subsubsection}{Routine}{224}{section*.58}% 
-\contentsline {section}{\numberline {11.5}Refraction Point - Circular Interface}{226}{section.11.5}% 
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {11.5.1}Refraction Point - Circular Interface - Analytical}{226}{subsection.11.5.1}% 
+\contentsline {subsection}{\numberline {9.4.4}Circle}{186}{subsection.9.4.4}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {11.5.2}Refraction Point - Circular Interface - Iterative}{230}{subsection.11.5.2}% 
+\contentsline {subsection}{\numberline {9.4.5}Triangle}{186}{subsection.9.4.5}% 
 \setcounter {tocdepth}{2}
-\contentsline {paragraph}{Intersection of Circle and Line}{232}{section*.59}% 
-\contentsline {paragraph}{ComputeIntersection($\theta _p$)}{232}{section*.60}% 
-\contentsline {section}{\numberline {11.6}Refraction Point - Sphere}{234}{section.11.6}% 
-\contentsline {chapter}{\numberline {12}Utilities}{237}{chapter.12}% 
-\contentsline {section}{\numberline {12.1}Coordinate Transformations}{237}{section.12.1}% 
-\contentsline {paragraph}{Routine \texttt {cart2cyl} }{238}{section*.61}% 
-\contentsline {paragraph}{Routine \texttt {cyl2cart} }{239}{section*.62}% 
-\contentsline {paragraph}{Routine \texttt {cart2sph} }{239}{section*.63}% 
-\contentsline {paragraph}{Routine \texttt {sph2cart} }{239}{section*.64}% 
-\contentsline {paragraph}{Routine \texttt {cyl2sph} }{240}{section*.65}% 
-\contentsline {paragraph}{Routine \texttt {sph2cyl} }{240}{section*.66}% 
-\contentsline {paragraph}{Helper Routine \texttt {checkargs} }{241}{section*.67}% 
-\contentsline {section}{\numberline {12.2}Spherical Bessel Functions}{242}{section.12.2}% 
+\contentsline {section}{\numberline {9.5}S-matrix of a Facet}{188}{section.9.5}% 
+\contentsline {section}{\numberline {9.6}Radar Cross Section of a Facet}{189}{section.9.6}% 
+\contentsline {subsection}{\numberline {9.6.1}Specular RCS of a Facet}{189}{subsection.9.6.1}% 
+\contentsline {subsection}{\numberline {9.6.2}Backscatter RCS of a Facet}{190}{subsection.9.6.2}% 
+\contentsline {paragraph}{Rectangle}{191}{section*.37}% 
+\contentsline {paragraph}{Ellipse}{191}{section*.38}% 
+\contentsline {paragraph}{Circle}{191}{section*.39}% 
+\contentsline {paragraph}{Triangle}{192}{section*.40}% 
+\contentsline {paragraph}{Summary}{192}{section*.41}% 
+\contentsline {chapter}{\numberline {10}Random Object Generation}{193}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}1D Random Signals}{193}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}2D Random Surfaces}{196}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}3D Random Volumes}{198}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}1D Fractal Signals}{201}{section.10.4}% 
+\contentsline {section}{\numberline {10.5}Bicontinuous Random Media}{203}{section.10.5}% 
+\contentsline {paragraph}{Distribution}{203}{section*.42}% 
+\contentsline {paragraph}{Correlation Function}{204}{section*.43}% 
+\contentsline {paragraph}{Routine}{204}{section*.44}% 
+\contentsline {section}{\numberline {10.6}Ocean Waves}{206}{section.10.6}% 
+\contentsline {section}{\numberline {10.7}Gaussian Random Particles}{210}{section.10.7}% 
+\contentsline {paragraph}{Log-normal Radius}{210}{section*.45}% 
+\contentsline {paragraph}{Spherical Harmonic Expansion}{210}{section*.46}% 
+\contentsline {paragraph}{Derivation of $c_l$}{211}{section*.47}% 
+\contentsline {paragraph}{Fully Normalized Legendre Polynomials}{213}{section*.48}% 
+\contentsline {paragraph}{Small Correlation Limit}{213}{section*.49}% 
+\contentsline {paragraph}{Routine}{214}{section*.50}% 
+\contentsline {section}{\numberline {10.8}Ionosphere Irregularity}{216}{section.10.8}% 
+\contentsline {paragraph}{Background}{216}{section*.51}% 
+\contentsline {paragraph}{Formulation}{216}{section*.52}% 
+\contentsline {paragraph}{Routine}{218}{section*.53}% 
+\contentsline {chapter}{\numberline {11}Reflection and Refraction}{219}{chapter.11}% 
+\contentsline {section}{\numberline {11.1}Snell's Law}{219}{section.11.1}% 
+\contentsline {section}{\numberline {11.2}Reflection Point - Flat Interface}{219}{section.11.2}% 
+\contentsline {section}{\numberline {11.3}Reflection Point - Sphere}{221}{section.11.3}% 
+\contentsline {paragraph}{Line-Sphere Intersection}{222}{section*.54}% 
+\contentsline {paragraph}{Routine}{223}{section*.55}% 
+\contentsline {section}{\numberline {11.4}Refraction Point - Flat Interface}{224}{section.11.4}% 
+\contentsline {subsubsection}{Quartic Solution}{225}{section*.56}% 
+\contentsline {subsubsection}{Iterative Solution}{225}{section*.57}% 
+\contentsline {subsubsection}{Routine}{226}{section*.58}% 
+\contentsline {section}{\numberline {11.5}Refraction Point - Circular Interface}{228}{section.11.5}% 
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.1}Sombrero function: $\textrm {jinc}(x)$}{242}{subsection.12.2.1}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.2}Spherical Bessel function: $j_n(x)$}{242}{subsection.12.2.2}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.3}Spherical Bessel function: $j_n(x)/x$}{243}{subsection.12.2.3}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.4}Spherical Bessel function derivative: $j_n'(x)$}{243}{subsection.12.2.4}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.5}Spherical Bessel function derivative: $[xj_n(x)]'$}{244}{subsection.12.2.5}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.6}Spherical Hankel function: $h_n^{(1)}(x)$}{244}{subsection.12.2.6}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.7}Spherical Hankel function derivative: ${h'}_n^{(1)}(x)$}{244}{subsection.12.2.7}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.2.8}Spherical Hankel function derivative: $[xh_n^{(1)}(x)]'$}{245}{subsection.12.2.8}% 
-\setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {12.3}Legendre Polynomials}{246}{section.12.3}% 
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.3.1}Legendre Polynomials, $P_l(x)$}{246}{subsection.12.3.1}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.3.2}Legendre Polynomial Derivative, $d/dx P_l(x)$}{247}{subsection.12.3.2}% 
-\setcounter {tocdepth}{2}
-\setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.3.3}Normalized Associated Legendre Polynomials, $\setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(x)$}{248}{subsection.12.3.3}% 
+\contentsline {subsection}{\numberline {11.5.1}Refraction Point - Circular Interface - Analytical}{228}{subsection.11.5.1}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.3.4}Normalized Associated Legendre Polynomials Derivative, $d/dx\setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(x)$}{249}{subsection.12.3.4}% 
+\contentsline {subsection}{\numberline {11.5.2}Refraction Point - Circular Interface - Iterative}{232}{subsection.11.5.2}% 
+\setcounter {tocdepth}{2}
+\contentsline {paragraph}{Intersection of Circle and Line}{234}{section*.59}% 
+\contentsline {paragraph}{ComputeIntersection($\theta _p$)}{234}{section*.60}% 
+\contentsline {section}{\numberline {11.6}Refraction Point - Sphere}{236}{section.11.6}% 
+\contentsline {chapter}{\numberline {12}Utilities}{239}{chapter.12}% 
+\contentsline {section}{\numberline {12.1}Coordinate Transformations}{239}{section.12.1}% 
+\contentsline {paragraph}{Routine \texttt {cart2cyl} }{240}{section*.61}% 
+\contentsline {paragraph}{Routine \texttt {cyl2cart} }{241}{section*.62}% 
+\contentsline {paragraph}{Routine \texttt {cart2sph} }{241}{section*.63}% 
+\contentsline {paragraph}{Routine \texttt {sph2cart} }{241}{section*.64}% 
+\contentsline {paragraph}{Routine \texttt {cyl2sph} }{242}{section*.65}% 
+\contentsline {paragraph}{Routine \texttt {sph2cyl} }{242}{section*.66}% 
+\contentsline {paragraph}{Helper Routine \texttt {checkargs} }{243}{section*.67}% 
+\contentsline {section}{\numberline {12.2}Spherical Bessel Functions}{244}{section.12.2}% 
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.2.1}Sombrero function: $\textrm {jinc}(x)$}{244}{subsection.12.2.1}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.3.5}Normalized Associated Legendre Polynomials, $m\setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(\qopname \relax o{cos}\theta )/\qopname \relax o{sin}\theta $}{250}{subsection.12.3.5}% 
+\contentsline {subsection}{\numberline {12.2.2}Spherical Bessel function: $j_n(x)$}{244}{subsection.12.2.2}% 
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {12.3.6}Normalized Associated Legendre Polynomials Derivative, $d/d\theta \setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(\qopname \relax o{cos}\theta )$}{251}{subsection.12.3.6}% 
+\contentsline {subsection}{\numberline {12.2.3}Spherical Bessel function: $j_n(x)/x$}{245}{subsection.12.2.3}% 
 \setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {12.4}Miscellaneous}{253}{section.12.4}% 
-\contentsline {subsection}{\numberline {12.4.1}FFT Frequency}{253}{subsection.12.4.1}% 
-\contentsline {subsection}{\numberline {12.4.2}Phase wrapping}{253}{subsection.12.4.2}% 
-\contentsline {subsection}{\numberline {12.4.3}Cubic Roots}{254}{subsection.12.4.3}% 
-\contentsline {subsection}{\numberline {12.4.4}Quartic Roots}{255}{subsection.12.4.4}% 
-\contentsline {subsection}{\numberline {12.4.5}Uniform Points on a Sphere}{257}{subsection.12.4.5}% 
-\contentsline {subsection}{\numberline {12.4.6}Uniformly Random Points on a Sphere}{258}{subsection.12.4.6}% 
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.2.4}Spherical Bessel function derivative: $j_n'(x)$}{245}{subsection.12.2.4}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.2.5}Spherical Bessel function derivative: $[xj_n(x)]'$}{246}{subsection.12.2.5}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.2.6}Spherical Hankel function: $h_n^{(1)}(x)$}{246}{subsection.12.2.6}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.2.7}Spherical Hankel function derivative: ${h'}_n^{(1)}(x)$}{246}{subsection.12.2.7}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.2.8}Spherical Hankel function derivative: $[xh_n^{(1)}(x)]'$}{247}{subsection.12.2.8}% 
+\setcounter {tocdepth}{2}
+\contentsline {section}{\numberline {12.3}Legendre Polynomials}{248}{section.12.3}% 
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.3.1}Legendre Polynomials, $P_l(x)$}{248}{subsection.12.3.1}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.3.2}Legendre Polynomial Derivative, $d/dx P_l(x)$}{249}{subsection.12.3.2}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.3.3}Normalized Associated Legendre Polynomials, $\setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(x)$}{250}{subsection.12.3.3}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.3.4}Normalized Associated Legendre Polynomials Derivative, $d/dx\setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(x)$}{251}{subsection.12.3.4}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.3.5}Normalized Associated Legendre Polynomials, $m\setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(\qopname \relax o{cos}\theta )/\qopname \relax o{sin}\theta $}{252}{subsection.12.3.5}% 
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{1}
+\contentsline {subsection}{\numberline {12.3.6}Normalized Associated Legendre Polynomials Derivative, $d/d\theta \setbox \z@ \hbox {\mathsurround \z@ $\textstyle P$}\mathaccent "0365{P}_l^m(\qopname \relax o{cos}\theta )$}{253}{subsection.12.3.6}% 
+\setcounter {tocdepth}{2}
+\contentsline {section}{\numberline {12.4}Miscellaneous}{255}{section.12.4}% 
+\contentsline {subsection}{\numberline {12.4.1}FFT Frequency}{255}{subsection.12.4.1}% 
+\contentsline {subsection}{\numberline {12.4.2}Phase wrapping}{255}{subsection.12.4.2}% 
+\contentsline {subsection}{\numberline {12.4.3}Cubic Roots}{256}{subsection.12.4.3}% 
+\contentsline {subsection}{\numberline {12.4.4}Quartic Roots}{257}{subsection.12.4.4}% 
+\contentsline {subsection}{\numberline {12.4.5}Uniform Points on a Sphere}{259}{subsection.12.4.5}% 
+\contentsline {subsection}{\numberline {12.4.6}Uniformly Random Points on a Sphere}{260}{subsection.12.4.6}% 

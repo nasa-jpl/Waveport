@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 SEP 2021 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 OCT 2021 07:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,7 +830,7 @@ LaTeX Info: Redefining \nameref on input line 43.
 \@outlinefile=\write4
 \openout4 = `Waveport.out'.
 
-<Cover/frontcover.pdf, id=739, 614.295pt x 794.97pt>
+<Cover/frontcover.pdf, id=743, 614.295pt x 794.97pt>
 File: Cover/frontcover.pdf Graphic file (type pdf)
 <use Cover/frontcover.pdf>
 Package pdftex.def Info: Cover/frontcover.pdf  used on input line 47.
@@ -839,7 +839,7 @@ File: Cover/frontcover.pdf Graphic file (type pdf)
 <use Cover/frontcover.pdf>
 Package pdftex.def Info: Cover/frontcover.pdf  used on input line 47.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Cover/frontcover.pdf, id=742, page=1, 614.295pt x 794.97pt>
+<Cover/frontcover.pdf, id=746, page=1, 614.295pt x 794.97pt>
 File: Cover/frontcover.pdf Graphic file (type pdf)
 <use Cover/frontcover.pdf, page 1>
 Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
@@ -863,7 +863,7 @@ Package pdftex.def Info: Cover/frontcover.pdf , page1 used on input line 47.
  [1
 
  <./Cover/frontcover.pdf>]
-<Cover/frontcover.pdf, id=774, page=2, 614.295pt x 794.97pt>
+<Cover/frontcover.pdf, id=778, page=2, 614.295pt x 794.97pt>
 File: Cover/frontcover.pdf Graphic file (type pdf)
 <use Cover/frontcover.pdf, page 2>
 Package pdftex.def Info: Cover/frontcover.pdf , page2 used on input line 47.
@@ -1024,7 +1024,7 @@ ted-to.pdf>
 een2d-eps-converted-to.pdf GreensFunctions/Figures/green2d.eps>
 (epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green2d-eps-converted-to.pdf, id=1118, 437.635pt x 357
+<GreensFunctions/Figures/green2d-eps-converted-to.pdf, id=1123, 437.635pt x 357
 .335pt>
 File: GreensFunctions/Figures/green2d-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1043,7 +1043,7 @@ verted-to.pdf>
 een2d_v2-eps-converted-to.pdf GreensFunctions/Figures/green2d_v2.eps>
 (epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green2d_v2-eps-converted-to.pdf, id=1119, 428.60126pt 
+<GreensFunctions/Figures/green2d_v2-eps-converted-to.pdf, id=1124, 428.60126pt 
 x 357.335pt>
 File: GreensFunctions/Figures/green2d_v2-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1062,7 +1062,7 @@ ted-to.pdf>
 een3d-eps-converted-to.pdf GreensFunctions/Figures/green3d.eps>
 (epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3d-eps-converted-to.pdf, id=1120, 431.6125pt x 35
+<GreensFunctions/Figures/green3d-eps-converted-to.pdf, id=1125, 431.6125pt x 35
 7.335pt>
 File: GreensFunctions/Figures/green3d-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1081,7 +1081,7 @@ verted-to.pdf>
 een3d_v2-eps-converted-to.pdf GreensFunctions/Figures/green3d_v2.eps>
 (epstopdf)             \includegraphics on input line 345.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3d_v2-eps-converted-to.pdf, id=1121, 425.59pt x 3
+<GreensFunctions/Figures/green3d_v2-eps-converted-to.pdf, id=1126, 425.59pt x 3
 57.335pt>
 File: GreensFunctions/Figures/green3d_v2-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1107,7 +1107,7 @@ converted-to.pdf>
 een3dyadic1-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic1.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf, id=1198, 500.87125
+<GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf, id=1203, 500.87125
 pt x 425.59pt>
 File: GreensFunctions/Figures/green3dyadic1-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1127,7 +1127,7 @@ converted-to.pdf>
 een3dyadic2-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic2.eps>
 (epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3dyadic2-eps-converted-to.pdf, id=1199, 500.87125
+<GreensFunctions/Figures/green3dyadic2-eps-converted-to.pdf, id=1204, 500.87125
 pt x 425.59pt>
 File: GreensFunctions/Figures/green3dyadic2-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1147,7 +1147,7 @@ converted-to.pdf>
 een3dyadic3-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic3.eps>
 (epstopdf)             \includegraphics on input line 416.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3dyadic3-eps-converted-to.pdf, id=1200, 500.87125
+<GreensFunctions/Figures/green3dyadic3-eps-converted-to.pdf, id=1205, 500.87125
 pt x 425.59pt>
 File: GreensFunctions/Figures/green3dyadic3-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1167,7 +1167,7 @@ converted-to.pdf>
 een3dyadic4-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic4.eps>
 (epstopdf)             \includegraphics on input line 417.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3dyadic4-eps-converted-to.pdf, id=1201, 501.875pt
+<GreensFunctions/Figures/green3dyadic4-eps-converted-to.pdf, id=1206, 501.875pt
  x 425.59pt>
 File: GreensFunctions/Figures/green3dyadic4-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1187,7 +1187,7 @@ converted-to.pdf>
 een3dyadic5-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic5.eps>
 (epstopdf)             \includegraphics on input line 418.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3dyadic5-eps-converted-to.pdf, id=1202, 501.875pt
+<GreensFunctions/Figures/green3dyadic5-eps-converted-to.pdf, id=1207, 501.875pt
  x 425.59pt>
 File: GreensFunctions/Figures/green3dyadic5-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1207,7 +1207,7 @@ converted-to.pdf>
 een3dyadic6-eps-converted-to.pdf GreensFunctions/Figures/green3dyadic6.eps>
 (epstopdf)             \includegraphics on input line 419.
 Package epstopdf Info: Output file is already uptodate.
-<GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf, id=1203, 501.875pt
+<GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf, id=1208, 501.875pt
  x 425.59pt>
 File: GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1222,7 +1222,7 @@ s-converted-to.pdf> <./GreensFunctions/Figures/green3dyadic5-eps-converted-to.p
 df> <./GreensFunctions/Figures/green3dyadic6-eps-converted-to.pdf>] [22] [23
 
 ] [24]
-<GreensFunctions/Figures/SparamVIE.pdf, id=1326, 505.89pt x 272.01625pt>
+<GreensFunctions/Figures/SparamVIE.pdf, id=1331, 505.89pt x 272.01625pt>
 File: GreensFunctions/Figures/SparamVIE.pdf Graphic file (type pdf)
 <use GreensFunctions/Figures/SparamVIE.pdf>
 Package pdftex.def Info: GreensFunctions/Figures/SparamVIE.pdf  used on input l
@@ -1299,7 +1299,7 @@ erted-to.pdf>
 armcont-eps-converted-to.pdf WaveFunctions/Figures/sphharmcont.eps>
 (epstopdf)             \includegraphics on input line 644.
 Package epstopdf Info: Output file is already uptodate.
-<WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf, id=1513, 492.84125pt x
+<WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf, id=1518, 492.84125pt x
  412.54124pt>
 File: WaveFunctions/Figures/sphharmcont-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1318,7 +1318,7 @@ nverted-to.pdf>
 armcontex-eps-converted-to.pdf WaveFunctions/Figures/sphharmcontex.eps>
 (epstopdf)             \includegraphics on input line 645.
 Package epstopdf Info: Output file is already uptodate.
-<WaveFunctions/Figures/sphharmcontex-eps-converted-to.pdf, id=1514, 499.8675pt 
+<WaveFunctions/Figures/sphharmcontex-eps-converted-to.pdf, id=1519, 499.8675pt 
 x 413.545pt>
 File: WaveFunctions/Figures/sphharmcontex-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1341,7 +1341,7 @@ Package epstopdf Info: Source file: <Rotation/Figures/ZXZ.eps>
 onverted-to.pdf Rotation/Figures/ZXZ.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<Rotation/Figures/ZXZ-eps-converted-to.pdf, id=1555, 1060.96375pt x 323.2075pt>
+<Rotation/Figures/ZXZ-eps-converted-to.pdf, id=1560, 1060.96375pt x 323.2075pt>
 
 File: Rotation/Figures/ZXZ-eps-converted-to.pdf Graphic file (type pdf)
 <use Rotation/Figures/ZXZ-eps-converted-to.pdf>
@@ -1399,7 +1399,7 @@ Package epstopdf Info: Source file: <Rotation/Figures/Dlmp.eps>
 converted-to.pdf Rotation/Figures/Dlmp.eps>
 (epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
-<Rotation/Figures/Dlmp-eps-converted-to.pdf, id=1637, 673.51625pt x 699.61375pt
+<Rotation/Figures/Dlmp-eps-converted-to.pdf, id=1642, 673.51625pt x 699.61375pt
 >
 File: Rotation/Figures/Dlmp-eps-converted-to.pdf Graphic file (type pdf)
 <use Rotation/Figures/Dlmp-eps-converted-to.pdf>
@@ -1458,7 +1458,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [62]
 Chapter 5.
 (./Translation/Translation.tex
-<Translation/Figures/transdiagram.pdf, id=1734, 247.92625pt x 179.67125pt>
+<Translation/Figures/transdiagram.pdf, id=1739, 247.92625pt x 179.67125pt>
 File: Translation/Figures/transdiagram.pdf Graphic file (type pdf)
 <use Translation/Figures/transdiagram.pdf>
 Package pdftex.def Info: Translation/Figures/transdiagram.pdf  used on input li
@@ -1468,7 +1468,7 @@ ne 28.
 
 
 ] [64 <./Translation/Figures/transdiagram.pdf>]
-<Translation/Figures/alphaz.pdf, id=1789, 820.06375pt x 180.675pt>
+<Translation/Figures/alphaz.pdf, id=1794, 820.06375pt x 180.675pt>
 File: Translation/Figures/alphaz.pdf Graphic file (type pdf)
 <use Translation/Figures/alphaz.pdf>
 Package pdftex.def Info: Translation/Figures/alphaz.pdf  used on input line 81.
@@ -1486,7 +1486,7 @@ o.pdf>
 -eps-converted-to.pdf Translation/Figures/trans1.eps>
 (epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
-<Translation/Figures/trans1-eps-converted-to.pdf, id=1830, 480.79625pt x 398.48
+<Translation/Figures/trans1-eps-converted-to.pdf, id=1835, 480.79625pt x 398.48
 875pt>
 File: Translation/Figures/trans1-eps-converted-to.pdf Graphic file (type pdf)
 <use Translation/Figures/trans1-eps-converted-to.pdf>
@@ -1500,7 +1500,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68]
 [69]
-<Translation/Figures/sparseindex_2.pdf, id=1867, 515.9275pt x 325.215pt>
+<Translation/Figures/sparseindex_2.pdf, id=1872, 515.9275pt x 325.215pt>
 File: Translation/Figures/sparseindex_2.pdf Graphic file (type pdf)
 <use Translation/Figures/sparseindex_2.pdf>
 Package pdftex.def Info: Translation/Figures/sparseindex_2.pdf  used on input l
@@ -1509,7 +1509,7 @@ ine 177.
  [70
 
  <./Translation/Figures/sparseindex_2.pdf>]
-<Translation/Figures/sparseindex_3.pdf, id=1904, 346.29375pt x 487.8225pt>
+<Translation/Figures/sparseindex_3.pdf, id=1909, 346.29375pt x 487.8225pt>
 File: Translation/Figures/sparseindex_3.pdf Graphic file (type pdf)
 <use Translation/Figures/sparseindex_3.pdf>
 Package pdftex.def Info: Translation/Figures/sparseindex_3.pdf  used on input l
@@ -1536,7 +1536,7 @@ d-to.pdf>
 ull-eps-converted-to.pdf Translation/Figures/transfull.eps>
 (epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
-<Translation/Figures/transfull-eps-converted-to.pdf, id=1978, 419.5675pt x 381.
+<Translation/Figures/transfull-eps-converted-to.pdf, id=1983, 419.5675pt x 381.
 425pt>
 File: Translation/Figures/transfull-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1567,7 +1567,7 @@ ted-to.pdf>
 ullA1-eps-converted-to.pdf Translation/Figures/transfullA1.eps>
 (epstopdf)             \includegraphics on input line 455.
 Package epstopdf Info: Output file is already uptodate.
-<Translation/Figures/transfullA1-eps-converted-to.pdf, id=2047, 446.66875pt x 4
+<Translation/Figures/transfullA1-eps-converted-to.pdf, id=2052, 446.66875pt x 4
 23.5825pt>
 File: Translation/Figures/transfullA1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1586,7 +1586,7 @@ ted-to.pdf>
 ullB1-eps-converted-to.pdf Translation/Figures/transfullB1.eps>
 (epstopdf)             \includegraphics on input line 456.
 Package epstopdf Info: Output file is already uptodate.
-<Translation/Figures/transfullB1-eps-converted-to.pdf, id=2048, 446.66875pt x 4
+<Translation/Figures/transfullB1-eps-converted-to.pdf, id=2053, 446.66875pt x 4
 23.5825pt>
 File: Translation/Figures/transfullB1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1605,7 +1605,7 @@ ted-to.pdf>
 ullA2-eps-converted-to.pdf Translation/Figures/transfullA2.eps>
 (epstopdf)             \includegraphics on input line 457.
 Package epstopdf Info: Output file is already uptodate.
-<Translation/Figures/transfullA2-eps-converted-to.pdf, id=2049, 446.66875pt x 4
+<Translation/Figures/transfullA2-eps-converted-to.pdf, id=2054, 446.66875pt x 4
 23.5825pt>
 File: Translation/Figures/transfullA2-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1624,7 +1624,7 @@ ted-to.pdf>
 ullB2-eps-converted-to.pdf Translation/Figures/transfullB2.eps>
 (epstopdf)             \includegraphics on input line 458.
 Package epstopdf Info: Output file is already uptodate.
-<Translation/Figures/transfullB2-eps-converted-to.pdf, id=2050, 446.66875pt x 4
+<Translation/Figures/transfullB2-eps-converted-to.pdf, id=2055, 446.66875pt x 4
 23.5825pt>
 File: Translation/Figures/transfullB2-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1648,7 +1648,7 @@ Chapter 6.
 ] [92] [93] [94] [95] [96
 
 ] [97]
-<Smatrix/Figures/Cuboid.pdf, id=2217, 189.70876pt x 174.6525pt>
+<Smatrix/Figures/Cuboid.pdf, id=2222, 189.70876pt x 174.6525pt>
 File: Smatrix/Figures/Cuboid.pdf Graphic file (type pdf)
 <use Smatrix/Figures/Cuboid.pdf>
 Package pdftex.def Info: Smatrix/Figures/Cuboid.pdf  used on input line 233.
@@ -1663,7 +1663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []\OT1/cmr/m/n/10 Circular
  []
 
-<Smatrix/Figures/Cylinder.pdf, id=2218, 127.47626pt x 159.59625pt>
+<Smatrix/Figures/Cylinder.pdf, id=2223, 127.47626pt x 159.59625pt>
 File: Smatrix/Figures/Cylinder.pdf Graphic file (type pdf)
 <use Smatrix/Figures/Cylinder.pdf>
 Package pdftex.def Info: Smatrix/Figures/Cylinder.pdf  used on input line 235.
@@ -1673,7 +1673,7 @@ Overfull \hbox (55.04254pt too wide) in paragraph at lines 235--235
 [][] 
  []
 
-<Smatrix/Figures/Sphere.pdf, id=2219, 178.6675pt x 182.6825pt>
+<Smatrix/Figures/Sphere.pdf, id=2224, 178.6675pt x 182.6825pt>
 File: Smatrix/Figures/Sphere.pdf Graphic file (type pdf)
 <use Smatrix/Figures/Sphere.pdf>
 Package pdftex.def Info: Smatrix/Figures/Sphere.pdf  used on input line 237.
@@ -1683,7 +1683,7 @@ Overfull \hbox (76.72375pt too wide) in paragraph at lines 237--237
 [][] 
  []
 
-<Smatrix/Figures/Ellipsoid.pdf, id=2220, 196.735pt x 178.6675pt>
+<Smatrix/Figures/Ellipsoid.pdf, id=2225, 196.735pt x 178.6675pt>
 File: Smatrix/Figures/Ellipsoid.pdf Graphic file (type pdf)
 <use Smatrix/Figures/Ellipsoid.pdf>
 Package pdftex.def Info: Smatrix/Figures/Ellipsoid.pdf  used on input line 239.
@@ -1718,7 +1718,7 @@ Chapter 7.
 (./Tmatrix/Tmatrix.tex [103] [104
 
 ] [105] [106]
-<Tmatrix/Figures/ebcm.pdf, id=2377, 322.20375pt x 315.1775pt>
+<Tmatrix/Figures/ebcm.pdf, id=2382, 322.20375pt x 315.1775pt>
 File: Tmatrix/Figures/ebcm.pdf Graphic file (type pdf)
 <use Tmatrix/Figures/ebcm.pdf>
 Package pdftex.def Info: Tmatrix/Figures/ebcm.pdf  used on input line 148.
@@ -1742,7 +1742,7 @@ o.pdf>
 -eps-converted-to.pdf Tmatrix/Figures/ebcmsphere.eps>
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf, id=2530, 653.44125pt x 495.85
+<Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf, id=2535, 653.44125pt x 495.85
 25pt>
 File: Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf Graphic file (type pdf)
 <use Tmatrix/Figures/ebcmsphere-eps-converted-to.pdf>
@@ -1760,7 +1760,7 @@ df>
 s-converted-to.pdf Tmatrix/Figures/ebcmTmm.eps>
 (epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf, id=2531, 527.9725pt x 325.215pt>
+<Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf, id=2536, 527.9725pt x 325.215pt>
 
 File: Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf Graphic file (type pdf)
 <use Tmatrix/Figures/ebcmTmm-eps-converted-to.pdf>
@@ -1778,7 +1778,7 @@ df>
 s-converted-to.pdf Tmatrix/Figures/ebcmTnn.eps>
 (epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf, id=2532, 527.9725pt x 325.215pt>
+<Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf, id=2537, 527.9725pt x 325.215pt>
 
 File: Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf Graphic file (type pdf)
 <use Tmatrix/Figures/ebcmTnn-eps-converted-to.pdf>
@@ -1795,7 +1795,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [114]
 [115] [116
 
-] [117] [118] [119] [120]
+] [117]
+Overfull \hbox (6.18045pt too wide) detected at line 505
+[][] [] \OT1/cmr/m/n/10 = [] [] [] [] [] [] [] []
+ []
+
+[118] [119] [120]
+
+LaTeX Warning: Reference `Blmparity' on page 121 undefined on input line 559.
+
+
+LaTeX Warning: Reference `Clmparity' on page 121 undefined on input line 559.
+
+
+Overfull \hbox (22.56676pt too wide) detected at line 562
+[]
+ []
+
+<Tmatrix/Figures/brcstmatrix.pdf, id=2639, 291.0875pt x 232.87pt>
+File: Tmatrix/Figures/brcstmatrix.pdf Graphic file (type pdf)
+<use Tmatrix/Figures/brcstmatrix.pdf>
+Package pdftex.def Info: Tmatrix/Figures/brcstmatrix.pdf  used on input line 57
+0.
+(pdftex.def)             Requested size: 216.81pt x 173.45103pt.
+
+Overfull \hbox (23.33719pt too wide) detected at line 581
+[]
+ []
+
+[121
+
+ <./Tmatrix/Figures/brcstmatrix.pdf>] [122]
 Package epstopdf Info: Source file: <Tmatrix/Figures/brcspecsphere.eps>
 (epstopdf)                    date: 2020-05-04 11:17:10
 (epstopdf)                    size: 47847 bytes
@@ -1805,20 +1835,19 @@ d-to.pdf>
 (epstopdf)                    size: 17176 bytes
 (epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/brcspecsph
 ere-eps-converted-to.pdf Tmatrix/Figures/brcspecsphere.eps>
-(epstopdf)             \includegraphics on input line 643.
+(epstopdf)             \includegraphics on input line 707.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf, id=2646, 539.01375pt x 361
+<Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf, id=2692, 539.01375pt x 361
 .35pt>
 File: Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf Graphic file (type pdf
 )
 <use Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf>
 Package pdftex.def Info: Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf  us
-ed on input line 643.
+ed on input line 707.
 (pdftex.def)             Requested size: 252.94499pt x 169.57538pt.
+ [123
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [121 <./Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf>]
+ <./Tmatrix/Figures/brcspecsphere-eps-converted-to.pdf>] [124]
 Package epstopdf Info: Source file: <Tmatrix/Figures/brcsdielectricsphere.eps>
 (epstopdf)                    date: 2020-05-04 10:51:24
 (epstopdf)                    size: 59008 bytes
@@ -1828,15 +1857,15 @@ onverted-to.pdf>
 (epstopdf)                    size: 21459 bytes
 (epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/brcsdielec
 tricsphere-eps-converted-to.pdf Tmatrix/Figures/brcsdielectricsphere.eps>
-(epstopdf)             \includegraphics on input line 676.
+(epstopdf)             \includegraphics on input line 740.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf, id=2663, 502.87875p
+<Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf, id=2721, 502.87875p
 t x 341.275pt>
 File: Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf>
 Package pdftex.def Info: Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.
-pdf  used on input line 676.
+pdf  used on input line 740.
 (pdftex.def)             Requested size: 231.26378pt x 156.94153pt.
 Package epstopdf Info: Source file: <Tmatrix/Figures/brcsdielectricspheregrid.e
 ps>
@@ -1849,23 +1878,22 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/brcsdielec
 tricspheregrid-eps-converted-to.pdf Tmatrix/Figures/brcsdielectricspheregrid.ep
 s>
-(epstopdf)             \includegraphics on input line 677.
+(epstopdf)             \includegraphics on input line 741.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf, id=2664, 578.16
+<Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf, id=2722, 578.16
 pt x 499.8675pt>
 File: Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Tmatrix/Figures/brcsdielectricspheregrid-eps-converted-to.pdf>
 Package pdftex.def Info: Tmatrix/Figures/brcsdielectricspheregrid-eps-converted
--to.pdf  used on input line 677.
+-to.pdf  used on input line 741.
 (pdftex.def)             Requested size: 224.03743pt x 193.69664pt.
- [122 <./Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf> <./Tmatrix/
-Figures/brcsdielectricspheregrid-eps-converted-to.pdf>] [123
+ [125
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./Tmatrix/Figures/brcsdielectricsphere-eps-converted-to.pdf> <./Tmatrix/Figur
+es/brcsdielectricspheregrid-eps-converted-to.pdf>] [126
 
- [124]
+] [127]
 Package epstopdf Info: Source file: <Tmatrix/Figures/scspecsphere.eps>
 (epstopdf)                    date: 2020-08-25 18:24:31
 (epstopdf)                    size: 46955 bytes
@@ -1875,18 +1903,17 @@ Package epstopdf Info: Source file: <Tmatrix/Figures/scspecsphere.eps>
 (epstopdf)                    size: 16549 bytes
 (epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/scspecsphe
 re-eps-converted-to.pdf Tmatrix/Figures/scspecsphere.eps>
-(epstopdf)             \includegraphics on input line 783.
+(epstopdf)             \includegraphics on input line 847.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/scspecsphere-eps-converted-to.pdf, id=2714, 551.05875pt x 354.
+<Tmatrix/Figures/scspecsphere-eps-converted-to.pdf, id=2775, 551.05875pt x 354.
 32375pt>
 File: Tmatrix/Figures/scspecsphere-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Tmatrix/Figures/scspecsphere-eps-converted-to.pdf>
 Package pdftex.def Info: Tmatrix/Figures/scspecsphere-eps-converted-to.pdf  use
-d on input line 783.
+d on input line 847.
 (pdftex.def)             Requested size: 289.07999pt x 185.88217pt.
-
-[125 <./Tmatrix/Figures/scspecsphere-eps-converted-to.pdf>]
+ [128 <./Tmatrix/Figures/scspecsphere-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Tmatrix/Figures/scsdielectricspheregrid.ep
 s>
 (epstopdf)                    date: 2020-08-25 19:27:21
@@ -1898,20 +1925,20 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Tmatrix/Figures/scsdielect
 ricspheregrid-eps-converted-to.pdf Tmatrix/Figures/scsdielectricspheregrid.eps>
 
-(epstopdf)             \includegraphics on input line 804.
+(epstopdf)             \includegraphics on input line 868.
 Package epstopdf Info: Output file is already uptodate.
-<Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf, id=2739, 551.058
+<Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf, id=2793, 551.058
 75pt x 434.62375pt>
 File: Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf>
 Package pdftex.def Info: Tmatrix/Figures/scsdielectricspheregrid-eps-converted-
-to.pdf  used on input line 804.
+to.pdf  used on input line 868.
 (pdftex.def)             Requested size: 252.94499pt x 199.49828pt.
- [126 <./Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf>] [127
+ [129
 
-]
-Overfull \hbox (3.81693pt too wide) in paragraph at lines 870--871
+ <./Tmatrix/Figures/scsdielectricspheregrid-eps-converted-to.pdf>]
+Overfull \hbox (3.81693pt too wide) in paragraph at lines 932--933
 \OT1/cmr/m/n/10 only terms that mat-ter are of the form $\OML/cmm/m/it/10 C[]\O
 T1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C
 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 ) [][] \OML/cmm
@@ -1921,22 +1948,22 @@ m/m/it/10 ^^R[]; ^^^[]\OT1/cmr/m/n/10 ) [][] \OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/
 10 .
  []
 
-) [128
+) [130
 
 ]
 Chapter 8.
 (./FastMultipoleMethod/FastMultipoleMethod.tex (./FastMultipoleMethod/FMM.tex
-[129
+[131
 
 
 ]
-<FastMultipoleMethod/Figures/fmmgreens.pdf, id=2790, 431.6125pt x 216.81pt>
+<FastMultipoleMethod/Figures/fmmgreens.pdf, id=2841, 431.6125pt x 216.81pt>
 File: FastMultipoleMethod/Figures/fmmgreens.pdf Graphic file (type pdf)
 <use FastMultipoleMethod/Figures/fmmgreens.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/fmmgreens.pdf  used on inp
 ut line 48.
 (pdftex.def)             Requested size: 289.07999pt x 145.21562pt.
- [130 <./FastMultipoleMethod/Figures/fmmgreens.pdf>] [131]
+ [132 <./FastMultipoleMethod/Figures/fmmgreens.pdf>] [133]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/gaussquad.eps>
 
 (epstopdf)                    date: 2020-06-12 07:57:38
@@ -1949,7 +1976,7 @@ converted-to.pdf>
 s/gaussquad-eps-converted-to.pdf FastMultipoleMethod/Figures/gaussquad.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf, id=2989, 587.19376
+<FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf, id=3040, 587.19376
 pt x 448.67625pt>
 File: FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1957,7 +1984,7 @@ type pdf)
 Package pdftex.def Info: FastMultipoleMethod/Figures/gaussquad-eps-converted-to
 .pdf  used on input line 120.
 (pdftex.def)             Requested size: 289.07999pt x 220.88707pt.
- [132 <./FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf>] [133
+ [134 <./FastMultipoleMethod/Figures/gaussquad-eps-converted-to.pdf>] [135
 
 ]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/quadsphere5.ep
@@ -1973,7 +2000,7 @@ s/quadsphere5-eps-converted-to.pdf FastMultipoleMethod/Figures/quadsphere5.eps>
 
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf, id=3029, 506.893
+<FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf, id=3079, 506.893
 75pt x 302.12875pt>
 File: FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1994,7 +2021,7 @@ s/quadsphere6-eps-converted-to.pdf FastMultipoleMethod/Figures/quadsphere6.eps>
 
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf, id=3030, 506.893
+<FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf, id=3080, 506.893
 75pt x 302.12875pt>
 File: FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2002,15 +2029,15 @@ File: FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: FastMultipoleMethod/Figures/quadsphere6-eps-converted-
 to.pdf  used on input line 195.
 (pdftex.def)             Requested size: 216.81pt x 129.22592pt.
- [134] [135 <./FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf> <.
+ [136] [137 <./FastMultipoleMethod/Figures/quadsphere5-eps-converted-to.pdf> <.
 /FastMultipoleMethod/Figures/quadsphere6-eps-converted-to.pdf>]
-<FastMultipoleMethod/Figures/aggdiss.pdf, id=3081, 703.62875pt x 395.4775pt>
+<FastMultipoleMethod/Figures/aggdiss.pdf, id=3132, 703.62875pt x 395.4775pt>
 File: FastMultipoleMethod/Figures/aggdiss.pdf Graphic file (type pdf)
 <use FastMultipoleMethod/Figures/aggdiss.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/aggdiss.pdf  used on input
  line 267.
 (pdftex.def)             Requested size: 433.62pt x 243.71506pt.
- [136 <./FastMultipoleMethod/Figures/aggdiss.pdf>]
+ [138 <./FastMultipoleMethod/Figures/aggdiss.pdf>]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/TLtheta.eps>
 (epstopdf)                    date: 2020-07-12 08:36:16
 (epstopdf)                    size: 43026 bytes
@@ -2022,7 +2049,7 @@ nverted-to.pdf>
 s/TLtheta-eps-converted-to.pdf FastMultipoleMethod/Figures/TLtheta.eps>
 (epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf, id=3090, 587.19376pt
+<FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf, id=3142, 587.19376pt
  x 327.2225pt>
 File: FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2034,17 +2061,17 @@ df  used on input line 318.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[137]
+[139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138 <./FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf>]
-<FastMultipoleMethod/Figures/indexing.pdf, id=3122, 405.515pt x 320.19624pt>
+ [140 <./FastMultipoleMethod/Figures/TLtheta-eps-converted-to.pdf>]
+<FastMultipoleMethod/Figures/indexing.pdf, id=3173, 405.515pt x 320.19624pt>
 File: FastMultipoleMethod/Figures/indexing.pdf Graphic file (type pdf)
 <use FastMultipoleMethod/Figures/indexing.pdf>
 Package pdftex.def Info: FastMultipoleMethod/Figures/indexing.pdf  used on inpu
 t line 370.
 (pdftex.def)             Requested size: 216.81pt x 171.19824pt.
- [139 <./FastMultipoleMethod/Figures/indexing.pdf>]
+ [141 <./FastMultipoleMethod/Figures/indexing.pdf>]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/TLthetainterp.
 eps>
 (epstopdf)                    date: 2020-07-12 08:55:52
@@ -2058,7 +2085,7 @@ s/TLthetainterp-eps-converted-to.pdf FastMultipoleMethod/Figures/TLthetainterp.
 eps>
 (epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf, id=3264, 550.0
+<FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf, id=3315, 550.0
 55pt x 311.1625pt>
 File: FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2066,11 +2093,11 @@ le (type pdf)
 Package pdftex.def Info: FastMultipoleMethod/Figures/TLthetainterp-eps-converte
 d-to.pdf  used on input line 381.
 (pdftex.def)             Requested size: 289.07999pt x 163.53368pt.
- [140 <./FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf>]
+ [142 <./FastMultipoleMethod/Figures/TLthetainterp-eps-converted-to.pdf>]
 Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [141]
-[142] [143] [144]
+ [143]
+[144] [145] [146]
 Package epstopdf Info: Source file: <FastMultipoleMethod/Figures/filt1.eps>
 (epstopdf)                    date: 2020-06-18 21:26:18
 (epstopdf)                    size: 35576 bytes
@@ -2082,7 +2109,7 @@ erted-to.pdf>
 s/filt1-eps-converted-to.pdf FastMultipoleMethod/Figures/filt1.eps>
 (epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf, id=3309, 488.82625pt x
+<FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf, id=3359, 488.82625pt x
  283.0575pt>
 File: FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2101,7 +2128,7 @@ erted-to.pdf>
 s/filt2-eps-converted-to.pdf FastMultipoleMethod/Figures/filt2.eps>
 (epstopdf)             \includegraphics on input line 559.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf, id=3310, 490.83376pt x
+<FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf, id=3360, 490.83376pt x
  283.0575pt>
 File: FastMultipoleMethod/Figures/filt2-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2120,7 +2147,7 @@ erted-to.pdf>
 s/filt3-eps-converted-to.pdf FastMultipoleMethod/Figures/filt3.eps>
 (epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf, id=3311, 488.82625pt x
+<FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf, id=3361, 488.82625pt x
  283.0575pt>
 File: FastMultipoleMethod/Figures/filt3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2139,7 +2166,7 @@ erted-to.pdf>
 s/filt4-eps-converted-to.pdf FastMultipoleMethod/Figures/filt4.eps>
 (epstopdf)             \includegraphics on input line 568.
 Package epstopdf Info: Output file is already uptodate.
-<FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf, id=3312, 488.82625pt x
+<FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf, id=3362, 488.82625pt x
  283.0575pt>
 File: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2147,12 +2174,12 @@ File: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf
   used on input line 568.
 (pdftex.def)             Requested size: 216.81pt x 125.5477pt.
- [145
+ [147
 
  <./FastMultipoleMethod/Figures/filt1-eps-converted-to.pdf> <./FastMultipoleMet
 hod/Figures/filt2-eps-converted-to.pdf> <./FastMultipoleMethod/Figures/filt3-ep
 s-converted-to.pdf> <./FastMultipoleMethod/Figures/filt4-eps-converted-to.pdf>]
- [146]pdfTeX warning (ext4): destination with the same identifier (name{equatio
+ [148]pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.8.6.64}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2172,31 +2199,31 @@ er (name{equation.8.6.64}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.586 \begin{equation}
-                       [147
+                       [149
 
-] [148]
+] [150]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [149]
-[150] [151
+ [151]
+[152] [153
 
-] [152] [153] [154] [155] [156] [157] [158] [159]
+] [154] [155] [156] [157] [158] [159] [160] [161]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160]
-[161] [162] [163]
+ [162]
+[163] [164] [165]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [164]
-[165] [166
+ [166]
+[167] [168
 
-] [167]
+] [169]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [168
+ [170
 
 ]
-[169]) (./FastMultipoleMethod/FMM1d.tex [170]
+[171]) (./FastMultipoleMethod/FMM1d.tex [172]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
@@ -2205,19 +2232,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-[171
+[173
 
-] [172] [173] [174] [175]
+] [174] [175] [176] [177]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [176]))
-[177] [178
+ [178]))
+[179] [180
 
 
 ]
 Chapter 9.
 (./Kirchhoff/Kirchhoff.tex
-<Kirchhoff/Figures/kirchhoffgeometry.pdf, id=3641, 294.09875pt x 186.6975pt>
+<Kirchhoff/Figures/kirchhoffgeometry.pdf, id=3693, 294.09875pt x 186.6975pt>
 File: Kirchhoff/Figures/kirchhoffgeometry.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/kirchhoffgeometry.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/kirchhoffgeometry.pdf  used on input
@@ -2227,17 +2254,17 @@ Package pdftex.def Info: Kirchhoff/Figures/kirchhoffgeometry.pdf  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[179] [180 <./Kirchhoff/Figures/kirchhoffgeometry.pdf>] [181]
-<Kirchhoff/Figures/surfacephaseint.pdf, id=3717, 214.8025pt x 211.79124pt>
+[181] [182 <./Kirchhoff/Figures/kirchhoffgeometry.pdf>] [183]
+<Kirchhoff/Figures/surfacephaseint.pdf, id=3768, 214.8025pt x 211.79124pt>
 File: Kirchhoff/Figures/surfacephaseint.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/surfacephaseint.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/surfacephaseint.pdf  used on input l
 ine 146.
 (pdftex.def)             Requested size: 180.67499pt x 178.1458pt.
- [182 <./Kirchhoff/Figures/surfacephaseint.pdf>] [183] [184] [185] [186
+ [184 <./Kirchhoff/Figures/surfacephaseint.pdf>] [185] [186] [187] [188
 
-] [187]
-<Kirchhoff/Figures/Specular.pdf, id=3833, 149.55875pt x 164.615pt>
+] [189]
+<Kirchhoff/Figures/Specular.pdf, id=3884, 149.55875pt x 164.615pt>
 File: Kirchhoff/Figures/Specular.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Specular.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Specular.pdf  used on input line 425
@@ -2248,8 +2275,8 @@ Overfull \hbox (76.72375pt too wide) in paragraph at lines 425--425
 [][] 
  []
 
-[188 <./Kirchhoff/Figures/Specular.pdf>] [189]
-<Kirchhoff/Figures/Backscatter.pdf, id=3918, 149.55875pt x 164.615pt>
+[190 <./Kirchhoff/Figures/Specular.pdf>] [191]
+<Kirchhoff/Figures/Backscatter.pdf, id=3969, 149.55875pt x 164.615pt>
 File: Kirchhoff/Figures/Backscatter.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Backscatter.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Backscatter.pdf  used on input line 
@@ -2260,7 +2287,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 661--661
 [][] 
  []
 
-<Kirchhoff/Figures/Rectangle.pdf, id=3919, 150.5625pt x 164.615pt>
+<Kirchhoff/Figures/Rectangle.pdf, id=3970, 150.5625pt x 164.615pt>
 File: Kirchhoff/Figures/Rectangle.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Rectangle.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Rectangle.pdf  used on input line 66
@@ -2271,7 +2298,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 662--662
 [][] 
  []
 
-<Kirchhoff/Figures/Ellipse.pdf, id=3920, 149.55875pt x 163.61125pt>
+<Kirchhoff/Figures/Ellipse.pdf, id=3971, 149.55875pt x 163.61125pt>
 File: Kirchhoff/Figures/Ellipse.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Ellipse.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Ellipse.pdf  used on input line 663.
@@ -2282,7 +2309,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 663--663
 [][] 
  []
 
-<Kirchhoff/Figures/Circle.pdf, id=3921, 149.55875pt x 164.615pt>
+<Kirchhoff/Figures/Circle.pdf, id=3972, 149.55875pt x 164.615pt>
 File: Kirchhoff/Figures/Circle.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Circle.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Circle.pdf  used on input line 665.
@@ -2292,7 +2319,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 665--665
 [][] 
  []
 
-<Kirchhoff/Figures/Triangle.pdf, id=3922, 152.57pt x 162.6075pt>
+<Kirchhoff/Figures/Triangle.pdf, id=3973, 152.57pt x 162.6075pt>
 File: Kirchhoff/Figures/Triangle.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Triangle.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Triangle.pdf  used on input line 666
@@ -2303,14 +2330,14 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 666--666
 [][] 
  []
 
-) [190 <./Kirchhoff/Figures/Backscatter.pdf> <./Kirchhoff/Figures/Rectangle.pdf
+) [192 <./Kirchhoff/Figures/Backscatter.pdf> <./Kirchhoff/Figures/Rectangle.pdf
 > <./Kirchhoff/Figures/Ellipse.pdf> <./Kirchhoff/Figures/Circle.pdf> <./Kirchho
 ff/Figures/Triangle.pdf>]
 Chapter 10.
 (./RandomObjects/RandomObjects.tex
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [191
+ [193
 
 
 ]
@@ -2325,7 +2352,7 @@ nverted-to.pdf>
 siansurf1-eps-converted-to.pdf RandomObjects/Figures/gaussiansurf1.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf, id=4129, 569.12625pt
+<RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf, id=4180, 569.12625pt
  x 284.06125pt>
 File: RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2344,7 +2371,7 @@ nverted-to.pdf>
 siansurf2-eps-converted-to.pdf RandomObjects/Figures/gaussiansurf2.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf, id=4130, 569.12625pt
+<RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf, id=4181, 569.12625pt
  x 284.06125pt>
 File: RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2353,8 +2380,8 @@ Package pdftex.def Info: RandomObjects/Figures/gaussiansurf2-eps-converted-to.p
 df  used on input line 36.
 (pdftex.def)             Requested size: 289.07999pt x 144.29283pt.
 
-[192 <./RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf> <./RandomObje
-cts/Figures/gaussiansurf2-eps-converted-to.pdf>] [193]
+[194 <./RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf> <./RandomObje
+cts/Figures/gaussiansurf2-eps-converted-to.pdf>] [195]
 Package epstopdf Info: Source file: <RandomObjects/Figures/rough2norm.eps>
 (epstopdf)                    date: 2020-05-19 09:53:26
 (epstopdf)                    size: 84173 bytes
@@ -2366,7 +2393,7 @@ rted-to.pdf>
 h2norm-eps-converted-to.pdf RandomObjects/Figures/rough2norm.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/rough2norm-eps-converted-to.pdf, id=4166, 386.44376pt x 
+<RandomObjects/Figures/rough2norm-eps-converted-to.pdf, id=4216, 386.44376pt x 
 375.4025pt>
 File: RandomObjects/Figures/rough2norm-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2385,7 +2412,7 @@ ted-to.pdf>
 h2exp-eps-converted-to.pdf RandomObjects/Figures/rough2exp.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/rough2exp-eps-converted-to.pdf, id=4167, 386.44376pt x 3
+<RandomObjects/Figures/rough2exp-eps-converted-to.pdf, id=4217, 386.44376pt x 3
 75.4025pt>
 File: RandomObjects/Figures/rough2exp-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2393,8 +2420,8 @@ df)
 Package pdftex.def Info: RandomObjects/Figures/rough2exp-eps-converted-to.pdf  
 used on input line 134.
 (pdftex.def)             Requested size: 180.67499pt x 175.51123pt.
- [194 <./RandomObjects/Figures/rough2norm-eps-converted-to.pdf> <./RandomObject
-s/Figures/rough2exp-eps-converted-to.pdf>] [195]
+ [196 <./RandomObjects/Figures/rough2norm-eps-converted-to.pdf> <./RandomObject
+s/Figures/rough2exp-eps-converted-to.pdf>] [197]
 Package epstopdf Info: Source file: <RandomObjects/Figures/gauss3Dnorm.eps>
 (epstopdf)                    date: 2020-05-20 22:44:44
 (epstopdf)                    size: 320400 bytes
@@ -2406,7 +2433,7 @@ erted-to.pdf>
 s3Dnorm-eps-converted-to.pdf RandomObjects/Figures/gauss3Dnorm.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf, id=4203, 534.99875pt x
+<RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf, id=4254, 534.99875pt x
  416.55624pt>
 File: RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2425,7 +2452,7 @@ rted-to.pdf>
 s3Dexp-eps-converted-to.pdf RandomObjects/Figures/gauss3Dexp.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf, id=4204, 534.99875pt x 
+<RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf, id=4255, 534.99875pt x 
 416.55624pt>
 File: RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2433,16 +2460,16 @@ pdf)
 Package pdftex.def Info: RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf 
  used on input line 173.
 (pdftex.def)             Requested size: 216.81pt x 168.81241pt.
- [196
+ [198
 
  <./RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf> <./RandomObjects/Fi
 gures/gauss3Dexp-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [197
+ [199
 
 ]
-[198]
+[200]
 Package epstopdf Info: Source file: <RandomObjects/Figures/fracsurf.eps>
 (epstopdf)                    date: 2021-05-20 08:22:00
 (epstopdf)                    size: 129236 bytes
@@ -2454,7 +2481,7 @@ ed-to.pdf>
 surf-eps-converted-to.pdf RandomObjects/Figures/fracsurf.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/fracsurf-eps-converted-to.pdf, id=4240, 612.2875pt x 317
+<RandomObjects/Figures/fracsurf-eps-converted-to.pdf, id=4290, 612.2875pt x 317
 .185pt>
 File: RandomObjects/Figures/fracsurf-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2473,7 +2500,7 @@ verted-to.pdf>
 diffvrms-eps-converted-to.pdf RandomObjects/Figures/fracdiffvrms.eps>
 (epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf, id=4241, 607.26875pt 
+<RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf, id=4291, 607.26875pt 
 x 328.22626pt>
 File: RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2481,10 +2508,10 @@ e pdf)
 Package pdftex.def Info: RandomObjects/Figures/fracdiffvrms-eps-converted-to.pd
 f  used on input line 211.
 (pdftex.def)             Requested size: 231.26378pt x 124.9927pt.
- [199
+ [201
 
  <./RandomObjects/Figures/fracsurf-eps-converted-to.pdf> <./RandomObjects/Figur
-es/fracdiffvrms-eps-converted-to.pdf>] [200] [201
+es/fracdiffvrms-eps-converted-to.pdf>] [202] [203
 
 ]
 Package epstopdf Info: Source file: <RandomObjects/Figures/bicont.eps>
@@ -2498,7 +2525,7 @@ Package epstopdf Info: Source file: <RandomObjects/Figures/bicont.eps>
 nt-eps-converted-to.pdf RandomObjects/Figures/bicont.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/bicont-eps-converted-to.pdf, id=4313, 746.79pt x 599.238
+<RandomObjects/Figures/bicont-eps-converted-to.pdf, id=4364, 746.79pt x 599.238
 75pt>
 File: RandomObjects/Figures/bicont-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2506,7 +2533,7 @@ File: RandomObjects/Figures/bicont-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: RandomObjects/Figures/bicont-eps-converted-to.pdf  use
 d on input line 300.
 (pdftex.def)             Requested size: 325.215pt x 260.95935pt.
- [202 <./RandomObjects/Figures/bicont-eps-converted-to.pdf>] [203
+ [204 <./RandomObjects/Figures/bicont-eps-converted-to.pdf>] [205
 
 ]
 Package epstopdf Info: Source file: <RandomObjects/Figures/pmspectrum.eps>
@@ -2520,7 +2547,7 @@ rted-to.pdf>
 ectrum-eps-converted-to.pdf RandomObjects/Figures/pmspectrum.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/pmspectrum-eps-converted-to.pdf, id=4334, 551.05875pt x 
+<RandomObjects/Figures/pmspectrum-eps-converted-to.pdf, id=4384, 551.05875pt x 
 389.455pt>
 File: RandomObjects/Figures/pmspectrum-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2528,7 +2555,7 @@ pdf)
 Package pdftex.def Info: RandomObjects/Figures/pmspectrum-eps-converted-to.pdf 
  used on input line 329.
 (pdftex.def)             Requested size: 289.07999pt x 204.31242pt.
- [204 <./RandomObjects/Figures/pmspectrum-eps-converted-to.pdf>]
+ [206 <./RandomObjects/Figures/pmspectrum-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <RandomObjects/Figures/oceanPSD.eps>
 (epstopdf)                    date: 2020-05-21 14:52:37
 (epstopdf)                    size: 28800 bytes
@@ -2540,7 +2567,7 @@ ed-to.pdf>
 nPSD-eps-converted-to.pdf RandomObjects/Figures/oceanPSD.eps>
 (epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/oceanPSD-eps-converted-to.pdf, id=4361, 426.59375pt x 40
+<RandomObjects/Figures/oceanPSD-eps-converted-to.pdf, id=4411, 426.59375pt x 40
 4.51125pt>
 File: RandomObjects/Figures/oceanPSD-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2548,7 +2575,7 @@ f)
 Package pdftex.def Info: RandomObjects/Figures/oceanPSD-eps-converted-to.pdf  u
 sed on input line 380.
 (pdftex.def)             Requested size: 180.67499pt x 171.32555pt.
- [205 <./RandomObjects/Figures/oceanPSD-eps-converted-to.pdf>]
+ [207 <./RandomObjects/Figures/oceanPSD-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <RandomObjects/Figures/oceansurfaceheight.e
 ps>
 (epstopdf)                    date: 2021-06-01 09:40:25
@@ -2562,7 +2589,7 @@ nsurfaceheight-eps-converted-to.pdf RandomObjects/Figures/oceansurfaceheight.ep
 s>
 (epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf, id=4391, 499.86
+<RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf, id=4442, 499.86
 75pt x 483.8075pt>
 File: RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2570,7 +2597,7 @@ e (type pdf)
 Package pdftex.def Info: RandomObjects/Figures/oceansurfaceheight-eps-converted
 -to.pdf  used on input line 411.
 (pdftex.def)             Requested size: 216.81pt x 209.84183pt.
- [206 <./RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf>] [207]
+ [208 <./RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf>] [209]
 Package epstopdf Info: Source file: <RandomObjects/Figures/GaussianParticles/cs
 gamma.eps>
 (epstopdf)                    date: 2020-05-25 20:53:36
@@ -2584,7 +2611,7 @@ sianParticles/csgamma-eps-converted-to.pdf RandomObjects/Figures/GaussianPartic
 les/csgamma.eps>
 (epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf, id=4423,
+<RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf, id=4475,
  564.1075pt x 378.41376pt>
 File: RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2596,8 +2623,8 @@ nverted-to.pdf  used on input line 476.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[208]
-<RandomObjects/Figures/GaussianParticles/part7.jpg, id=4446, 637.38126pt x 692.
+[210]
+<RandomObjects/Figures/GaussianParticles/part7.jpg, id=4497, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part7.jpg Graphic file (type jpg)
 
@@ -2605,7 +2632,7 @@ File: RandomObjects/Figures/GaussianParticles/part7.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part7.jpg  use
 d on input line 522.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part8.jpg, id=4447, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part8.jpg, id=4498, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part8.jpg Graphic file (type jpg)
 
@@ -2613,7 +2640,7 @@ File: RandomObjects/Figures/GaussianParticles/part8.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part8.jpg  use
 d on input line 523.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part9.jpg, id=4448, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part9.jpg, id=4499, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part9.jpg Graphic file (type jpg)
 
@@ -2621,7 +2648,7 @@ File: RandomObjects/Figures/GaussianParticles/part9.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part9.jpg  use
 d on input line 524.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part4.jpg, id=4449, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part4.jpg, id=4500, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part4.jpg Graphic file (type jpg)
 
@@ -2629,7 +2656,7 @@ File: RandomObjects/Figures/GaussianParticles/part4.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part4.jpg  use
 d on input line 526.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part5.jpg, id=4450, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part5.jpg, id=4501, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part5.jpg Graphic file (type jpg)
 
@@ -2637,7 +2664,7 @@ File: RandomObjects/Figures/GaussianParticles/part5.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part5.jpg  use
 d on input line 527.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part6.jpg, id=4451, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part6.jpg, id=4502, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part6.jpg Graphic file (type jpg)
 
@@ -2645,7 +2672,7 @@ File: RandomObjects/Figures/GaussianParticles/part6.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part6.jpg  use
 d on input line 528.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part1.jpg, id=4452, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part1.jpg, id=4503, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part1.jpg Graphic file (type jpg)
 
@@ -2653,7 +2680,7 @@ File: RandomObjects/Figures/GaussianParticles/part1.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part1.jpg  use
 d on input line 530.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part2.jpg, id=4453, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part2.jpg, id=4504, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part2.jpg Graphic file (type jpg)
 
@@ -2661,7 +2688,7 @@ File: RandomObjects/Figures/GaussianParticles/part2.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part2.jpg  use
 d on input line 531.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part3.jpg, id=4454, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part3.jpg, id=4505, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part3.jpg Graphic file (type jpg)
 
@@ -2674,20 +2701,20 @@ Overfull \hbox (4.21396pt too wide) in paragraph at lines 521--539
  [][] 
  []
 
-[209 <./RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf>]
-[210 <./RandomObjects/Figures/GaussianParticles/part7.jpg> <./RandomObjects/Fig
+[211 <./RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf>]
+[212 <./RandomObjects/Figures/GaussianParticles/part7.jpg> <./RandomObjects/Fig
 ures/GaussianParticles/part8.jpg> <./RandomObjects/Figures/GaussianParticles/pa
 rt9.jpg> <./RandomObjects/Figures/GaussianParticles/part4.jpg> <./RandomObjects
 /Figures/GaussianParticles/part5.jpg> <./RandomObjects/Figures/GaussianParticle
 s/part6.jpg> <./RandomObjects/Figures/GaussianParticles/part1.jpg> <./RandomObj
 ects/Figures/GaussianParticles/part2.jpg> <./RandomObjects/Figures/GaussianPart
-icles/part3.jpg>] [211
+icles/part3.jpg>] [213
 
 ]
 Underfull \vbox (badness 1515) has occurred while \output is active []
 
- [212]
-[213] [214
+ [214]
+[215] [216
 
 ]
 Package epstopdf Info: Source file: <RandomObjects/Figures/ionoPSD1.eps>
@@ -2701,7 +2728,7 @@ ed-to.pdf>
 PSD1-eps-converted-to.pdf RandomObjects/Figures/ionoPSD1.eps>
 (epstopdf)             \includegraphics on input line 652.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf, id=4555, 638.385pt x 371.
+<RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf, id=4607, 638.385pt x 371.
 3875pt>
 File: RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2720,7 +2747,7 @@ ed-to.pdf>
 PSD2-eps-converted-to.pdf RandomObjects/Figures/ionoPSD2.eps>
 (epstopdf)             \includegraphics on input line 653.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf, id=4556, 638.385pt x 371.
+<RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf, id=4608, 638.385pt x 371.
 3875pt>
 File: RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2739,7 +2766,7 @@ erted-to.pdf>
 Profile-eps-converted-to.pdf RandomObjects/Figures/ionoProfile.eps>
 (epstopdf)             \includegraphics on input line 659.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/ionoProfile-eps-converted-to.pdf, id=4557, 658.46pt x 37
+<RandomObjects/Figures/ionoProfile-eps-converted-to.pdf, id=4609, 658.46pt x 37
 6.40625pt>
 File: RandomObjects/Figures/ionoProfile-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2747,15 +2774,15 @@ File: RandomObjects/Figures/ionoProfile-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: RandomObjects/Figures/ionoProfile-eps-converted-to.pdf
   used on input line 659.
 (pdftex.def)             Requested size: 289.07999pt x 165.25166pt.
- [215 <./RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf> <./RandomObjects/
+ [217 <./RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf> <./RandomObjects/
 Figures/ionoPSD2-eps-converted-to.pdf> <./RandomObjects/Figures/ionoProfile-eps
--converted-to.pdf>]) [216]
+-converted-to.pdf>]) [218]
 Chapter 11.
-(./ReflectionRefraction/ReflectionRefraction.tex [217
+(./ReflectionRefraction/ReflectionRefraction.tex [219
 
 
 ]
-<ReflectionRefraction/Figures/reflectionPlane.pdf, id=4606, 436.63126pt x 279.0
+<ReflectionRefraction/Figures/reflectionPlane.pdf, id=4656, 436.63126pt x 279.0
 425pt>
 File: ReflectionRefraction/Figures/reflectionPlane.pdf Graphic file (type pdf)
 <use ReflectionRefraction/Figures/reflectionPlane.pdf>
@@ -2775,7 +2802,7 @@ es/reflectionraysplane-eps-converted-to.pdf ReflectionRefraction/Figures/reflec
 tionraysplane.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf, id=4607
+<ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf, id=4657
 , 618.31pt x 501.875pt>
 File: ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2783,8 +2810,8 @@ phic file (type pdf)
 Package pdftex.def Info: ReflectionRefraction/Figures/reflectionraysplane-eps-c
 onverted-to.pdf  used on input line 56.
 (pdftex.def)             Requested size: 289.07999pt x 234.64835pt.
- [218 <./ReflectionRefraction/Figures/reflectionPlane.pdf> <./ReflectionRefract
-ion/Figures/reflectionraysplane-eps-converted-to.pdf>] [219]
+ [220 <./ReflectionRefraction/Figures/reflectionPlane.pdf> <./ReflectionRefract
+ion/Figures/reflectionraysplane-eps-converted-to.pdf>] [221]
 Package epstopdf Info: Source file: <ReflectionRefraction/Figures/reflectonrays
 phere.eps>
 (epstopdf)                    date: 2020-05-13 19:01:19
@@ -2798,7 +2825,7 @@ es/reflectonraysphere-eps-converted-to.pdf ReflectionRefraction/Figures/reflect
 onraysphere.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf, id=4662,
+<ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf, id=4714,
  623.32875pt x 484.81125pt>
 File: ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2806,9 +2833,9 @@ hic file (type pdf)
 Package pdftex.def Info: ReflectionRefraction/Figures/reflectonraysphere-eps-co
 nverted-to.pdf  used on input line 91.
 (pdftex.def)             Requested size: 325.215pt x 252.94662pt.
- [220 <./ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf>]
- [221]
-<ReflectionRefraction/Figures/refractionPlane.pdf, id=4693, 399.4925pt x 281.05
+ [222 <./ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf>]
+ [223]
+<ReflectionRefraction/Figures/refractionPlane.pdf, id=4744, 399.4925pt x 281.05
 pt>
 File: ReflectionRefraction/Figures/refractionPlane.pdf Graphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionPlane.pdf>
@@ -2818,7 +2845,7 @@ Package pdftex.def Info: ReflectionRefraction/Figures/refractionPlane.pdf  used
 
 Underfull \vbox (badness 1303) has occurred while \output is active []
 
- [222 <./ReflectionRefraction/Figures/refractionPlane.pdf>]
+ [224 <./ReflectionRefraction/Figures/refractionPlane.pdf>]
 Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionray
 splane.eps>
 (epstopdf)                    date: 2020-05-11 12:51:53
@@ -2832,7 +2859,7 @@ es/refractionraysplane-eps-converted-to.pdf ReflectionRefraction/Figures/refrac
 tionraysplane.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf, id=4735
+<ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf, id=4785
 , 594.22pt x 478.78876pt>
 File: ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2844,7 +2871,7 @@ onverted-to.pdf  used on input line 180.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[223pdfTeX warning (ext4): destination with the same identifier (name{equation.
+[225pdfTeX warning (ext4): destination with the same identifier (name{equation.
 11.4.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2856,13 +2883,13 @@ n.11.4.31}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.186 
-      ] [224 <./ReflectionRefraction/Figures/refractionraysplane-eps-converted-
+      ] [226 <./ReflectionRefraction/Figures/refractionraysplane-eps-converted-
 to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [225]
-[226]
-<ReflectionRefraction/Figures/refractionCircle.pdf, id=4772, 249.93375pt x 294.
+ [227]
+[228]
+<ReflectionRefraction/Figures/refractionCircle.pdf, id=4823, 249.93375pt x 294.
 09875pt>
 File: ReflectionRefraction/Figures/refractionCircle.pdf Graphic file (type pdf)
 
@@ -2870,7 +2897,7 @@ File: ReflectionRefraction/Figures/refractionCircle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ReflectionRefraction/Figures/refractionCircle.pdf  use
 d on input line 220.
 (pdftex.def)             Requested size: 180.67499pt x 212.60806pt.
- [227 <./ReflectionRefraction/Figures/refractionCircle.pdf>]
+ [229 <./ReflectionRefraction/Figures/refractionCircle.pdf>]
 Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionray
 scircle.eps>
 (epstopdf)                    date: 2020-05-14 14:41:34
@@ -2884,29 +2911,29 @@ es/refractionrayscircle-eps-converted-to.pdf ReflectionRefraction/Figures/refra
 ctionrayscircle.eps>
 (epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf, id=482
-6, 522.95375pt x 487.8225pt>
+<ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf, id=487
+7, 522.95375pt x 487.8225pt>
 File: ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf>
 Package pdftex.def Info: ReflectionRefraction/Figures/refractionrayscircle-eps-
 converted-to.pdf  used on input line 281.
 (pdftex.def)             Requested size: 252.94499pt x 235.95348pt.
- [228 <./ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf
+ [230 <./ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [229]
+ [231]
 Underfull \vbox (badness 3503) has occurred while \output is active []
 
- [230]
+ [232]
 Overfull \hbox (33.07385pt too wide) in paragraph at lines 370--371
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 ^^R[]$ \OT1/cmr/m/n/10 is the an-gle fr
 om the per-pen-dic-u-lar at the re-frac-tion point to the in-te-rior point, and
  $[](\OML/cmm/m/it/10 ^^R[]\OT1/cmr/m/n/10 )$
  []
 
-<ReflectionRefraction/Figures/refractioncirclethetap.pdf, id=4852, 172.645pt x 
+<ReflectionRefraction/Figures/refractioncirclethetap.pdf, id=4902, 172.645pt x 
 253.94875pt>
 File: ReflectionRefraction/Figures/refractioncirclethetap.pdf Graphic file (typ
 e pdf)
@@ -2928,7 +2955,7 @@ res/refractionrayscircleiterative.eps>
 (epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 <ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-to.pd
-f, id=4853, 403.5075pt x 487.8225pt>
+f, id=4903, 403.5075pt x 487.8225pt>
 File: ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-
 to.pdf Graphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-t
@@ -2936,8 +2963,8 @@ o.pdf>
 Package pdftex.def Info: ReflectionRefraction/Figures/refractionrayscircleitera
 tive-eps-converted-to.pdf  used on input line 377.
 (pdftex.def)             Requested size: 216.81pt x 262.1176pt.
-[231 <./ReflectionRefraction/Figures/refractioncirclethetap.pdf> <./ReflectionR
-efraction/Figures/refractionrayscircleiterative-eps-converted-to.pdf>] [232
+[233 <./ReflectionRefraction/Figures/refractioncirclethetap.pdf> <./ReflectionR
+efraction/Figures/refractionrayscircleiterative-eps-converted-to.pdf>] [234
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.11.5
 .56}) has been already used, duplicate ignored
@@ -2955,7 +2982,7 @@ l.431 ...onRefraction/refractionCircleIterative.m}
                                                   ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [233]
+ [235]
 Package epstopdf Info: Source file: <ReflectionRefraction/Figures/refractionsph
 eredirect.eps>
 (epstopdf)                    date: 2021-06-17 17:59:27
@@ -2970,7 +2997,7 @@ ractionspheredirect.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
 <ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf, id=4
-921, 554.07pt x 563.10374pt>
+972, 554.07pt x 563.10374pt>
 File: ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf>
@@ -2978,21 +3005,21 @@ Package pdftex.def Info: ReflectionRefraction/Figures/refractionspheredirect-ep
 s-converted-to.pdf  used on input line 454.
 (pdftex.def)             Requested size: 289.07999pt x 293.79515pt.
 
-[234] [235 <./ReflectionRefraction/Figures/refractionspheredirect-eps-converted
--to.pdf>]) [236]
+[236] [237 <./ReflectionRefraction/Figures/refractionspheredirect-eps-converted
+-to.pdf>]) [238]
 Chapter 12.
-(./Utilities/Utilities.tex (./Utilities/CoordinateTransforms.tex [237
+(./Utilities/Utilities.tex (./Utilities/CoordinateTransforms.tex [239
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 67.
- [238
+ [240
 
 ]
-[239
+[241
 
-] [240]) [241] (./Utilities/BesselFunctions.tex
+] [242]) [243] (./Utilities/BesselFunctions.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 29.
@@ -3025,7 +3052,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 95.
 
-[242
+[244
 
 ]
 
@@ -3040,7 +3067,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 116.
 
-[243]
+[245]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 132.
@@ -3101,9 +3128,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 176.
 
-[244
+[246
 
-]) [245] (./Utilities/LegendrePolynomials.tex
+]) [247] (./Utilities/LegendrePolynomials.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
@@ -3116,7 +3143,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-[246
+[248
 
 ]
 
@@ -3131,7 +3158,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 30.
 
-[247
+[249
 
 ]
 
@@ -3238,9 +3265,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 142.
 
-[248
+[250
 
-] [249]
+] [251]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 162.
@@ -3333,7 +3360,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 162.
 
-[250
+[252
 
 ]
 
@@ -3412,11 +3439,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 190.
 
-[251]) [252] (./Utilities/Miscellaneous.tex [253
+[253]) [254] (./Utilities/Miscellaneous.tex [255
 
-] [254
+] [256
 
-] [255] [256]
+] [257] [258]
 Package epstopdf Info: Source file: <Utilities/Figures/discoball.eps>
 (epstopdf)                    date: 2020-04-26 13:59:36
 (epstopdf)                    size: 125727 bytes
@@ -3428,14 +3455,14 @@ to.pdf>
 l-eps-converted-to.pdf Utilities/Figures/discoball.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
-<Utilities/Figures/discoball-eps-converted-to.pdf, id=5090, 568.1225pt x 447.67
+<Utilities/Figures/discoball-eps-converted-to.pdf, id=5141, 568.1225pt x 447.67
 25pt>
 File: Utilities/Figures/discoball-eps-converted-to.pdf Graphic file (type pdf)
 <use Utilities/Figures/discoball-eps-converted-to.pdf>
 Package pdftex.def Info: Utilities/Figures/discoball-eps-converted-to.pdf  used
  on input line 149.
 (pdftex.def)             Requested size: 252.94499pt x 199.3195pt.
- [257
+ [259
 
  <./Utilities/Figures/discoball-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Utilities/Figures/uniformrand.eps>
@@ -3449,7 +3476,7 @@ d-to.pdf>
 and-eps-converted-to.pdf Utilities/Figures/uniformrand.eps>
 (epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
-<Utilities/Figures/uniformrand-eps-converted-to.pdf, id=5104, 568.1225pt x 447.
+<Utilities/Figures/uniformrand-eps-converted-to.pdf, id=5154, 568.1225pt x 447.
 6725pt>
 File: Utilities/Figures/uniformrand-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3457,19 +3484,19 @@ File: Utilities/Figures/uniformrand-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: Utilities/Figures/uniformrand-eps-converted-to.pdf  us
 ed on input line 174.
 (pdftex.def)             Requested size: 252.94499pt x 199.3195pt.
-)) (./Waveport.bbl [258
+)) (./Waveport.bbl [260
 
- <./Utilities/Figures/uniformrand-eps-converted-to.pdf>] [259
+ <./Utilities/Figures/uniformrand-eps-converted-to.pdf>] [261
 
 
-] [260] [261] [262]
+] [262] [263] [264]
 Underfull \hbox (badness 10000) in paragraph at lines 378--381
 []\OT1/cmr/m/n/10 ``Line-sphere in-ter-sec-tion.'' [][]$\OT1/cmtt/m/n/10 https 
 : / / en . wikipedia . org / wiki / Line \ OT1 \ textendashsphere _
  []
 
 )
-<Cover/backcover.pdf, id=5145, 614.295pt x 794.97pt>
+<Cover/backcover.pdf, id=5196, 614.295pt x 794.97pt>
 File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf>
 Package pdftex.def Info: Cover/backcover.pdf  used on input line 118.
@@ -3478,7 +3505,7 @@ File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf>
 Package pdftex.def Info: Cover/backcover.pdf  used on input line 118.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Cover/backcover.pdf, id=5148, page=1, 614.295pt x 794.97pt>
+<Cover/backcover.pdf, id=5199, page=1, 614.295pt x 794.97pt>
 File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf, page 1>
 Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
@@ -3486,64 +3513,64 @@ Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
 File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf, page 1>
 Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [263]
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [264 <./Cover/backcover.pdf>]
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf>
-Package pdftex.def Info: Cover/backcover.pdf  used on input line 119.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf>
-Package pdftex.def Info: Cover/backcover.pdf  used on input line 119.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 1>
-Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [265]
-<Cover/backcover.pdf, id=5171, page=2, 614.295pt x 794.97pt>
 File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 2>
-Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 2>
-Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Cover/backcover.pdf Graphic file (type pdf)
-<use Cover/backcover.pdf, page 2>
-Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [266 <./Cover/backcover.pdf>]
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf>
+Package pdftex.def Info: Cover/backcover.pdf  used on input line 119.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf>
+Package pdftex.def Info: Cover/backcover.pdf  used on input line 119.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 1>
+Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [267]
+<Cover/backcover.pdf, id=5221, page=2, 614.295pt x 794.97pt>
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 2>
+Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 2>
+Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Cover/backcover.pdf Graphic file (type pdf)
+<use Cover/backcover.pdf, page 2>
+Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [268 <./Cover/backcover.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 
@@ -3551,7 +3578,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `Waveport.out' has not changed.
-(rerunfilecheck)             Checksum: B546873416E42945747F996FCB7D26E5;15081.
+(rerunfilecheck)             Checksum: 9F268E07EE63C29493B28AFDE2A8A281;15187.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3559,10 +3589,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 23929 strings out of 492616
- 422845 string characters out of 6129482
- 595731 words of memory out of 5000000
- 25892 multiletter control sequences out of 15000+600000
+ 23947 strings out of 492616
+ 423204 string characters out of 6129482
+ 595875 words of memory out of 5000000
+ 25901 multiletter control sequences out of 15000+600000
  547799 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,71p,1490b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3594,10 +3624,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Waveport.pdf (268 pages, 10941018 bytes).
+Output written on Waveport.pdf (270 pages, 10968247 bytes).
 PDF statistics:
- 5562 PDF objects out of 6186 (max. 8388607)
- 4573 compressed objects within 46 object streams
- 1388 named destinations out of 1440 (max. 500000)
- 2010 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5614 PDF objects out of 6186 (max. 8388607)
+ 4612 compressed objects within 47 object streams
+ 1395 named destinations out of 1440 (max. 500000)
+ 2023 words of extra memory for PDF output out of 10000 (max. 10000000)
 
