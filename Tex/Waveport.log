@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 OCT 2021 07:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 NOV 2021 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2255,7 +2255,7 @@ Package pdftex.def Info: Kirchhoff/Figures/kirchhoffgeometry.pdf  used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [181] [182 <./Kirchhoff/Figures/kirchhoffgeometry.pdf>] [183]
-<Kirchhoff/Figures/surfacephaseint.pdf, id=3768, 214.8025pt x 211.79124pt>
+<Kirchhoff/Figures/surfacephaseint.pdf, id=3769, 214.8025pt x 211.79124pt>
 File: Kirchhoff/Figures/surfacephaseint.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/surfacephaseint.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/surfacephaseint.pdf  used on input l
@@ -2264,7 +2264,7 @@ ine 146.
  [184 <./Kirchhoff/Figures/surfacephaseint.pdf>] [185] [186] [187] [188
 
 ] [189]
-<Kirchhoff/Figures/Specular.pdf, id=3884, 149.55875pt x 164.615pt>
+<Kirchhoff/Figures/Specular.pdf, id=3885, 149.55875pt x 164.615pt>
 File: Kirchhoff/Figures/Specular.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Specular.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Specular.pdf  used on input line 425
@@ -2276,7 +2276,7 @@ Overfull \hbox (76.72375pt too wide) in paragraph at lines 425--425
  []
 
 [190 <./Kirchhoff/Figures/Specular.pdf>] [191]
-<Kirchhoff/Figures/Backscatter.pdf, id=3969, 149.55875pt x 164.615pt>
+<Kirchhoff/Figures/Backscatter.pdf, id=3970, 149.55875pt x 164.615pt>
 File: Kirchhoff/Figures/Backscatter.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Backscatter.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Backscatter.pdf  used on input line 
@@ -2287,7 +2287,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 661--661
 [][] 
  []
 
-<Kirchhoff/Figures/Rectangle.pdf, id=3970, 150.5625pt x 164.615pt>
+<Kirchhoff/Figures/Rectangle.pdf, id=3971, 150.5625pt x 164.615pt>
 File: Kirchhoff/Figures/Rectangle.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Rectangle.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Rectangle.pdf  used on input line 66
@@ -2298,7 +2298,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 662--662
 [][] 
  []
 
-<Kirchhoff/Figures/Ellipse.pdf, id=3971, 149.55875pt x 163.61125pt>
+<Kirchhoff/Figures/Ellipse.pdf, id=3972, 149.55875pt x 163.61125pt>
 File: Kirchhoff/Figures/Ellipse.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Ellipse.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Ellipse.pdf  used on input line 663.
@@ -2309,7 +2309,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 663--663
 [][] 
  []
 
-<Kirchhoff/Figures/Circle.pdf, id=3972, 149.55875pt x 164.615pt>
+<Kirchhoff/Figures/Circle.pdf, id=3973, 149.55875pt x 164.615pt>
 File: Kirchhoff/Figures/Circle.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Circle.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Circle.pdf  used on input line 665.
@@ -2319,7 +2319,7 @@ Overfull \hbox (62.26997pt too wide) in paragraph at lines 665--665
 [][] 
  []
 
-<Kirchhoff/Figures/Triangle.pdf, id=3973, 152.57pt x 162.6075pt>
+<Kirchhoff/Figures/Triangle.pdf, id=3974, 152.57pt x 162.6075pt>
 File: Kirchhoff/Figures/Triangle.pdf Graphic file (type pdf)
 <use Kirchhoff/Figures/Triangle.pdf>
 Package pdftex.def Info: Kirchhoff/Figures/Triangle.pdf  used on input line 666
@@ -2352,7 +2352,7 @@ nverted-to.pdf>
 siansurf1-eps-converted-to.pdf RandomObjects/Figures/gaussiansurf1.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf, id=4180, 569.12625pt
+<RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf, id=4181, 569.12625pt
  x 284.06125pt>
 File: RandomObjects/Figures/gaussiansurf1-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2371,7 +2371,7 @@ nverted-to.pdf>
 siansurf2-eps-converted-to.pdf RandomObjects/Figures/gaussiansurf2.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf, id=4181, 569.12625pt
+<RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf, id=4182, 569.12625pt
  x 284.06125pt>
 File: RandomObjects/Figures/gaussiansurf2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2393,7 +2393,7 @@ rted-to.pdf>
 h2norm-eps-converted-to.pdf RandomObjects/Figures/rough2norm.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/rough2norm-eps-converted-to.pdf, id=4216, 386.44376pt x 
+<RandomObjects/Figures/rough2norm-eps-converted-to.pdf, id=4217, 386.44376pt x 
 375.4025pt>
 File: RandomObjects/Figures/rough2norm-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2412,7 +2412,7 @@ ted-to.pdf>
 h2exp-eps-converted-to.pdf RandomObjects/Figures/rough2exp.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/rough2exp-eps-converted-to.pdf, id=4217, 386.44376pt x 3
+<RandomObjects/Figures/rough2exp-eps-converted-to.pdf, id=4218, 386.44376pt x 3
 75.4025pt>
 File: RandomObjects/Figures/rough2exp-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2433,7 +2433,7 @@ erted-to.pdf>
 s3Dnorm-eps-converted-to.pdf RandomObjects/Figures/gauss3Dnorm.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf, id=4254, 534.99875pt x
+<RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf, id=4255, 534.99875pt x
  416.55624pt>
 File: RandomObjects/Figures/gauss3Dnorm-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2452,7 +2452,7 @@ rted-to.pdf>
 s3Dexp-eps-converted-to.pdf RandomObjects/Figures/gauss3Dexp.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf, id=4255, 534.99875pt x 
+<RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf, id=4256, 534.99875pt x 
 416.55624pt>
 File: RandomObjects/Figures/gauss3Dexp-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2481,7 +2481,7 @@ ed-to.pdf>
 surf-eps-converted-to.pdf RandomObjects/Figures/fracsurf.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/fracsurf-eps-converted-to.pdf, id=4290, 612.2875pt x 317
+<RandomObjects/Figures/fracsurf-eps-converted-to.pdf, id=4291, 612.2875pt x 317
 .185pt>
 File: RandomObjects/Figures/fracsurf-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2500,7 +2500,7 @@ verted-to.pdf>
 diffvrms-eps-converted-to.pdf RandomObjects/Figures/fracdiffvrms.eps>
 (epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf, id=4291, 607.26875pt 
+<RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf, id=4292, 607.26875pt 
 x 328.22626pt>
 File: RandomObjects/Figures/fracdiffvrms-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2525,7 +2525,7 @@ Package epstopdf Info: Source file: <RandomObjects/Figures/bicont.eps>
 nt-eps-converted-to.pdf RandomObjects/Figures/bicont.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/bicont-eps-converted-to.pdf, id=4364, 746.79pt x 599.238
+<RandomObjects/Figures/bicont-eps-converted-to.pdf, id=4365, 746.79pt x 599.238
 75pt>
 File: RandomObjects/Figures/bicont-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2547,7 +2547,7 @@ rted-to.pdf>
 ectrum-eps-converted-to.pdf RandomObjects/Figures/pmspectrum.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/pmspectrum-eps-converted-to.pdf, id=4384, 551.05875pt x 
+<RandomObjects/Figures/pmspectrum-eps-converted-to.pdf, id=4385, 551.05875pt x 
 389.455pt>
 File: RandomObjects/Figures/pmspectrum-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2567,7 +2567,7 @@ ed-to.pdf>
 nPSD-eps-converted-to.pdf RandomObjects/Figures/oceanPSD.eps>
 (epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/oceanPSD-eps-converted-to.pdf, id=4411, 426.59375pt x 40
+<RandomObjects/Figures/oceanPSD-eps-converted-to.pdf, id=4412, 426.59375pt x 40
 4.51125pt>
 File: RandomObjects/Figures/oceanPSD-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2589,7 +2589,7 @@ nsurfaceheight-eps-converted-to.pdf RandomObjects/Figures/oceansurfaceheight.ep
 s>
 (epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf, id=4442, 499.86
+<RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf, id=4443, 499.86
 75pt x 483.8075pt>
 File: RandomObjects/Figures/oceansurfaceheight-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2611,7 +2611,7 @@ sianParticles/csgamma-eps-converted-to.pdf RandomObjects/Figures/GaussianPartic
 les/csgamma.eps>
 (epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf, id=4475,
+<RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf, id=4476,
  564.1075pt x 378.41376pt>
 File: RandomObjects/Figures/GaussianParticles/csgamma-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2624,7 +2624,7 @@ nverted-to.pdf  used on input line 476.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [210]
-<RandomObjects/Figures/GaussianParticles/part7.jpg, id=4497, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part7.jpg, id=4498, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part7.jpg Graphic file (type jpg)
 
@@ -2632,7 +2632,7 @@ File: RandomObjects/Figures/GaussianParticles/part7.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part7.jpg  use
 d on input line 522.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part8.jpg, id=4498, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part8.jpg, id=4499, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part8.jpg Graphic file (type jpg)
 
@@ -2640,7 +2640,7 @@ File: RandomObjects/Figures/GaussianParticles/part8.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part8.jpg  use
 d on input line 523.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part9.jpg, id=4499, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part9.jpg, id=4500, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part9.jpg Graphic file (type jpg)
 
@@ -2648,7 +2648,7 @@ File: RandomObjects/Figures/GaussianParticles/part9.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part9.jpg  use
 d on input line 524.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part4.jpg, id=4500, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part4.jpg, id=4501, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part4.jpg Graphic file (type jpg)
 
@@ -2656,7 +2656,7 @@ File: RandomObjects/Figures/GaussianParticles/part4.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part4.jpg  use
 d on input line 526.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part5.jpg, id=4501, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part5.jpg, id=4502, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part5.jpg Graphic file (type jpg)
 
@@ -2664,7 +2664,7 @@ File: RandomObjects/Figures/GaussianParticles/part5.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part5.jpg  use
 d on input line 527.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part6.jpg, id=4502, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part6.jpg, id=4503, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part6.jpg Graphic file (type jpg)
 
@@ -2672,7 +2672,7 @@ File: RandomObjects/Figures/GaussianParticles/part6.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part6.jpg  use
 d on input line 528.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part1.jpg, id=4503, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part1.jpg, id=4504, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part1.jpg Graphic file (type jpg)
 
@@ -2680,7 +2680,7 @@ File: RandomObjects/Figures/GaussianParticles/part1.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part1.jpg  use
 d on input line 530.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part2.jpg, id=4504, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part2.jpg, id=4505, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part2.jpg Graphic file (type jpg)
 
@@ -2688,7 +2688,7 @@ File: RandomObjects/Figures/GaussianParticles/part2.jpg Graphic file (type jpg)
 Package pdftex.def Info: RandomObjects/Figures/GaussianParticles/part2.jpg  use
 d on input line 531.
 (pdftex.def)             Requested size: 151.76744pt x 164.90338pt.
-<RandomObjects/Figures/GaussianParticles/part3.jpg, id=4505, 637.38126pt x 692.
+<RandomObjects/Figures/GaussianParticles/part3.jpg, id=4506, 637.38126pt x 692.
 5875pt>
 File: RandomObjects/Figures/GaussianParticles/part3.jpg Graphic file (type jpg)
 
@@ -2728,7 +2728,7 @@ ed-to.pdf>
 PSD1-eps-converted-to.pdf RandomObjects/Figures/ionoPSD1.eps>
 (epstopdf)             \includegraphics on input line 652.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf, id=4607, 638.385pt x 371.
+<RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf, id=4608, 638.385pt x 371.
 3875pt>
 File: RandomObjects/Figures/ionoPSD1-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2747,7 +2747,7 @@ ed-to.pdf>
 PSD2-eps-converted-to.pdf RandomObjects/Figures/ionoPSD2.eps>
 (epstopdf)             \includegraphics on input line 653.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf, id=4608, 638.385pt x 371.
+<RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf, id=4609, 638.385pt x 371.
 3875pt>
 File: RandomObjects/Figures/ionoPSD2-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2766,7 +2766,7 @@ erted-to.pdf>
 Profile-eps-converted-to.pdf RandomObjects/Figures/ionoProfile.eps>
 (epstopdf)             \includegraphics on input line 659.
 Package epstopdf Info: Output file is already uptodate.
-<RandomObjects/Figures/ionoProfile-eps-converted-to.pdf, id=4609, 658.46pt x 37
+<RandomObjects/Figures/ionoProfile-eps-converted-to.pdf, id=4610, 658.46pt x 37
 6.40625pt>
 File: RandomObjects/Figures/ionoProfile-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2782,7 +2782,7 @@ Chapter 11.
 
 
 ]
-<ReflectionRefraction/Figures/reflectionPlane.pdf, id=4656, 436.63126pt x 279.0
+<ReflectionRefraction/Figures/reflectionPlane.pdf, id=4657, 436.63126pt x 279.0
 425pt>
 File: ReflectionRefraction/Figures/reflectionPlane.pdf Graphic file (type pdf)
 <use ReflectionRefraction/Figures/reflectionPlane.pdf>
@@ -2802,7 +2802,7 @@ es/reflectionraysplane-eps-converted-to.pdf ReflectionRefraction/Figures/reflec
 tionraysplane.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf, id=4657
+<ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf, id=4658
 , 618.31pt x 501.875pt>
 File: ReflectionRefraction/Figures/reflectionraysplane-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2825,7 +2825,7 @@ es/reflectonraysphere-eps-converted-to.pdf ReflectionRefraction/Figures/reflect
 onraysphere.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf, id=4714,
+<ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf, id=4715,
  623.32875pt x 484.81125pt>
 File: ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2835,7 +2835,7 @@ nverted-to.pdf  used on input line 91.
 (pdftex.def)             Requested size: 325.215pt x 252.94662pt.
  [222 <./ReflectionRefraction/Figures/reflectonraysphere-eps-converted-to.pdf>]
  [223]
-<ReflectionRefraction/Figures/refractionPlane.pdf, id=4744, 399.4925pt x 281.05
+<ReflectionRefraction/Figures/refractionPlane.pdf, id=4745, 399.4925pt x 281.05
 pt>
 File: ReflectionRefraction/Figures/refractionPlane.pdf Graphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionPlane.pdf>
@@ -2859,7 +2859,7 @@ es/refractionraysplane-eps-converted-to.pdf ReflectionRefraction/Figures/refrac
 tionraysplane.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
-<ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf, id=4785
+<ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf, id=4786
 , 594.22pt x 478.78876pt>
 File: ReflectionRefraction/Figures/refractionraysplane-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2889,7 +2889,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [227]
 [228]
-<ReflectionRefraction/Figures/refractionCircle.pdf, id=4823, 249.93375pt x 294.
+<ReflectionRefraction/Figures/refractionCircle.pdf, id=4824, 249.93375pt x 294.
 09875pt>
 File: ReflectionRefraction/Figures/refractionCircle.pdf Graphic file (type pdf)
 
@@ -2912,7 +2912,7 @@ ctionrayscircle.eps>
 (epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
 <ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf, id=487
-7, 522.95375pt x 487.8225pt>
+8, 522.95375pt x 487.8225pt>
 File: ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionrayscircle-eps-converted-to.pdf>
@@ -2933,7 +2933,7 @@ om the per-pen-dic-u-lar at the re-frac-tion point to the in-te-rior point, and
  $[](\OML/cmm/m/it/10 ^^R[]\OT1/cmr/m/n/10 )$
  []
 
-<ReflectionRefraction/Figures/refractioncirclethetap.pdf, id=4902, 172.645pt x 
+<ReflectionRefraction/Figures/refractioncirclethetap.pdf, id=4903, 172.645pt x 
 253.94875pt>
 File: ReflectionRefraction/Figures/refractioncirclethetap.pdf Graphic file (typ
 e pdf)
@@ -2955,7 +2955,7 @@ res/refractionrayscircleiterative.eps>
 (epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 <ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-to.pd
-f, id=4903, 403.5075pt x 487.8225pt>
+f, id=4904, 403.5075pt x 487.8225pt>
 File: ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-
 to.pdf Graphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionrayscircleiterative-eps-converted-t
@@ -2997,7 +2997,7 @@ ractionspheredirect.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
 <ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf, id=4
-972, 554.07pt x 563.10374pt>
+973, 554.07pt x 563.10374pt>
 File: ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use ReflectionRefraction/Figures/refractionspheredirect-eps-converted-to.pdf>
@@ -3455,7 +3455,7 @@ to.pdf>
 l-eps-converted-to.pdf Utilities/Figures/discoball.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
-<Utilities/Figures/discoball-eps-converted-to.pdf, id=5141, 568.1225pt x 447.67
+<Utilities/Figures/discoball-eps-converted-to.pdf, id=5142, 568.1225pt x 447.67
 25pt>
 File: Utilities/Figures/discoball-eps-converted-to.pdf Graphic file (type pdf)
 <use Utilities/Figures/discoball-eps-converted-to.pdf>
@@ -3476,7 +3476,7 @@ d-to.pdf>
 and-eps-converted-to.pdf Utilities/Figures/uniformrand.eps>
 (epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
-<Utilities/Figures/uniformrand-eps-converted-to.pdf, id=5154, 568.1225pt x 447.
+<Utilities/Figures/uniformrand-eps-converted-to.pdf, id=5155, 568.1225pt x 447.
 6725pt>
 File: Utilities/Figures/uniformrand-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3496,7 +3496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--381
  []
 
 )
-<Cover/backcover.pdf, id=5196, 614.295pt x 794.97pt>
+<Cover/backcover.pdf, id=5197, 614.295pt x 794.97pt>
 File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf>
 Package pdftex.def Info: Cover/backcover.pdf  used on input line 118.
@@ -3505,7 +3505,7 @@ File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf>
 Package pdftex.def Info: Cover/backcover.pdf  used on input line 118.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Cover/backcover.pdf, id=5199, page=1, 614.295pt x 794.97pt>
+<Cover/backcover.pdf, id=5200, page=1, 614.295pt x 794.97pt>
 File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf, page 1>
 Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 118.
@@ -3557,7 +3557,7 @@ File: Cover/backcover.pdf Graphic file (type pdf)
 Package pdftex.def Info: Cover/backcover.pdf , page1 used on input line 119.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [267]
-<Cover/backcover.pdf, id=5221, page=2, 614.295pt x 794.97pt>
+<Cover/backcover.pdf, id=5223, page=2, 614.295pt x 794.97pt>
 File: Cover/backcover.pdf Graphic file (type pdf)
 <use Cover/backcover.pdf, page 2>
 Package pdftex.def Info: Cover/backcover.pdf , page2 used on input line 119.
@@ -3624,10 +3624,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Waveport.pdf (270 pages, 10968247 bytes).
+Output written on Waveport.pdf (270 pages, 10968334 bytes).
 PDF statistics:
- 5614 PDF objects out of 6186 (max. 8388607)
- 4612 compressed objects within 47 object streams
+ 5615 PDF objects out of 6186 (max. 8388607)
+ 4613 compressed objects within 47 object streams
  1395 named destinations out of 1440 (max. 500000)
  2023 words of extra memory for PDF output out of 10000 (max. 10000000)
 

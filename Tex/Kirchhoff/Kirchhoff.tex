@@ -93,15 +93,15 @@ R^{\textrm{TE}} &=& \dfrac{ \cos \theta_i - \sqrt{(\epsilon_2/\epsilon_1) - \sin
 R^{\textrm{TM}} &=& \dfrac{(\epsilon_2/\epsilon_1) \cos \theta_i - \sqrt{(\epsilon_2/\epsilon_1) - \sin^2\theta_i }}{(\epsilon_2/\epsilon_1) \cos \theta_i + \sqrt{(\epsilon_2/\epsilon_1) - \sin^2\theta_i }} 
 \end{eqnarray}
 
-The transmission coefficients are $T^{\textrm{TE}} = 1 + R^{\textrm{TE}}$ and $T^{\textrm{TM}} = 1 + R^{\textrm{TM}} $. In \cite{ulaby1999fundamentals}, there is a negative sign in the reflection coefficients that does not appear in \cite{kong1986electromagnetic}. This is due to the sign convention of incoming/outgoing field components. In \cite{kong1986electromagnetic}, the incoming and outgoing fields are defined relative to the $p$, $q$ coordinate projection, while in \cite{ulaby1999fundamentals} they are defined relative to incoming and outgoing plane wave directions, which flips the sign of $E$ and $H$ fields on reflection.  
+The transmission coefficients are $T^{\textrm{TE}} = 1 + R^{\textrm{TE}}$ and $T^{\textrm{TM}} = (1 + R^{\textrm{TM}})\cos\theta_i/\cos\theta_t $, where $\theta_t$ is the transmission angle given by Snell's law, \cite{ulaby1999fundamentals}. In \cite{ulaby1999fundamentals}, there is a negative sign in the reflection coefficients that does not appear in \cite{kong1986electromagnetic}. This is due to the sign convention of incoming/outgoing field components. In \cite{kong1986electromagnetic}, the incoming and outgoing fields are defined relative to the $p$, $q$ coordinate projection, while in \cite{ulaby1999fundamentals} they are defined relative to incoming and outgoing plane wave directions, which flips the sign of $E$ and $H$ fields on reflection.  
 
 The routines \texttt{fresnelTE} and \texttt{fresnelTM} compute the Fresnel reflection coefficients given the dielectric constants on either side of an interface, which can be complex, and the incidence angle in degrees.
 
-{\footnotesize
+{\scriptsize
 \VerbatimInput{\code/Kirchhoff/fresnelTE.m}
 }
 
-{\footnotesize
+{\scriptsize
 \VerbatimInput{\code/Kirchhoff/fresnelTM.m}
 }
 
