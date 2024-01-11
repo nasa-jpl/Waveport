@@ -95,7 +95,7 @@ g2 = sqrt(1./(8*pi*k*rho2)).*exp(1i*pi/4).*exp(1i*k*rho2).*exp(-1i*k*rhodot);
 
 % Plot both
 figure(1),clf
-plot(x,[real([g1 g2]) imag([g1 g2])])
+plot(X,[real([g1 g2]) imag([g1 g2])])
 myplot('Exact and Far-field 2D Green''s Function','\rho (\lambda)','Read/Imag')
 
 %% dyadicGreens
